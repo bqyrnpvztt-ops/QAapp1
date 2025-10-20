@@ -72,7 +72,7 @@ const upload = multer({
 
 // MongoDB connection
 let db;
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/qa-testing';
+const MONGODB_URI = process.env.MONGODB_URI || process.env.MONGO_URL || 'mongodb://localhost:27017/qa-testing';
 
 async function connectToDatabase() {
   try {
