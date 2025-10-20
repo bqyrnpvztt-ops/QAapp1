@@ -73,10 +73,14 @@ const upload = multer({
 // MongoDB connection
 let db;
 // Use Railway's MongoDB service connection
-const MONGODB_URI = process.env.MONGODB_URI || process.env.MONGO_URL || 'mongodb://mongo:uHmUTOajdsyeSCRlElnaqHFDrwZdfejj@mongodb-6ke1.railway.internal:27017';
+// MongoDB connection - use environment variable only
+const MONGODB_URI = process.env.MONGODB_URI || process.env.MONGO_URL;
 
 async function connectToDatabase() {
   try {
+    if (!MONGODB_URI) {
+      throw new Error('MONGODB_URI environment variable is required');
+    }
     const client = new MongoClient(MONGODB_URI);
     await client.connect();
     db = client.db();

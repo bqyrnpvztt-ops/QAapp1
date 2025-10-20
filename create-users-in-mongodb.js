@@ -1,8 +1,8 @@
 const { MongoClient } = require('mongodb');
 const bcrypt = require('bcryptjs');
 
-// MongoDB connection - use Railway MongoDB public URL
-const MONGODB_URI = process.env.MONGODB_URI || process.env.MONGO_URL || 'mongodb://mongo:uHmUTOajdsyeSCRlElnaqHFDrwZdfejj@hopper.proxy.rlwy.net:33829';
+// MongoDB connection - use environment variable only
+const MONGODB_URI = process.env.MONGODB_URI || process.env.MONGO_URL;
 
 async function createDefaultUsers() {
   let client;

@@ -2,8 +2,8 @@ const { MongoClient } = require('mongodb');
 const fs = require('fs');
 const path = require('path');
 
-// MongoDB connection - use Railway MongoDB public URL
-const MONGODB_URI = process.env.MONGODB_URI || process.env.MONGO_URL || 'mongodb://mongo:uHmUTOajdsyeSCRlElnaqHFDrwZdfejj@hopper.proxy.rlwy.net:33829';
+// MongoDB connection - use environment variable only
+const MONGODB_URI = process.env.MONGODB_URI || process.env.MONGO_URL;
 
 async function uploadTestQueries() {
   let client;
@@ -75,11 +75,11 @@ async function uploadTestQueries() {
             // Convert to MongoDB format
             const mongoTestCases = testCases.map((testCase, index) => ({
               _id: `${filename.replace('.json', '')}_${index + 1}`,
-              category: testCase.category || 'Unknown',
+              category: testCase.category || data.category || 'Unknown',
               sub_category: testCase.sub_category || 'Unknown',
               city_or_locale: testCase.city_or_locale || null,
               demographic_profile: testCase.demographic_profile || 'General',
-              query_text: testCase.query_text || testCase.query || 'No query provided',
+              query_text: testCase.query_text || testCase.query || testCase.queryText || 'No query provided',
               intent: testCase.intent || 'General inquiry',
               constraints: testCase.constraints || 'None',
               expected_result: testCase.expected_result || 'Relevant recommendations',
