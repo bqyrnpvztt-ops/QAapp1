@@ -250,8 +250,11 @@ app.post('/api/auth/register', async (req, res) => {
 
 app.post('/api/auth/login', (req, res) => {
   const { email, password } = req.body;
+  
+  console.log('Login attempt - Email:', email, 'Password provided:', !!password);
 
   if (!email || !password) {
+    console.log('Missing credentials - Email:', !!email, 'Password:', !!password);
     return res.status(400).json({ error: 'Email and password are required' });
   }
 
