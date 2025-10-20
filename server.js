@@ -105,7 +105,7 @@ function resolveDatabasePath() {
 const DB_FILE = resolveDatabasePath();
 const db = new sqlite3.Database(DB_FILE);
 
-// Check if database already has data
+// Check if database already has data and ensure users exist
 db.get("SELECT COUNT(*) as count FROM sqlite_master WHERE type='table' AND name='test_cases'", (err, row) => {
   if (err) {
     console.log('Error checking database:', err.message);
@@ -120,11 +120,48 @@ db.get("SELECT COUNT(*) as count FROM sqlite_master WHERE type='table' AND name=
         return;
       }
       console.log(`Database found with ${dataRow.count} test cases`);
+      
+      // Ensure default users exist
+      ensureDefaultUsers();
     });
   } else {
     console.log('Database not found, will be created on first access');
   }
 });
+
+// Function to ensure default users exist
+function ensureDefaultUsers() {
+  const defaultUsers = [
+    {
+      id: 'admin-user',
+      email: 'admin@qa-testing.com',
+      password: bcrypt.hashSync('admin123', 10),
+      role: 'admin',
+      name: 'Admin User'
+    },
+    {
+      id: 'tester-user',
+      email: 'tester@qa-testing.com',
+      password: bcrypt.hashSync('tester123', 10),
+      role: 'tester',
+      name: 'Test User'
+    }
+  ];
+
+  defaultUsers.forEach(user => {
+    db.run(
+      'INSERT OR IGNORE INTO users (id, email, password, role, name) VALUES (?, ?, ?, ?, ?)',
+      [user.id, user.email, user.password, user.role, user.name],
+      function(err) {
+        if (err) {
+          console.log('Error creating user:', user.email, err.message);
+        } else if (this.changes > 0) {
+          console.log('Created user:', user.email);
+        }
+      }
+    );
+  });
+}
 
 // Create tables
 db.serialize(() => {
@@ -250,11 +287,8 @@ app.post('/api/auth/register', async (req, res) => {
 
 app.post('/api/auth/login', (req, res) => {
   const { email, password } = req.body;
-  
-  console.log('Login attempt - Email:', email, 'Password provided:', !!password);
 
   if (!email || !password) {
-    console.log('Missing credentials - Email:', !!email, 'Password:', !!password);
     return res.status(400).json({ error: 'Email and password are required' });
   }
 
@@ -492,6 +526,7 @@ app.use('/manifest.json', express.static('pwa/dist/manifest.webmanifest'));
 app.use('/registerSW.js', express.static('pwa/dist/registerSW.js'));
 app.use('/sw.js', express.static('pwa/dist/sw.js'));
 app.use('/workbox-*.js', express.static('pwa/dist'));
+app.use('/pwa-192x192.png', express.static('pwa-192x192.png'));
 
 // Serve Dashboard static assets
 app.use('/admin/assets', express.static('dashboard/dist/assets'));
