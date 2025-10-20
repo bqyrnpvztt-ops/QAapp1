@@ -68,8 +68,38 @@ const upload = multer({
 });
 
 // Database initialization
-// Use persistent path when running on Railway or similar (mounted volume)
-const DB_FILE = process.env.DB_FILE || 'qa_testing.db';
+// Resolve DB path, ensure directory exists, and fall back if not writable
+function resolveDatabasePath() {
+  try {
+    let requestedPath = process.env.DB_FILE || path.join(__dirname, 'qa_testing.db');
+    const requestedDir = path.dirname(requestedPath);
+
+    // Try to create the directory if it doesn't exist
+    try {
+      if (requestedDir && requestedDir !== '.' && !fs.existsSync(requestedDir)) {
+        fs.mkdirSync(requestedDir, { recursive: true });
+      }
+    } catch (e) {
+      // If we cannot create the directory (e.g., /data without volume), fallback to /tmp
+      requestedPath = path.join('/tmp', 'qa_testing.db');
+    }
+
+    // If the path is under /data but not writable, fallback to /tmp
+    try {
+      const testFile = path.join(path.dirname(requestedPath), '.db_write_test');
+      fs.writeFileSync(testFile, 'ok');
+      fs.unlinkSync(testFile);
+      return requestedPath;
+    } catch (e) {
+      return path.join('/tmp', 'qa_testing.db');
+    }
+  } catch (_) {
+    // Last-resort fallback
+    return path.join('/tmp', 'qa_testing.db');
+  }
+}
+
+const DB_FILE = resolveDatabasePath();
 const db = new sqlite3.Database(DB_FILE);
 
 // Create tables
