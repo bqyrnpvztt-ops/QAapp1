@@ -105,6 +105,27 @@ function resolveDatabasePath() {
 const DB_FILE = resolveDatabasePath();
 const db = new sqlite3.Database(DB_FILE);
 
+// Check if database already has data
+db.get("SELECT COUNT(*) as count FROM sqlite_master WHERE type='table' AND name='test_cases'", (err, row) => {
+  if (err) {
+    console.log('Error checking database:', err.message);
+    return;
+  }
+  
+  if (row && row.count > 0) {
+    // Database exists, check if it has data
+    db.get("SELECT COUNT(*) as count FROM test_cases", (err, dataRow) => {
+      if (err) {
+        console.log('Error checking test cases:', err.message);
+        return;
+      }
+      console.log(`Database found with ${dataRow.count} test cases`);
+    });
+  } else {
+    console.log('Database not found, will be created on first access');
+  }
+});
+
 // Create tables
 db.serialize(() => {
   // Users table
