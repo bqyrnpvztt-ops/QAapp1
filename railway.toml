@@ -2,17 +2,22 @@
 builder = "NIXPACKS"
 
 [deploy]
-buildCommand = "npm ci --include=dev && npm --prefix pwa ci --include=dev && npm --prefix dashboard ci --include=dev && npm run build"
+startCommand = "npm start"
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
 
-[variables]
-PORT = "3000"
-NODE_ENV = "production"
-DB_FILE = "/data/qa_testing.db"
-UPLOAD_DIR = "/data/uploads"
+[env]
 NPM_CONFIG_PRODUCTION = "false"
+NODE_ENV = "production"
 
-# Persistent volume for database and uploads
+[[services]]
+name = "QAapp"
+
+[services.env]
+MONGODB_URI = "${{ MongoDB-6Ke1.MONGO_URL }}"
+JWT_SECRET = "your-super-secret-jwt-key-for-production-qa-testing-system"
+UPLOAD_DIR = "/data/uploads"
+
 [[volumes]]
 name = "data"
 mountPath = "/data"
-sizeGB = 1
