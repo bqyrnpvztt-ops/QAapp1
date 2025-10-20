@@ -1,0 +1,20 @@
+# Node
+node_modules/
+
+# Build outputs
+pwa/dist/
+dashboard/dist/
+
+# Env and logs
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Uploads and data
+uploads/
+qa_testing.db
+/data/
+
+# OS
+.DS_Store

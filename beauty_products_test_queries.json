@@ -1,0 +1,1853 @@
+{
+  "category": "Beauty Products",
+  "generatedAt": "2024-12-19",
+  "totalQueries": 130,
+  "subCategories": {
+    "Skincare": [
+      {
+        "id": "skincare_001",
+        "queryText": "Gentle cleanser for rosacea-prone skin, no fragrance please",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"skinCondition": "rosacea", "fragrance": "none"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "skincare_002",
+        "queryText": "vitamin c serum that layers under sunscreen, no pilling",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"compatibility": "sunscreen", "texture": "no pilling"},
+        "adversarialFeatures": ["minor typo"],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "skincare_003",
+        "queryText": "Retinol beginner routine, 35yo, combo skin, 2x/week?",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "learn",
+        "constraints": {"age": 35, "skinType": "combination", "frequency": "2x/week"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "skincare_004",
+        "queryText": "Niacinamide vs azelaic acid for redness—what's better?",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "nonbinary",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "compare",
+        "constraints": {"concern": "redness"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "skincare_005",
+        "queryText": "Mineral sunscreen for deeper skin tones, no white cast",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"skinTone": "deeper", "whiteCast": "none"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "skincare_006",
+        "queryText": "acne patches that work with makeup on top",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"compatibility": "makeup"},
+        "adversarialFeatures": ["minor typo"],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "skincare_007",
+        "queryText": "moisturizer for oily skin that's not greasy, under $20",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"skinType": "oily", "budgetUSD": 20, "texture": "not greasy"},
+        "adversarialFeatures": ["minor typo"],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "skincare_008",
+        "queryText": "Melasma safe actives, breastfeeding—what can I use?",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "learn",
+        "constraints": {"condition": "melasma", "breastfeeding": true},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "skincare_009",
+        "queryText": "winter routine for dry flaky skin, simple 3 products",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "learn",
+        "constraints": {"season": "winter", "skinType": "dry", "productCount": 3},
+        "adversarialFeatures": ["minor typo"],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "skincare_010",
+        "queryText": "SPF reapplication over makeup during work day—how?",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "learn",
+        "constraints": {"timing": "work day", "over": "makeup"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "howTo"
+      }
+    ],
+    "Body": [
+      {
+        "id": "body_001",
+        "queryText": "Body lotion for extremely dry skin, fragrance-free",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"skinType": "extremely dry", "fragrance": "none"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "body_002",
+        "queryText": "exfoliating body scrub for sensitive skin, gentle",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"skinType": "sensitive", "intensity": "gentle"},
+        "adversarialFeatures": ["minor typo"],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "body_003",
+        "queryText": "Cellulite cream that actually works, under $50",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"budgetUSD": 50, "effectiveness": "actual results"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "body_004",
+        "queryText": "Body oil for stretch marks, pregnancy safe",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"pregnancy": true, "concern": "stretch marks"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "body_005",
+        "queryText": "deodorant for sensitive underarms, aluminum free",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"skinType": "sensitive", "aluminum": "free"},
+        "adversarialFeatures": ["minor typo"],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "body_006",
+        "queryText": "Body wash for eczema-prone skin, no sulfates",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"condition": "eczema", "sulfates": "none"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "body_007",
+        "queryText": "self tanner for pale skin, gradual build",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"skinTone": "pale", "type": "gradual"},
+        "adversarialFeatures": ["minor typo"],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "body_008",
+        "queryText": "Body butter for winter, ultra hydrating",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"season": "winter", "hydration": "ultra"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "body_009",
+        "queryText": "body scrub for ingrown hairs, gentle exfoliation",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"concern": "ingrown hairs", "intensity": "gentle"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "body_010",
+        "queryText": "hand cream for cracked hands, working outdoors",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"condition": "cracked", "environment": "outdoors"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ],
+    "Tools": [
+      {
+        "id": "tools_001",
+        "queryText": "Makeup brushes for beginners, complete set under $100",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"skillLevel": "beginner", "budgetUSD": 100},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "tools_002",
+        "queryText": "hair dryer with diffuser attachment for curls",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"hairType": "curls", "attachment": "diffuser"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "tools_003",
+        "queryText": "skincare tools for blackheads, extraction",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"concern": "blackheads", "method": "extraction"},
+        "adversarialFeatures": ["minor typo"],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "tools_004",
+        "queryText": "eyelash curler that won't pinch, comfortable",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"comfort": "no pinching"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "tools_005",
+        "queryText": "makeup sponge for foundation, drugstore brand",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"product": "foundation", "retailer": "drugstore"},
+        "adversarialFeatures": ["minor typo"],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "tools_006",
+        "queryText": "nail tools for gel manicure at home",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"service": "gel manicure", "location": "home"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "tools_007",
+        "queryText": "facial roller for puffiness, jade vs rose quartz",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "compare",
+        "constraints": {"concern": "puffiness"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "tools_008",
+        "queryText": "hair straightener for thick hair, ceramic plates",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"hairType": "thick", "material": "ceramic"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "tools_009",
+        "queryText": "makeup mirror with LED lights, portable",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"lighting": "LED", "portability": true},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "tools_010",
+        "queryText": "skincare fridge for storing products, mini size",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"size": "mini", "purpose": "skincare storage"},
+        "adversarialFeatures": ["minor typo"],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ],
+    "Hair": [
+      {
+        "id": "hair_001",
+        "queryText": "i need a hair mask for curly hair that won't weigh it down, under $25",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"hairType": "curly", "budgetUSD": 25, "texture": "not weighing down"},
+        "adversarialFeatures": ["minor typo"],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "hair_002",
+        "queryText": "Best sulfate-free shampoo for color-treated curls? NYC pickup today",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"sulfates": "free", "hairType": "color-treated curls", "location": "NYC", "urgency": "today"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "hair_003",
+        "queryText": "Frizz control for humid weather, thick 3C hair, drugstore ok",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"concern": "frizz", "weather": "humid", "hairType": "3C thick", "retailer": "drugstore"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "hair_004",
+        "queryText": "Low-scent scalp serum for flaky scalp, sensitive skin",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"fragrance": "low", "concern": "flaky scalp", "skinType": "sensitive"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "hair_005",
+        "queryText": "Heat protectant for diffusing curls, won't make it crunchy",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"hairType": "curls", "method": "diffusing", "texture": "not crunchy"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "hair_006",
+        "queryText": "Curly kid-safe detangler, tear-free, any recs?",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"ageGroup": "kids", "hairType": "curly", "safety": "tear-free"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "hair_007",
+        "queryText": "protein vs moisture mask—how to pick for curl rehab?",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "learn",
+        "constraints": {"hairType": "curls", "condition": "damaged"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "hair_008",
+        "queryText": "Travel-size curl cream under 100ml for flights",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"size": "travel", "volume": "under 100ml", "purpose": "flights"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "hair_009",
+        "queryText": "Need satin bonnet or pillowcase for curls, which is better?",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "compare",
+        "constraints": {"hairType": "curls", "material": "satin"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "hair_010",
+        "queryText": "Curly hair routine starter kit for a beginner, simple 3 steps",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "learn",
+        "constraints": {"hairType": "curly", "skillLevel": "beginner", "steps": 3},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      }
+    ],
+    "Intimacy/Personal care": [
+      {
+        "id": "intimacy_001",
+        "queryText": "pH-balanced intimate wash for sensitive skin",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"pH": "balanced", "skinType": "sensitive"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "intimacy_002",
+        "queryText": "natural lubricant for sensitive skin, water-based",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"type": "natural", "skinType": "sensitive", "base": "water"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "intimacy_003",
+        "queryText": "post-shave balm for bikini area, soothing",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"area": "bikini", "effect": "soothing"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "intimacy_004",
+        "queryText": "fragrance-free intimate wipes for travel",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"fragrance": "free", "purpose": "travel"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "intimacy_005",
+        "queryText": "moisturizer for intimate area, gentle formula",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"area": "intimate", "formula": "gentle"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "intimacy_006",
+        "queryText": "pH test strips for intimate health monitoring",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "health monitoring"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "intimacy_007",
+        "queryText": "natural deodorant for intimate area, aluminum-free",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"type": "natural", "aluminum": "free"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "intimacy_008",
+        "queryText": "soothing gel for intimate irritation, cooling",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"concern": "irritation", "effect": "cooling"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "intimacy_009",
+        "queryText": "intimate wash for men, gentle daily use",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "man",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"gender": "men", "frequency": "daily", "formula": "gentle"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "intimacy_010",
+        "queryText": "pregnancy-safe intimate care products",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"pregnancy": true},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      }
+    ],
+    "Sun/Tanning": [
+      {
+        "id": "sun_001",
+        "queryText": "SPF 50 sunscreen for face, won't break me out",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"SPF": 50, "area": "face", "skinReaction": "no breakouts"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "sun_002",
+        "queryText": "self tanner for pale skin, gradual build, under $30",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"skinTone": "pale", "type": "gradual", "budgetUSD": 30},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "sun_003",
+        "queryText": "waterproof sunscreen for swimming, reef-safe",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"waterproof": true, "activity": "swimming", "environmental": "reef-safe"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "sun_004",
+        "queryText": "tanning oil for body, SPF 15, coconut scent",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"SPF": 15, "area": "body", "fragrance": "coconut"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "sun_005",
+        "queryText": "after sun lotion for burned skin, aloe vera",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"condition": "burned", "ingredient": "aloe vera"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "sun_006",
+        "queryText": "face sunscreen for oily skin, matte finish",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"area": "face", "skinType": "oily", "finish": "matte"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "sun_007",
+        "queryText": "spray sunscreen for kids, tear-free formula",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"ageGroup": "kids", "format": "spray", "safety": "tear-free"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "sun_008",
+        "queryText": "tanning bed lotion for indoor tanning, accelerator",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"location": "indoor", "type": "accelerator"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "sun_009",
+        "queryText": "sunscreen stick for reapplication, easy to carry",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"format": "stick", "purpose": "reapplication", "portability": true},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "sun_010",
+        "queryText": "bronzing lotion for fair skin, natural looking",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"skinTone": "fair", "effect": "natural"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ],
+    "Fragrance": [
+      {
+        "id": "fragrance_001",
+        "queryText": "perfume for everyday wear, light and fresh",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"occasion": "everyday", "character": "light and fresh"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "fragrance_002",
+        "queryText": "cologne for men, office appropriate, under $80",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "man",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"gender": "men", "occasion": "office", "budgetUSD": 80},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "fragrance_003",
+        "queryText": "body spray for teens, fruity scent, long lasting",
+        "demographicProfile": {
+          "ageBracket": "13-17",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"ageGroup": "teens", "scent": "fruity", "longevity": "long lasting"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "fragrance_004",
+        "queryText": "vanilla perfume for date night, warm and cozy",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"occasion": "date night", "note": "vanilla", "character": "warm and cozy"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "fragrance_005",
+        "queryText": "unscented deodorant for sensitive skin",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"fragrance": "unscented", "skinType": "sensitive"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "fragrance_006",
+        "queryText": "rose perfume for mature women, elegant",
+        "demographicProfile": {
+          "ageBracket": "45-54",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"note": "rose", "ageGroup": "mature", "character": "elegant"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "fragrance_007",
+        "queryText": "citrus cologne for summer, refreshing",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "man",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"season": "summer", "note": "citrus", "character": "refreshing"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "fragrance_008",
+        "queryText": "baby cologne for newborns, gentle formula",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"ageGroup": "newborns", "formula": "gentle"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "fragrance_009",
+        "queryText": "jasmine perfume for special occasions, luxurious",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"note": "jasmine", "occasion": "special", "character": "luxurious"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "fragrance_010",
+        "queryText": "sandalwood cologne for men, woody and masculine",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "man",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"gender": "men", "note": "sandalwood", "character": "woody and masculine"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ],
+    "Dental": [
+      {
+        "id": "dental_001",
+        "queryText": "electric toothbrush for sensitive gums, gentle",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"gumCondition": "sensitive", "intensity": "gentle"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "dental_002",
+        "queryText": "whitening toothpaste for coffee stains, effective",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"concern": "coffee stains", "effectiveness": "effective"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "dental_003",
+        "queryText": "mouthwash for dry mouth, alcohol-free",
+        "demographicProfile": {
+          "ageBracket": "45-54",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"condition": "dry mouth", "alcohol": "free"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "dental_004",
+        "queryText": "floss for tight teeth, easy to use",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"teethCondition": "tight", "easeOfUse": "easy"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "dental_005",
+        "queryText": "kids toothbrush for 5 year old, fun colors",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"ageGroup": "5 years", "design": "fun colors"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "dental_006",
+        "queryText": "sensitive teeth toothpaste, immediate relief",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"condition": "sensitive teeth", "relief": "immediate"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "dental_007",
+        "queryText": "water flosser for braces, portable",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"condition": "braces", "portability": true},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "dental_008",
+        "queryText": "tongue scraper for bad breath, stainless steel",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"concern": "bad breath", "material": "stainless steel"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "dental_009",
+        "queryText": "gum massage tool for sore gums, soft bristles",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"condition": "sore gums", "bristles": "soft"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "dental_010",
+        "queryText": "travel dental kit, compact and complete",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "travel", "size": "compact", "completeness": "complete"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ],
+    "Vitamins/Supplements": [
+      {
+        "id": "vitamins_001",
+        "queryText": "multivitamin for women over 40, comprehensive",
+        "demographicProfile": {
+          "ageBracket": "45-54",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"ageGroup": "over 40", "gender": "women", "type": "comprehensive"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "vitamins_002",
+        "queryText": "vitamin D supplement for winter, high dose",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"vitamin": "D", "season": "winter", "dose": "high"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "vitamins_003",
+        "queryText": "prenatal vitamins for first trimester, folic acid",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"stage": "first trimester", "ingredient": "folic acid"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "vitamins_004",
+        "queryText": "omega 3 for heart health, fish oil capsules",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"supplement": "omega 3", "benefit": "heart health", "format": "fish oil capsules"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "vitamins_005",
+        "queryText": "kids vitamins for picky eaters, gummy form",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"ageGroup": "kids", "eatingHabit": "picky", "format": "gummy"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "vitamins_006",
+        "queryText": "collagen supplement for skin aging, powder form",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"supplement": "collagen", "benefit": "skin aging", "format": "powder"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "vitamins_007",
+        "queryText": "probiotics for gut health, refrigerated",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"supplement": "probiotics", "benefit": "gut health", "storage": "refrigerated"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "vitamins_008",
+        "queryText": "iron supplement for anemia, non-constipating",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"supplement": "iron", "condition": "anemia", "sideEffect": "non-constipating"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "vitamins_009",
+        "queryText": "magnesium for sleep, natural sleep aid",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"supplement": "magnesium", "benefit": "sleep", "type": "natural"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "vitamins_010",
+        "queryText": "b12 supplement for energy, sublingual tablets",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"supplement": "B12", "benefit": "energy", "format": "sublingual tablets"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ],
+    "Makeup": [
+      {
+        "id": "makeup_001",
+        "queryText": "Long-wear foundation that won't oxidize, shade match tool?",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"longevity": "long-wear", "issue": "no oxidation", "need": "shade matching"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "makeup_002",
+        "queryText": "Cream blush for dry skin, won't disturb base",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"skinType": "dry", "compatibility": "won't disturb base"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "makeup_003",
+        "queryText": "brown eyeliner that's safe for sensitive eyes, tightline",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"color": "brown", "safety": "sensitive eyes", "technique": "tightline"},
+        "adversarialFeatures": ["minor typo"],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "makeup_004",
+        "queryText": "Setting spray for humid climate, mask-proof",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"climate": "humid", "durability": "mask-proof"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "makeup_005",
+        "queryText": "Lip stain not drying, under $15",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"texture": "not drying", "budgetUSD": 15},
+        "adversarialFeatures": ["minor typo"],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "makeup_006",
+        "queryText": "Subtle highlighter for office, no glitter chunks",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"occasion": "office", "intensity": "subtle", "texture": "no glitter chunks"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "makeup_007",
+        "queryText": "Beginner brow kit for sparse brows, natural look",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"skillLevel": "beginner", "browCondition": "sparse", "look": "natural"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "makeup_008",
+        "queryText": "Under-eye corrector for blue/purple tones, medium skin",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"concern": "blue/purple tones", "skinTone": "medium"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "makeup_009",
+        "queryText": "Mascara that won't smudge on oily lids",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"skinType": "oily lids", "issue": "no smudging"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "makeup_010",
+        "queryText": "Makeup remover that won't sting, contact lens wearer",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"safety": "no stinging", "condition": "contact lens wearer"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ],
+    "Nails": [
+      {
+        "id": "nails_001",
+        "queryText": "nail polish for weak nails, strengthening base coat",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"nailCondition": "weak", "benefit": "strengthening"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "nails_002",
+        "queryText": "gel polish for home use, LED lamp included",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"location": "home", "equipment": "LED lamp included"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "nails_003",
+        "queryText": "nail art stickers for beginners, easy to apply",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"skillLevel": "beginner", "easeOfUse": "easy to apply"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "nails_004",
+        "queryText": "cuticle oil for dry cuticles, fast absorbing",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"condition": "dry cuticles", "absorption": "fast"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "nails_005",
+        "queryText": "nail file for acrylic nails, coarse grit",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"nailType": "acrylic", "grit": "coarse"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "nails_006",
+        "queryText": "nail polish remover for gel, acetone-free",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"polishType": "gel", "ingredient": "acetone-free"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "nails_007",
+        "queryText": "nail strengthener for peeling nails, clear coat",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"condition": "peeling nails", "type": "clear coat"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "nails_008",
+        "queryText": "nail art brushes for detailed work, fine tips",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"work": "detailed", "tip": "fine"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "nails_009",
+        "queryText": "nail polish for kids, non-toxic formula",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"ageGroup": "kids", "safety": "non-toxic"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "nails_010",
+        "queryText": "nail buffer for smooth finish, 4-way file",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"finish": "smooth", "type": "4-way file"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ],
+    "Men's": [
+      {
+        "id": "mens_001",
+        "queryText": "men's skincare routine for oily skin, simple 3 steps",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "man",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "learn",
+        "constraints": {"skinType": "oily", "steps": 3, "complexity": "simple"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "mens_002",
+        "queryText": "beard oil for dry beard, sandalwood scent",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "man",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"beardCondition": "dry", "fragrance": "sandalwood"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "mens_003",
+        "queryText": "men's face wash for acne, salicylic acid",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "man",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"concern": "acne", "ingredient": "salicylic acid"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "mens_004",
+        "queryText": "men's moisturizer for sensitive skin, fragrance-free",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "man",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"skinType": "sensitive", "fragrance": "free"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "mens_005",
+        "queryText": "beard trimmer for stubble, precision cutting",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "man",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"beardLength": "stubble", "precision": "precision cutting"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "mens_006",
+        "queryText": "men's eye cream for dark circles, anti-aging",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "man",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"concern": "dark circles", "benefit": "anti-aging"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "mens_007",
+        "queryText": "men's sunscreen for face, non-greasy formula",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "man",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"area": "face", "texture": "non-greasy"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "mens_008",
+        "queryText": "men's hair styling product for thick hair, strong hold",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "man",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"hairType": "thick", "hold": "strong"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "mens_009",
+        "queryText": "men's body wash for dry skin, hydrating",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "man",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"skinType": "dry", "benefit": "hydrating"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "mens_010",
+        "queryText": "men's deodorant for sensitive skin, aluminum-free",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "man",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"skinType": "sensitive", "aluminum": "free"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ],
+    "Health & Wellness": [
+      {
+        "id": "wellness_001",
+        "queryText": "stress relief essential oils for anxiety, calming blend",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"concern": "anxiety", "effect": "calming"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "wellness_002",
+        "queryText": "sleep aid supplements for insomnia, natural",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"condition": "insomnia", "type": "natural"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "wellness_003",
+        "queryText": "meditation app for beginners, guided sessions",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"skillLevel": "beginner", "type": "guided sessions"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "wellness_004",
+        "queryText": "yoga mat for hot yoga, non-slip surface",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"yogaType": "hot yoga", "surface": "non-slip"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "wellness_005",
+        "queryText": "massage oil for muscle tension, warming",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"concern": "muscle tension", "effect": "warming"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "wellness_006",
+        "queryText": "face roller for puffiness, jade stone",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"concern": "puffiness", "material": "jade stone"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "wellness_007",
+        "queryText": "aromatherapy diffuser for large room, ultrasonic",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"roomSize": "large", "type": "ultrasonic"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "wellness_008",
+        "queryText": "weighted blanket for anxiety, 15 pounds",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"concern": "anxiety", "weight": "15 pounds"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "wellness_009",
+        "queryText": "fitness tracker for heart rate monitoring, waterproof",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"feature": "heart rate monitoring", "waterproof": true},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "wellness_010",
+        "queryText": "resistance bands for home workout, complete set",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"location": "home", "completeness": "complete set"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ]
+  }
+}

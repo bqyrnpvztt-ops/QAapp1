@@ -1,0 +1,859 @@
+{
+  "category": "City Guides - Beauty Services",
+  "generatedAt": "2024-12-19",
+  "totalQueries": 60,
+  "subCategories": {
+    "New York": [
+      {
+        "id": "ny_beauty_001",
+        "queryText": "facial spa in Manhattan, luxury treatment",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Manhattan", "type": "luxury treatment"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "ny_beauty_002",
+        "queryText": "blowout bar in Brooklyn, same day appointment",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Brooklyn", "urgency": "same day"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "ny_beauty_003",
+        "queryText": "nail salon in Queens, gel manicure under $50",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Queens", "service": "gel manicure", "budgetUSD": 50},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "ny_beauty_004",
+        "queryText": "eyebrow threading in Bronx, walk in welcome",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Bronx", "service": "eyebrow threading", "appointment": "walk in"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "ny_beauty_005",
+        "queryText": "massage therapy in Staten Island, deep tissue",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Staten Island", "type": "deep tissue"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "ny_beauty_006",
+        "queryText": "hair salon in Manhattan, color specialist",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Manhattan", "specialty": "color"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "ny_beauty_007",
+        "queryText": "skincare clinic in Brooklyn, acne treatment",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Brooklyn", "treatment": "acne"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "ny_beauty_008",
+        "queryText": "lash extension studio in Queens, volume lashes",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Queens", "service": "lash extensions", "type": "volume"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "ny_beauty_009",
+        "queryText": "waxing salon in Bronx, brazilian wax",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Bronx", "service": "brazilian wax"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "ny_beauty_010",
+        "queryText": "med spa in Staten Island, botox treatment",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Staten Island", "treatment": "botox"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      }
+    ],
+    "London": [
+      {
+        "id": "london_beauty_001",
+        "queryText": "facial treatment in Mayfair, luxury spa",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Mayfair", "type": "luxury spa"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "london_beauty_002",
+        "queryText": "hair salon in Shoreditch, trendy cuts",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Shoreditch", "style": "trendy cuts"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "london_beauty_003",
+        "queryText": "nail bar in Camden, nail art specialist",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Camden", "specialty": "nail art"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "london_beauty_004",
+        "queryText": "eyebrow bar in Covent Garden, microblading",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Covent Garden", "service": "microblading"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "london_beauty_005",
+        "queryText": "massage therapy in Notting Hill, couples massage",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Notting Hill", "type": "couples massage"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "london_beauty_006",
+        "queryText": "skincare clinic in Chelsea, anti aging treatment",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Chelsea", "treatment": "anti aging"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "london_beauty_007",
+        "queryText": "lash studio in Soho, classic extensions",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Soho", "service": "lash extensions", "type": "classic"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "london_beauty_008",
+        "queryText": "waxing salon in Islington, full body wax",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Islington", "service": "full body wax"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "london_beauty_009",
+        "queryText": "beauty bar in Kensington, express treatments",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Kensington", "type": "express treatments"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "london_beauty_010",
+        "queryText": "med spa in Marylebone, dermal fillers",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Marylebone", "treatment": "dermal fillers"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      }
+    ],
+    "Paris": [
+      {
+        "id": "paris_beauty_001",
+        "queryText": "spa facial in Champs-Élysées, luxury treatment",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Champs-Élysées", "type": "luxury treatment"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "paris_beauty_002",
+        "queryText": "salon de coiffure in Marais, french style",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Marais", "style": "french"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "paris_beauty_003",
+        "queryText": "nail art in Montmartre, creative designs",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Montmartre", "style": "creative designs"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "paris_beauty_004",
+        "queryText": "eyebrow shaping in Saint-Germain, natural look",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Saint-Germain", "style": "natural look"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "paris_beauty_005",
+        "queryText": "massage thérapeutique in Latin Quarter, relaxation",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Latin Quarter", "type": "relaxation"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "paris_beauty_006",
+        "queryText": "skincare clinic in 16th arrondissement, anti aging",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "16th arrondissement", "treatment": "anti aging"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "paris_beauty_007",
+        "queryText": "lash extensions in Bastille, natural volume",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Bastille", "service": "lash extensions", "style": "natural volume"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "paris_beauty_008",
+        "queryText": "waxing salon in République, intimate waxing",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "République", "service": "intimate waxing"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "paris_beauty_009",
+        "queryText": "beauty bar in Belleville, express services",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Belleville", "type": "express services"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "paris_beauty_010",
+        "queryText": "med spa in Passy, botox treatment",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Passy", "treatment": "botox"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      }
+    ],
+    "Miami": [
+      {
+        "id": "miami_beauty_001",
+        "queryText": "facial spa in South Beach, hydrating treatment",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "South Beach", "treatment": "hydrating"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "miami_beauty_002",
+        "queryText": "hair salon in Wynwood, beach waves",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Wynwood", "style": "beach waves"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "miami_beauty_003",
+        "queryText": "nail salon in Brickell, gel pedicure",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Brickell", "service": "gel pedicure"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "miami_beauty_004",
+        "queryText": "eyebrow threading in Little Havana, walk in",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Little Havana", "service": "eyebrow threading", "appointment": "walk in"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "miami_beauty_005",
+        "queryText": "massage therapy in Coconut Grove, deep tissue",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Coconut Grove", "type": "deep tissue"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "miami_beauty_006",
+        "queryText": "skincare clinic in Coral Gables, sun damage repair",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Coral Gables", "treatment": "sun damage repair"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "miami_beauty_007",
+        "queryText": "lash extensions in Design District, dramatic volume",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Design District", "service": "lash extensions", "style": "dramatic volume"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "miami_beauty_008",
+        "queryText": "waxing salon in Aventura, brazilian wax",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Aventura", "service": "brazilian wax"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "miami_beauty_009",
+        "queryText": "beauty bar in Midtown, express treatments",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Midtown", "type": "express treatments"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "miami_beauty_010",
+        "queryText": "med spa in Key Biscayne, botox and fillers",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Key Biscayne", "treatments": "botox and fillers"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      }
+    ],
+    "Tokyo": [
+      {
+        "id": "tokyo_beauty_001",
+        "queryText": "facial treatment in Ginza, luxury spa",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "EastAsia",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Ginza", "type": "luxury spa"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "tokyo_beauty_002",
+        "queryText": "hair salon in Harajuku, trendy styles",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "EastAsia",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Harajuku", "style": "trendy"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "tokyo_beauty_003",
+        "queryText": "nail art in Shibuya, kawaii designs",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "EastAsia",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Shibuya", "style": "kawaii designs"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "tokyo_beauty_004",
+        "queryText": "eyebrow shaping in Omotesando, natural look",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "EastAsia",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Omotesando", "style": "natural look"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "tokyo_beauty_005",
+        "queryText": "massage therapy in Roppongi, relaxation",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "EastAsia",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Roppongi", "type": "relaxation"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "tokyo_beauty_006",
+        "queryText": "skincare clinic in Shinjuku, anti aging",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "EastAsia",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Shinjuku", "treatment": "anti aging"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "tokyo_beauty_007",
+        "queryText": "lash extensions in Ikebukuro, natural volume",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "EastAsia",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Ikebukuro", "service": "lash extensions", "style": "natural volume"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "tokyo_beauty_008",
+        "queryText": "waxing salon in Ueno, intimate waxing",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "EastAsia",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Ueno", "service": "intimate waxing"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "tokyo_beauty_009",
+        "queryText": "beauty bar in Akihabara, express services",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "EastAsia",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Akihabara", "type": "express services"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "tokyo_beauty_010",
+        "queryText": "med spa in Ebisu, botox treatment",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "EastAsia",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Ebisu", "treatment": "botox"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      }
+    ],
+    "Madrid": [
+      {
+        "id": "madrid_beauty_001",
+        "queryText": "facial spa in Salamanca, luxury treatment",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Salamanca", "type": "luxury treatment"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "madrid_beauty_002",
+        "queryText": "hair salon in Malasaña, trendy cuts",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Malasaña", "style": "trendy cuts"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "madrid_beauty_003",
+        "queryText": "nail bar in Chueca, nail art specialist",
+        "demographicProfile": {
+          "ageBracket": "18-24",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Chueca", "specialty": "nail art"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "madrid_beauty_004",
+        "queryText": "eyebrow bar in Retiro, microblading",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Retiro", "service": "microblading"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "madrid_beauty_005",
+        "queryText": "massage therapy in Chamberí, couples massage",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Chamberí", "type": "couples massage"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "madrid_beauty_006",
+        "queryText": "skincare clinic in Moncloa, anti aging treatment",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Moncloa", "treatment": "anti aging"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "madrid_beauty_007",
+        "queryText": "lash studio in Lavapiés, classic extensions",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Lavapiés", "service": "lash extensions", "type": "classic"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "madrid_beauty_008",
+        "queryText": "waxing salon in Tetuán, full body wax",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Tetuán", "service": "full body wax"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "madrid_beauty_009",
+        "queryText": "beauty bar in Usera, express treatments",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Usera", "type": "express treatments"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "madrid_beauty_010",
+        "queryText": "med spa in Arganzuela, dermal fillers",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "Europe",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Arganzuela", "treatment": "dermal fillers"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      }
+    ]
+  }
+}

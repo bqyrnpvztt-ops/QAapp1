@@ -1,0 +1,433 @@
+{
+  "category": "Pets",
+  "generatedAt": "2024-12-19",
+  "totalQueries": 30,
+  "subCategories": {
+    "Grooming": [
+      {
+        "id": "pets_grooming_001",
+        "queryText": "dog shampoo for sensitive skin, hypoallergenic",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "dog", "skinType": "sensitive", "safety": "hypoallergenic"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_grooming_002",
+        "queryText": "cat nail clippers for trimming, safety guard",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "cat", "purpose": "trimming", "safety": "guard"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_grooming_003",
+        "queryText": "dog brush for shedding, deshedding tool",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "dog", "issue": "shedding", "type": "deshedding"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_grooming_004",
+        "queryText": "pet grooming table for home use, adjustable height",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"location": "home", "feature": "adjustable height"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_grooming_005",
+        "queryText": "cat toothbrush for dental care, finger brush",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "cat", "purpose": "dental care", "type": "finger brush"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_grooming_006",
+        "queryText": "dog ear cleaner for infections, medicated",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "dog", "area": "ear", "condition": "infections", "type": "medicated"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_grooming_007",
+        "queryText": "pet wipes for quick clean, fragrance free",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "quick clean", "fragrance": "free"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_grooming_008",
+        "queryText": "dog clippers for home grooming, quiet motor",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "dog", "location": "home", "feature": "quiet motor"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_grooming_009",
+        "queryText": "cat grooming glove for bonding, soft bristles",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "cat", "purpose": "bonding", "bristles": "soft"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_grooming_010",
+        "queryText": "pet dental treats for tartar control, daily use",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "tartar control", "frequency": "daily"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ],
+    "Food": [
+      {
+        "id": "pets_food_001",
+        "queryText": "dog food for senior dogs, joint health",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "dog", "ageGroup": "senior", "benefit": "joint health"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_food_002",
+        "queryText": "cat food for weight management, low calorie",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "cat", "purpose": "weight management", "type": "low calorie"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_food_003",
+        "queryText": "puppy food for large breeds, high protein",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"ageGroup": "puppy", "breedSize": "large", "nutrient": "high protein"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_food_004",
+        "queryText": "cat treats for training, small size",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "cat", "purpose": "training", "size": "small"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_food_005",
+        "queryText": "dog food for sensitive stomach, grain free",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "dog", "condition": "sensitive stomach", "type": "grain free"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_food_006",
+        "queryText": "kitten food for growth, wet and dry",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"ageGroup": "kitten", "purpose": "growth", "formats": "wet and dry"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_food_007",
+        "queryText": "dog supplements for skin health, omega 3",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "dog", "benefit": "skin health", "ingredient": "omega 3"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_food_008",
+        "queryText": "cat food for urinary health, prescription",
+        "demographicProfile": {
+          "ageBracket": "35-44",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "cat", "benefit": "urinary health", "type": "prescription"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_food_009",
+        "queryText": "dog food for active dogs, high energy",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "dog", "activity": "active", "type": "high energy"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_food_010",
+        "queryText": "pet food storage container for freshness, airtight",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "freshness", "feature": "airtight"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ],
+    "Products": [
+      {
+        "id": "pets_products_001",
+        "queryText": "dog bed for large dogs, orthopedic",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "dog", "size": "large", "type": "orthopedic"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_products_002",
+        "queryText": "cat carrier for vet visits, airline approved",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "cat", "purpose": "vet visits", "approval": "airline"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_products_003",
+        "queryText": "dog leash for training, retractable",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "dog", "purpose": "training", "type": "retractable"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_products_004",
+        "queryText": "cat scratching post for furniture protection, tall",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "cat", "purpose": "furniture protection", "height": "tall"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_products_005",
+        "queryText": "dog toys for heavy chewers, durable",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "dog", "chewingStyle": "heavy", "quality": "durable"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_products_006",
+        "queryText": "pet water fountain for hydration, filtered",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "hydration", "feature": "filtered"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_products_007",
+        "queryText": "cat litter box for small spaces, covered",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "cat", "space": "small", "type": "covered"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_products_008",
+        "queryText": "dog crate for house training, foldable",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "dog", "purpose": "house training", "feature": "foldable"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_products_009",
+        "queryText": "pet first aid kit for emergencies, comprehensive",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "emergencies", "completeness": "comprehensive"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "pets_products_010",
+        "queryText": "cat tree for climbing, multiple levels",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"petType": "cat", "activity": "climbing", "levels": "multiple"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1285 @@
+{
+  "category": "Baby, Children, Pregnancy & Postpartum",
+  "generatedAt": "2024-12-19",
+  "totalQueries": 80,
+  "subCategories": {
+    "Clothing": [
+      {
+        "id": "baby_clothing_001",
+        "queryText": "newborn onesies for sensitive skin, organic cotton",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"ageGroup": "newborn", "skinType": "sensitive", "material": "organic cotton"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_clothing_002",
+        "queryText": "toddler winter coats for 2 year old, waterproof",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"ageGroup": "2 year old", "season": "winter", "feature": "waterproof"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_clothing_003",
+        "queryText": "baby sleep sacks for 6 months, safe sleep",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"ageGroup": "6 months", "safety": "safe sleep"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_clothing_004",
+        "queryText": "kids pajamas for 4 year old, flame resistant",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"ageGroup": "4 year old", "safety": "flame resistant"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_clothing_005",
+        "queryText": "baby bibs for drooling, waterproof backing",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "drooling", "feature": "waterproof backing"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_clothing_006",
+        "queryText": "kids rain boots for puddle jumping, durable",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"activity": "puddle jumping", "quality": "durable"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_clothing_007",
+        "queryText": "baby hats for sun protection, spf fabric",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "sun protection", "feature": "spf fabric"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_clothing_008",
+        "queryText": "toddler shoes for first walkers, flexible sole",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"stage": "first walkers", "sole": "flexible"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_clothing_009",
+        "queryText": "kids swimwear for beach vacation, rash guard",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"occasion": "beach vacation", "type": "rash guard"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_clothing_010",
+        "queryText": "baby mittens for scratching prevention, soft",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "scratching prevention", "texture": "soft"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ],
+    "Products": [
+      {
+        "id": "baby_products_001",
+        "queryText": "baby monitor with video, night vision",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"feature": "video", "capability": "night vision"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_products_002",
+        "queryText": "baby carrier for hiking, ergonomic design",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"activity": "hiking", "design": "ergonomic"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_products_003",
+        "queryText": "baby bottle warmer for night feeds, quick heat",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"timing": "night feeds", "speed": "quick heat"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_products_004",
+        "queryText": "baby swing for colicky baby, gentle motion",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"condition": "colicky", "motion": "gentle"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_products_005",
+        "queryText": "baby thermometer for accurate readings, digital",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"accuracy": "accurate", "type": "digital"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_products_006",
+        "queryText": "baby humidifier for dry air, quiet operation",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "dry air", "noise": "quiet"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_products_007",
+        "queryText": "baby food processor for homemade purees, easy clean",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "homemade purees", "maintenance": "easy clean"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_products_008",
+        "queryText": "baby play mat for tummy time, colorful",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"activity": "tummy time", "design": "colorful"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_products_009",
+        "queryText": "baby safety gates for stairs, pressure mounted",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"location": "stairs", "mounting": "pressure"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_products_010",
+        "queryText": "baby changing pad for diaper changes, waterproof",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "diaper changes", "feature": "waterproof"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ],
+    "Decor & Furniture": [
+      {
+        "id": "baby_decor_001",
+        "queryText": "nursery crib for small room, space saving",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"roomSize": "small", "feature": "space saving"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_decor_002",
+        "queryText": "baby changing table with storage, convertible",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"feature": "storage", "type": "convertible"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_decor_003",
+        "queryText": "nursery glider chair for breastfeeding, comfortable",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "breastfeeding", "comfort": "comfortable"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_decor_004",
+        "queryText": "baby bookshelf for nursery, low height",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"location": "nursery", "height": "low"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_decor_005",
+        "queryText": "nursery night light for sleep, dimmable",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "sleep", "feature": "dimmable"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_decor_006",
+        "queryText": "baby mobile for crib, musical and colorful",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"location": "crib", "features": "musical and colorful"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_decor_007",
+        "queryText": "nursery rug for play area, soft and washable",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "play area", "features": "soft and washable"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_decor_008",
+        "queryText": "baby dresser for clothes storage, 6 drawer",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "clothes storage", "drawers": 6},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_decor_009",
+        "queryText": "nursery curtains for light blocking, blackout",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "light blocking", "type": "blackout"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_decor_010",
+        "queryText": "baby toy storage bin for organization, colorful",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "organization", "design": "colorful"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ],
+    "Feeding": [
+      {
+        "id": "baby_feeding_001",
+        "queryText": "baby bottles for breastfeeding supplement, slow flow",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "breastfeeding supplement", "flow": "slow"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_feeding_002",
+        "queryText": "baby high chair for small kitchen, space saving",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"kitchenSize": "small", "feature": "space saving"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_feeding_003",
+        "queryText": "baby sippy cups for 6 months, spill proof",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"ageGroup": "6 months", "feature": "spill proof"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_feeding_004",
+        "queryText": "baby food storage containers for meal prep, freezer safe",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "meal prep", "feature": "freezer safe"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_feeding_005",
+        "queryText": "baby bibs for messy eaters, full coverage",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"eatingStyle": "messy", "coverage": "full"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_feeding_006",
+        "queryText": "baby spoons for first foods, soft tip",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "first foods", "tip": "soft"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_feeding_007",
+        "queryText": "baby formula dispenser for travel, portable",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "travel", "feature": "portable"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_feeding_008",
+        "queryText": "baby snack containers for on the go, leak proof",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "on the go", "feature": "leak proof"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_feeding_009",
+        "queryText": "baby feeding chair for table, adjustable height",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"location": "table", "feature": "adjustable height"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_feeding_010",
+        "queryText": "baby water bottle for hydration, bpa free",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "hydration", "safety": "bpa free"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ],
+    "Resources & Services": [
+      {
+        "id": "baby_resources_001",
+        "queryText": "newborn care classes for first time parents, online",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"audience": "first time parents", "format": "online"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "baby_resources_002",
+        "queryText": "baby sleep consultant for night wakings, experienced",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"issue": "night wakings", "experience": "experienced"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "baby_resources_003",
+        "queryText": "lactation consultant for breastfeeding support, local",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"service": "breastfeeding support", "location": "local"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "baby_resources_004",
+        "queryText": "baby massage classes for bonding, gentle techniques",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"purpose": "bonding", "style": "gentle techniques"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "baby_resources_005",
+        "queryText": "baby first aid course for emergencies, cpr included",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"purpose": "emergencies", "inclusion": "cpr"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "baby_resources_006",
+        "queryText": "baby playgroups for socialization, age appropriate",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"purpose": "socialization", "appropriateness": "age appropriate"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "baby_resources_007",
+        "queryText": "baby swimming lessons for water safety, certified instructors",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"purpose": "water safety", "instructors": "certified"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "baby_resources_008",
+        "queryText": "baby music classes for development, interactive",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"purpose": "development", "style": "interactive"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "baby_resources_009",
+        "queryText": "baby photography sessions for milestones, newborn",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"purpose": "milestones", "ageGroup": "newborn"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "baby_resources_010",
+        "queryText": "baby support groups for new moms, emotional support",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"audience": "new moms", "purpose": "emotional support"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      }
+    ],
+    "Beauty & Skincare": [
+      {
+        "id": "baby_beauty_001",
+        "queryText": "baby shampoo for sensitive scalp, tear free",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"skinType": "sensitive", "safety": "tear free"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_beauty_002",
+        "queryText": "baby lotion for dry skin, fragrance free",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"skinType": "dry", "fragrance": "free"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_beauty_003",
+        "queryText": "baby sunscreen for sensitive skin, mineral based",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"skinType": "sensitive", "type": "mineral based"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_beauty_004",
+        "queryText": "baby wipes for diaper changes, hypoallergenic",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "diaper changes", "safety": "hypoallergenic"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_beauty_005",
+        "queryText": "baby bath products for eczema, gentle formula",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"condition": "eczema", "formula": "gentle"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_beauty_006",
+        "queryText": "baby nail clippers for tiny nails, safety design",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"nailSize": "tiny", "design": "safety"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_beauty_007",
+        "queryText": "baby toothbrush for first teeth, soft bristles",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"stage": "first teeth", "bristles": "soft"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_beauty_008",
+        "queryText": "baby hair brush for cradle cap, gentle",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"condition": "cradle cap", "style": "gentle"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_beauty_009",
+        "queryText": "baby powder for diaper area, talc free",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"area": "diaper", "ingredient": "talc free"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_beauty_010",
+        "queryText": "baby bath thermometer for water safety, digital",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "water safety", "type": "digital"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ],
+    "Bath & Body": [
+      {
+        "id": "baby_bath_001",
+        "queryText": "baby bathtub for newborns, supportive design",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"ageGroup": "newborns", "design": "supportive"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_bath_002",
+        "queryText": "baby bath toys for water play, safe materials",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "water play", "safety": "safe materials"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_bath_003",
+        "queryText": "baby bath seat for sitting up, secure",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"position": "sitting up", "security": "secure"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_bath_004",
+        "queryText": "baby bath sponge for gentle cleaning, soft",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "gentle cleaning", "texture": "soft"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_bath_005",
+        "queryText": "baby bath mat for safety, non slip",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "safety", "feature": "non slip"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_bath_006",
+        "queryText": "baby bath towel with hood, absorbent",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"feature": "hood", "quality": "absorbent"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_bath_007",
+        "queryText": "baby bath thermometer for temperature, accurate",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "temperature", "accuracy": "accurate"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_bath_008",
+        "queryText": "baby bath organizer for storage, hanging",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "storage", "type": "hanging"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_bath_009",
+        "queryText": "baby bath caddy for portability, lightweight",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "portability", "weight": "lightweight"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_bath_010",
+        "queryText": "baby bath time book for routine, waterproof",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "routine", "feature": "waterproof"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ],
+    "Strollers": [
+      {
+        "id": "baby_strollers_001",
+        "queryText": "baby stroller for city walking, lightweight",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"location": "city", "weight": "lightweight"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_strollers_002",
+        "queryText": "jogging stroller for running, all terrain",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"activity": "running", "terrain": "all terrain"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_strollers_003",
+        "queryText": "double stroller for twins, side by side",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"children": "twins", "configuration": "side by side"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_strollers_004",
+        "queryText": "travel stroller for airplane, compact fold",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "airplane", "fold": "compact"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_strollers_005",
+        "queryText": "stroller for newborn, car seat compatible",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"ageGroup": "newborn", "compatibility": "car seat"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_strollers_006",
+        "queryText": "umbrella stroller for quick trips, easy fold",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "quick trips", "fold": "easy"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_strollers_007",
+        "queryText": "stroller for tall parents, adjustable handle",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"parentHeight": "tall", "handle": "adjustable"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_strollers_008",
+        "queryText": "stroller for rough terrain, large wheels",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"terrain": "rough", "wheels": "large"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_strollers_009",
+        "queryText": "stroller for small car, narrow width",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"carSize": "small", "width": "narrow"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_strollers_010",
+        "queryText": "stroller accessories for storage, basket large",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "storage", "size": "large"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ],
+    "Toys & Games": [
+      {
+        "id": "baby_toys_001",
+        "queryText": "baby toys for 6 months, sensory development",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"ageGroup": "6 months", "purpose": "sensory development"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_toys_002",
+        "queryText": "educational toys for toddlers, stem learning",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"ageGroup": "toddlers", "type": "stem learning"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_toys_003",
+        "queryText": "baby books for bedtime, interactive",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"timing": "bedtime", "type": "interactive"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_toys_004",
+        "queryText": "baby musical toys for development, safe materials",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "development", "safety": "safe materials"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_toys_005",
+        "queryText": "baby building blocks for creativity, large size",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "creativity", "size": "large"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_toys_006",
+        "queryText": "baby puzzle toys for problem solving, age appropriate",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "problem solving", "appropriateness": "age appropriate"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_toys_007",
+        "queryText": "baby outdoor toys for backyard, weather resistant",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"location": "backyard", "durability": "weather resistant"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_toys_008",
+        "queryText": "baby art supplies for creativity, non toxic",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "creativity", "safety": "non toxic"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_toys_009",
+        "queryText": "baby role play toys for imagination, realistic",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "imagination", "style": "realistic"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "baby_toys_010",
+        "queryText": "baby electronic toys for learning, interactive",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"purpose": "learning", "type": "interactive"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ]
+  }
+}

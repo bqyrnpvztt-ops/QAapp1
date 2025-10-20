@@ -1,0 +1,33 @@
+{
+  "name": "qa-testing-system",
+  "version": "1.0.0",
+  "description": "PWA + Dashboard for AI Recommendations QA Testing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "npm run build:pwa && npm run build:dashboard",
+    "build:pwa": "cd pwa && npm run build",
+    "build:dashboard": "cd dashboard && npm run build",
+    "install:all": "npm install && cd pwa && npm install && cd ../dashboard && npm install"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "sqlite3": "^5.1.6",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^9.0.1",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "compression": "^1.7.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": ["pwa", "qa", "testing", "ai", "recommendations"],
+  "author": "QA Testing System",
+  "license": "MIT"
+}

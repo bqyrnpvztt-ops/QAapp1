@@ -1,0 +1,859 @@
+{
+  "category": "Bridal",
+  "generatedAt": "2024-12-19",
+  "totalQueries": 60,
+  "subCategories": {
+    "Inspiration": [
+      {
+        "id": "bridal_inspiration_001",
+        "queryText": "rustic wedding ideas for outdoor ceremony, budget-friendly",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "browse",
+        "constraints": {"style": "rustic", "location": "outdoor", "budget": "friendly"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_inspiration_002",
+        "queryText": "modern minimalist wedding decor ideas, clean lines",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "browse",
+        "constraints": {"style": "modern minimalist", "aesthetic": "clean lines"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_inspiration_003",
+        "queryText": "vintage 1920s wedding theme inspiration, art deco",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "browse",
+        "constraints": {"era": "1920s", "style": "art deco"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_inspiration_004",
+        "queryText": "beach wedding ideas for destination ceremony, tropical",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "browse",
+        "constraints": {"location": "beach", "type": "destination", "theme": "tropical"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_inspiration_005",
+        "queryText": "boho chic wedding inspiration, macrame and florals",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "browse",
+        "constraints": {"style": "boho chic", "elements": "macrame and florals"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_inspiration_006",
+        "queryText": "winter wedding ideas for december ceremony, cozy vibes",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "browse",
+        "constraints": {"season": "winter", "month": "december", "mood": "cozy"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_inspiration_007",
+        "queryText": "garden party wedding inspiration, english countryside",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "browse",
+        "constraints": {"style": "garden party", "location": "english countryside"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_inspiration_008",
+        "queryText": "industrial loft wedding ideas, exposed brick and metal",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "browse",
+        "constraints": {"venue": "industrial loft", "elements": "exposed brick and metal"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_inspiration_009",
+        "queryText": "romantic pink and gold wedding theme, elegant",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "browse",
+        "constraints": {"colors": "pink and gold", "style": "elegant"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_inspiration_010",
+        "queryText": "small intimate wedding ideas for 30 guests, personal",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "browse",
+        "constraints": {"size": "small intimate", "guestCount": 30, "style": "personal"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      }
+    ],
+    "Dresses": [
+      {
+        "id": "bridal_dresses_001",
+        "queryText": "a-line wedding dress for pear shape, under $2000",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"style": "a-line", "bodyType": "pear shape", "budgetUSD": 2000},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "bridal_dresses_002",
+        "queryText": "mermaid wedding dress for beach ceremony, lightweight",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"style": "mermaid", "location": "beach", "weight": "lightweight"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "bridal_dresses_003",
+        "queryText": "vintage lace wedding dress 1950s style, tea length",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"style": "vintage lace", "era": "1950s", "length": "tea length"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "bridal_dresses_004",
+        "queryText": "plus size wedding dress for apple shape, supportive",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"size": "plus size", "bodyType": "apple shape", "support": "supportive"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "bridal_dresses_005",
+        "queryText": "boho wedding dress with sleeves, flowy fabric",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "casual"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"style": "boho", "feature": "sleeves", "fabric": "flowy"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "bridal_dresses_006",
+        "queryText": "simple elegant wedding dress minimalist style",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"style": "simple elegant", "aesthetic": "minimalist"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "bridal_dresses_007",
+        "queryText": "backless wedding dress for summer ceremony, breathable",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"feature": "backless", "season": "summer", "comfort": "breathable"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "bridal_dresses_008",
+        "queryText": "two piece wedding dress separates, modern",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"style": "two piece", "aesthetic": "modern"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "bridal_dresses_009",
+        "queryText": "princess ballgown wedding dress for petite frame",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"style": "princess ballgown", "bodyType": "petite"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "bridal_dresses_010",
+        "queryText": "colored wedding dress blush pink, non-traditional",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"color": "blush pink", "style": "non-traditional"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ],
+    "Accessories": [
+      {
+        "id": "bridal_accessories_001",
+        "queryText": "wedding veil for cathedral length dress, delicate lace",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"length": "cathedral", "style": "delicate lace"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "bridal_accessories_002",
+        "queryText": "wedding shoes for outdoor ceremony, comfortable heels",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"location": "outdoor", "comfort": "comfortable heels"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "bridal_accessories_003",
+        "queryText": "bridal jewelry set pearl earrings and necklace",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"material": "pearl", "pieces": "earrings and necklace"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "bridal_accessories_004",
+        "queryText": "wedding hair accessories for updo, crystal comb",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"hairstyle": "updo", "material": "crystal comb"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "bridal_accessories_005",
+        "queryText": "wedding clutch purse for essentials, elegant",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"style": "elegant", "purpose": "essentials"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "bridal_accessories_006",
+        "queryText": "wedding garter set something blue, vintage style",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"color": "blue", "style": "vintage"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "bridal_accessories_007",
+        "queryText": "wedding belt sash for dress, crystal embellished",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"style": "crystal embellished", "purpose": "dress accent"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "bridal_accessories_008",
+        "queryText": "wedding gloves for winter ceremony, elegant length",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"season": "winter", "style": "elegant length"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "bridal_accessories_009",
+        "queryText": "wedding shawl wrap for outdoor ceremony, warm",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"location": "outdoor", "function": "warm"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      },
+      {
+        "id": "bridal_accessories_010",
+        "queryText": "wedding tiara crown for princess style, delicate",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "purchase",
+        "constraints": {"style": "princess", "aesthetic": "delicate"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "singleRecommendation"
+      }
+    ],
+    "Photographers": [
+      {
+        "id": "bridal_photographers_001",
+        "queryText": "wedding photographer in NYC, documentary style",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "NYC", "style": "documentary"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_photographers_002",
+        "queryText": "affordable wedding photographer under $3000, natural light",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"budgetUSD": 3000, "style": "natural light"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_photographers_003",
+        "queryText": "destination wedding photographer for italy, experienced",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "Italy", "type": "destination", "experience": "experienced"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_photographers_004",
+        "queryText": "wedding photographer for outdoor ceremony, golden hour",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "outdoor", "timing": "golden hour"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_photographers_005",
+        "queryText": "vintage film wedding photographer, analog style",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"style": "vintage film", "method": "analog"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_photographers_006",
+        "queryText": "wedding photographer for small intimate ceremony, personal",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"ceremony": "small intimate", "approach": "personal"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_photographers_007",
+        "queryText": "wedding photographer for same day delivery, fast turnaround",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"delivery": "same day", "turnaround": "fast"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_photographers_008",
+        "queryText": "wedding photographer for cultural ceremony, traditional",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"type": "cultural", "style": "traditional"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_photographers_009",
+        "queryText": "wedding photographer for winter ceremony, indoor lighting",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"season": "winter", "lighting": "indoor"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_photographers_010",
+        "queryText": "wedding photographer for elopement, adventure style",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"type": "elopement", "style": "adventure"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      }
+    ],
+    "Planners": [
+      {
+        "id": "bridal_planners_001",
+        "queryText": "wedding planner for destination wedding, full service",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"type": "destination", "service": "full"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_planners_002",
+        "queryText": "affordable wedding planner under $5000, day of coordination",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"budgetUSD": 5000, "service": "day of coordination"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_planners_003",
+        "queryText": "wedding planner for outdoor ceremony, weather backup",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "outdoor", "contingency": "weather backup"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_planners_004",
+        "queryText": "wedding planner for cultural fusion ceremony, experienced",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"type": "cultural fusion", "experience": "experienced"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_planners_005",
+        "queryText": "wedding planner for last minute ceremony, 3 months",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"timeline": "3 months", "urgency": "last minute"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_planners_006",
+        "queryText": "wedding planner for small intimate wedding, personal touch",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"size": "small intimate", "approach": "personal touch"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_planners_007",
+        "queryText": "wedding planner for budget conscious couple, cost effective",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"budget": "conscious", "approach": "cost effective"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_planners_008",
+        "queryText": "wedding planner for diy elements, partial service",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"style": "diy elements", "service": "partial"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_planners_009",
+        "queryText": "wedding planner for vintage theme, authentic details",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"theme": "vintage", "approach": "authentic details"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_planners_010",
+        "queryText": "wedding planner for same sex ceremony, lgbtq friendly",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"type": "same sex", "inclusivity": "lgbtq friendly"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      }
+    ],
+    "Videographer": [
+      {
+        "id": "bridal_videographer_001",
+        "queryText": "wedding videographer for cinematic style, highlight reel",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"style": "cinematic", "deliverable": "highlight reel"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_videographer_002",
+        "queryText": "affordable wedding videographer under $2000, basic package",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"budgetUSD": 2000, "package": "basic"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_videographer_003",
+        "queryText": "wedding videographer for drone footage, aerial shots",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"equipment": "drone", "shots": "aerial"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_videographer_004",
+        "queryText": "wedding videographer for same day edit, quick turnaround",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"delivery": "same day edit", "turnaround": "quick"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_videographer_005",
+        "queryText": "wedding videographer for documentary style, candid",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"style": "documentary", "approach": "candid"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_videographer_006",
+        "queryText": "wedding videographer for outdoor ceremony, natural sound",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"location": "outdoor", "audio": "natural sound"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_videographer_007",
+        "queryText": "wedding videographer for destination wedding, travel included",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"type": "destination", "service": "travel included"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_videographer_008",
+        "queryText": "wedding videographer for small ceremony, intimate style",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"size": "small", "style": "intimate"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_videographer_009",
+        "queryText": "wedding videographer for vintage theme, retro aesthetic",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"theme": "vintage", "aesthetic": "retro"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      },
+      {
+        "id": "bridal_videographer_010",
+        "queryText": "wedding videographer for live streaming, virtual guests",
+        "demographicProfile": {
+          "ageBracket": "25-34",
+          "genderIdentity": "woman",
+          "cultureRegion": "NorthAmerica",
+          "languageRegister": "neutral"
+        },
+        "queryIntent": "locate",
+        "constraints": {"service": "live streaming", "audience": "virtual guests"},
+        "adversarialFeatures": [],
+        "expectedAnswerType": "list"
+      }
+    ]
+  }
+}
