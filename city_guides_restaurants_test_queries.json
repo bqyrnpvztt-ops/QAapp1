@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "city_restaurants_001",
+    "category": "City guides restaurants",
+    "sub_category": "New York",
+    "query": "Italian restaurants in Manhattan for authentic pasta",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in New York",
+    "constraints": {
+      "location": "New York",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_002",
+    "category": "City guides restaurants",
+    "sub_category": "New York",
+    "query": "Japanese sushi bars in Brooklyn for fresh fish",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in New York",
+    "constraints": {
+      "location": "New York",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_003",
+    "category": "City guides restaurants",
+    "sub_category": "New York",
+    "query": "Mexican taquerias in Queens for street food",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in New York",
+    "constraints": {
+      "location": "New York",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_004",
+    "category": "City guides restaurants",
+    "sub_category": "New York",
+    "query": "French bistros in Manhattan for romantic dinners",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in New York",
+    "constraints": {
+      "location": "New York",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_005",
+    "category": "City guides restaurants",
+    "sub_category": "New York",
+    "query": "Chinese dim sum in Brooklyn for weekend brunch",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in New York",
+    "constraints": {
+      "location": "New York",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_006",
+    "category": "City guides restaurants",
+    "sub_category": "New York",
+    "query": "Indian curry houses in Queens for spicy cuisine",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in New York",
+    "constraints": {
+      "location": "New York",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_007",
+    "category": "City guides restaurants",
+    "sub_category": "New York",
+    "query": "American steakhouses in Manhattan for business meals",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in New York",
+    "constraints": {
+      "location": "New York",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_008",
+    "category": "City guides restaurants",
+    "sub_category": "New York",
+    "query": "Korean BBQ in Brooklyn for group dining",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in New York",
+    "constraints": {
+      "location": "New York",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_009",
+    "category": "City guides restaurants",
+    "sub_category": "New York",
+    "query": "Thai restaurants in Queens for flavorful dishes",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in New York",
+    "constraints": {
+      "location": "New York",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_010",
+    "category": "City guides restaurants",
+    "sub_category": "New York",
+    "query": "Mediterranean cafes in Manhattan for healthy options",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in New York",
+    "constraints": {
+      "location": "New York",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_011",
+    "category": "City guides restaurants",
+    "sub_category": "London",
+    "query": "Traditional British pubs in Central London for fish and chips",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in London",
+    "constraints": {
+      "location": "London",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_012",
+    "category": "City guides restaurants",
+    "sub_category": "London",
+    "query": "Indian curry houses in East London for authentic spices",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in London",
+    "constraints": {
+      "location": "London",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_013",
+    "category": "City guides restaurants",
+    "sub_category": "London",
+    "query": "Italian trattorias in West London for family dining",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in London",
+    "constraints": {
+      "location": "London",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_014",
+    "category": "City guides restaurants",
+    "sub_category": "London",
+    "query": "Chinese restaurants in Chinatown for dim sum",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in London",
+    "constraints": {
+      "location": "London",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_015",
+    "category": "City guides restaurants",
+    "sub_category": "London",
+    "query": "French bistros in South London for romantic meals",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in London",
+    "constraints": {
+      "location": "London",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_016",
+    "category": "City guides restaurants",
+    "sub_category": "London",
+    "query": "Turkish restaurants in North London for kebabs",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in London",
+    "constraints": {
+      "location": "London",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_017",
+    "category": "City guides restaurants",
+    "sub_category": "London",
+    "query": "Japanese sushi bars in Central London for fresh fish",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in London",
+    "constraints": {
+      "location": "London",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_018",
+    "category": "City guides restaurants",
+    "sub_category": "London",
+    "query": "Mexican taquerias in East London for street food",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in London",
+    "constraints": {
+      "location": "London",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_019",
+    "category": "City guides restaurants",
+    "sub_category": "London",
+    "query": "American diners in West London for comfort food",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in London",
+    "constraints": {
+      "location": "London",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_020",
+    "category": "City guides restaurants",
+    "sub_category": "London",
+    "query": "Lebanese restaurants in South London for Middle Eastern cuisine",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in London",
+    "constraints": {
+      "location": "London",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_021",
+    "category": "City guides restaurants",
+    "sub_category": "Paris",
+    "query": "Traditional French bistros in Montmartre for classic cuisine",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Paris",
+    "constraints": {
+      "location": "Paris",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_022",
+    "category": "City guides restaurants",
+    "sub_category": "Paris",
+    "query": "Italian trattorias in Marais for authentic pasta",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Paris",
+    "constraints": {
+      "location": "Paris",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_023",
+    "category": "City guides restaurants",
+    "sub_category": "Paris",
+    "query": "Japanese restaurants in Champs-Élysées for sushi",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Paris",
+    "constraints": {
+      "location": "Paris",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_024",
+    "category": "City guides restaurants",
+    "sub_category": "Paris",
+    "query": "Chinese restaurants in Belleville for dim sum",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Paris",
+    "constraints": {
+      "location": "Paris",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_025",
+    "category": "City guides restaurants",
+    "sub_category": "Paris",
+    "query": "Lebanese restaurants in Latin Quarter for Middle Eastern food",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Paris",
+    "constraints": {
+      "location": "Paris",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_026",
+    "category": "City guides restaurants",
+    "sub_category": "Paris",
+    "query": "Spanish tapas bars in Saint-Germain for small plates",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Paris",
+    "constraints": {
+      "location": "Paris",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_027",
+    "category": "City guides restaurants",
+    "sub_category": "Paris",
+    "query": "Vietnamese pho restaurants in 13th arrondissement",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Paris",
+    "constraints": {
+      "location": "Paris",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_028",
+    "category": "City guides restaurants",
+    "sub_category": "Paris",
+    "query": "Moroccan restaurants in Bastille for tagines",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Paris",
+    "constraints": {
+      "location": "Paris",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_029",
+    "category": "City guides restaurants",
+    "sub_category": "Paris",
+    "query": "American diners in République for comfort food",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Paris",
+    "constraints": {
+      "location": "Paris",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_030",
+    "category": "City guides restaurants",
+    "sub_category": "Paris",
+    "query": "Korean BBQ in Opera for group dining",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Paris",
+    "constraints": {
+      "location": "Paris",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_031",
+    "category": "City guides restaurants",
+    "sub_category": "Miami",
+    "query": "Cuban restaurants in Little Havana for authentic cuisine",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Miami",
+    "constraints": {
+      "location": "Miami",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_032",
+    "category": "City guides restaurants",
+    "sub_category": "Miami",
+    "query": "Seafood restaurants in South Beach for fresh fish",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Miami",
+    "constraints": {
+      "location": "Miami",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_033",
+    "category": "City guides restaurants",
+    "sub_category": "Miami",
+    "query": "Italian trattorias in Coral Gables for family dining",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Miami",
+    "constraints": {
+      "location": "Miami",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_034",
+    "category": "City guides restaurants",
+    "sub_category": "Miami",
+    "query": "Japanese sushi bars in Brickell for business lunches",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Miami",
+    "constraints": {
+      "location": "Miami",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_035",
+    "category": "City guides restaurants",
+    "sub_category": "Miami",
+    "query": "Mexican taquerias in Wynwood for street food",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Miami",
+    "constraints": {
+      "location": "Miami",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_036",
+    "category": "City guides restaurants",
+    "sub_category": "Miami",
+    "query": "Peruvian restaurants in Downtown for ceviche",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Miami",
+    "constraints": {
+      "location": "Miami",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_037",
+    "category": "City guides restaurants",
+    "sub_category": "Miami",
+    "query": "Brazilian steakhouses in Aventura for meat lovers",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Miami",
+    "constraints": {
+      "location": "Miami",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_038",
+    "category": "City guides restaurants",
+    "sub_category": "Miami",
+    "query": "Colombian restaurants in Doral for arepas",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Miami",
+    "constraints": {
+      "location": "Miami",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_039",
+    "category": "City guides restaurants",
+    "sub_category": "Miami",
+    "query": "Haitian restaurants in Little Haiti for Caribbean cuisine",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Miami",
+    "constraints": {
+      "location": "Miami",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_040",
+    "category": "City guides restaurants",
+    "sub_category": "Miami",
+    "query": "Argentine restaurants in Coconut Grove for empanadas",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Miami",
+    "constraints": {
+      "location": "Miami",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_041",
+    "category": "City guides restaurants",
+    "sub_category": "Tokyo",
+    "query": "Ramen shops in Shibuya for authentic noodles",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Tokyo",
+    "constraints": {
+      "location": "Tokyo",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_042",
+    "category": "City guides restaurants",
+    "sub_category": "Tokyo",
+    "query": "Sushi restaurants in Tsukiji for fresh fish",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Tokyo",
+    "constraints": {
+      "location": "Tokyo",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_043",
+    "category": "City guides restaurants",
+    "sub_category": "Tokyo",
+    "query": "Tempura restaurants in Ginza for crispy seafood",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Tokyo",
+    "constraints": {
+      "location": "Tokyo",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_044",
+    "category": "City guides restaurants",
+    "sub_category": "Tokyo",
+    "query": "Yakitori bars in Roppongi for grilled skewers",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Tokyo",
+    "constraints": {
+      "location": "Tokyo",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_045",
+    "category": "City guides restaurants",
+    "sub_category": "Tokyo",
+    "query": "Tonkatsu restaurants in Shinjuku for breaded pork",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Tokyo",
+    "constraints": {
+      "location": "Tokyo",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_046",
+    "category": "City guides restaurants",
+    "sub_category": "Tokyo",
+    "query": "Udon shops in Harajuku for thick noodles",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Tokyo",
+    "constraints": {
+      "location": "Tokyo",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_047",
+    "category": "City guides restaurants",
+    "sub_category": "Tokyo",
+    "query": "Kaiseki restaurants in Roppongi for fine dining",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Tokyo",
+    "constraints": {
+      "location": "Tokyo",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_048",
+    "category": "City guides restaurants",
+    "sub_category": "Tokyo",
+    "query": "Okonomiyaki restaurants in Shibuya for savory pancakes",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Tokyo",
+    "constraints": {
+      "location": "Tokyo",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_049",
+    "category": "City guides restaurants",
+    "sub_category": "Tokyo",
+    "query": "Soba shops in Ginza for buckwheat noodles",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Tokyo",
+    "constraints": {
+      "location": "Tokyo",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_050",
+    "category": "City guides restaurants",
+    "sub_category": "Tokyo",
+    "query": "Katsu curry restaurants in Shinjuku for comfort food",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Tokyo",
+    "constraints": {
+      "location": "Tokyo",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_051",
+    "category": "City guides restaurants",
+    "sub_category": "Madrid",
+    "query": "Traditional Spanish tapas bars in La Latina for small plates",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Madrid",
+    "constraints": {
+      "location": "Madrid",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_052",
+    "category": "City guides restaurants",
+    "sub_category": "Madrid",
+    "query": "Paella restaurants in Retiro for authentic rice dishes",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Madrid",
+    "constraints": {
+      "location": "Madrid",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_053",
+    "category": "City guides restaurants",
+    "sub_category": "Madrid",
+    "query": "Jamón bars in Salamanca for cured ham",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Madrid",
+    "constraints": {
+      "location": "Madrid",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_054",
+    "category": "City guides restaurants",
+    "sub_category": "Madrid",
+    "query": "Seafood restaurants in Malasaña for fresh fish",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Madrid",
+    "constraints": {
+      "location": "Madrid",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_055",
+    "category": "City guides restaurants",
+    "sub_category": "Madrid",
+    "query": "Italian trattorias in Chueca for pasta",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Madrid",
+    "constraints": {
+      "location": "Madrid",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_056",
+    "category": "City guides restaurants",
+    "sub_category": "Madrid",
+    "query": "Japanese restaurants in Gran Vía for sushi",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Madrid",
+    "constraints": {
+      "location": "Madrid",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_057",
+    "category": "City guides restaurants",
+    "sub_category": "Madrid",
+    "query": "Mexican taquerias in Lavapiés for street food",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Madrid",
+    "constraints": {
+      "location": "Madrid",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_058",
+    "category": "City guides restaurants",
+    "sub_category": "Madrid",
+    "query": "Peruvian restaurants in Chamberí for ceviche",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Madrid",
+    "constraints": {
+      "location": "Madrid",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_059",
+    "category": "City guides restaurants",
+    "sub_category": "Madrid",
+    "query": "Lebanese restaurants in Sol for Middle Eastern cuisine",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Madrid",
+    "constraints": {
+      "location": "Madrid",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_restaurants_060",
+    "category": "City guides restaurants",
+    "sub_category": "Madrid",
+    "query": "Argentine steakhouses in Moncloa for grilled meat",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find restaurants in Madrid",
+    "constraints": {
+      "location": "Madrid",
+      "type": "restaurants"
+    },
+    "expected_result_type": "restaurant recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  }
+]

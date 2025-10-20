@@ -1,0 +1,554 @@
+[
+  {
+    "id": "city_sightseeing_001",
+    "category": "City guides sight see",
+    "sub_category": "Library",
+    "query": "Public libraries in Manhattan with quiet study spaces",
+    "demographic_profile": {
+      "age_range": "20-35",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find public libraries with study spaces",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "public libraries",
+      "feature": "quiet study spaces"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_002",
+    "category": "City guides sight see",
+    "sub_category": "Museum",
+    "query": "Art museums in Brooklyn with contemporary exhibitions",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find art museums with contemporary exhibitions",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "art museums",
+      "exhibition": "contemporary"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_003",
+    "category": "City guides sight see",
+    "sub_category": "Park/Garden",
+    "query": "Botanical gardens in Queens with Japanese garden",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find botanical gardens with Japanese garden",
+    "constraints": {
+      "location": "Queens",
+      "type": "botanical gardens",
+      "feature": "Japanese garden"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_004",
+    "category": "City guides sight see",
+    "sub_category": "Market",
+    "query": "Flea markets in Brooklyn with vintage finds",
+    "demographic_profile": {
+      "age_range": "20-35",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find flea markets with vintage finds",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "flea markets",
+      "product": "vintage finds"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_005",
+    "category": "City guides sight see",
+    "sub_category": "Landmark",
+    "query": "Historic landmarks in Manhattan with guided tours",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find historic landmarks with guided tours",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "historic landmarks",
+      "service": "guided tours"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_006",
+    "category": "City guides sight see",
+    "sub_category": "Outdoor & Water",
+    "query": "Waterfront parks in Brooklyn with bike paths",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find waterfront parks with bike paths",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "waterfront parks",
+      "feature": "bike paths"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_007",
+    "category": "City guides sight see",
+    "sub_category": "Excursions",
+    "query": "Day trip excursions from Manhattan to nature reserves",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find day trip excursions to nature reserves",
+    "constraints": {
+      "location": "from Manhattan",
+      "type": "day trip excursions",
+      "destination": "nature reserves"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_008",
+    "category": "City guides sight see",
+    "sub_category": "Theatre",
+    "query": "Off-Broadway theaters in Manhattan with musical performances",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find off-Broadway theaters with musicals",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "off-Broadway theaters",
+      "performance": "musical performances"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_009",
+    "category": "City guides sight see",
+    "sub_category": "Library",
+    "query": "Research libraries in Manhattan with rare book collections",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find research libraries with rare books",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "research libraries",
+      "collection": "rare book collections"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_010",
+    "category": "City guides sight see",
+    "sub_category": "Museum",
+    "query": "Science museums in Queens with interactive exhibits",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find science museums with interactive exhibits",
+    "constraints": {
+      "location": "Queens",
+      "type": "science museums",
+      "feature": "interactive exhibits"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_011",
+    "category": "City guides sight see",
+    "sub_category": "Park/Garden",
+    "query": "Central Park attractions in Manhattan for families",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find Central Park attractions for families",
+    "constraints": {
+      "location": "Central Park, Manhattan",
+      "type": "park attractions",
+      "audience": "families"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_012",
+    "category": "City guides sight see",
+    "sub_category": "Market",
+    "query": "Food markets in Brooklyn with local vendors",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find food markets with local vendors",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "food markets",
+      "vendors": "local vendors"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_013",
+    "category": "City guides sight see",
+    "sub_category": "Landmark",
+    "query": "Architectural landmarks in Brooklyn with guided walking tours",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find architectural landmarks with walking tours",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "architectural landmarks",
+      "service": "guided walking tours"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_014",
+    "category": "City guides sight see",
+    "sub_category": "Outdoor & Water",
+    "query": "Beach areas in Queens with swimming facilities",
+    "demographic_profile": {
+      "age_range": "20-35",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find beach areas with swimming facilities",
+    "constraints": {
+      "location": "Queens",
+      "type": "beach areas",
+      "facility": "swimming facilities"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_015",
+    "category": "City guides sight see",
+    "sub_category": "Excursions",
+    "query": "Weekend excursions from Manhattan to historic towns",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find weekend excursions to historic towns",
+    "constraints": {
+      "location": "from Manhattan",
+      "type": "weekend excursions",
+      "destination": "historic towns"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_016",
+    "category": "City guides sight see",
+    "sub_category": "Theatre",
+    "query": "Community theaters in Brooklyn with local productions",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find community theaters with local productions",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "community theaters",
+      "productions": "local productions"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_017",
+    "category": "City guides sight see",
+    "sub_category": "Library",
+    "query": "Children's libraries in Manhattan with story time programs",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find children's libraries with story time",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "children's libraries",
+      "program": "story time programs"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_018",
+    "category": "City guides sight see",
+    "sub_category": "Museum",
+    "query": "History museums in Manhattan with NYC exhibits",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find history museums with NYC exhibits",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "history museums",
+      "exhibit": "NYC exhibits"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_019",
+    "category": "City guides sight see",
+    "sub_category": "Park/Garden",
+    "query": "Dog parks in Brooklyn with off-leash areas",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dog parks with off-leash areas",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "dog parks",
+      "feature": "off-leash areas"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_020",
+    "category": "City guides sight see",
+    "sub_category": "Market",
+    "query": "Antique markets in Queens with furniture vendors",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find antique markets with furniture vendors",
+    "constraints": {
+      "location": "Queens",
+      "type": "antique markets",
+      "product": "furniture vendors"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_021",
+    "category": "City guides sight see",
+    "sub_category": "Landmark",
+    "query": "Religious landmarks in Brooklyn with historical significance",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find religious landmarks with historical significance",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "religious landmarks",
+      "significance": "historical"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_022",
+    "category": "City guides sight see",
+    "sub_category": "Outdoor & Water",
+    "query": "Hiking trails in Queens with scenic views",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find hiking trails with scenic views",
+    "constraints": {
+      "location": "Queens",
+      "type": "hiking trails",
+      "feature": "scenic views"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_023",
+    "category": "City guides sight see",
+    "sub_category": "Excursions",
+    "query": "Wine country excursions from Manhattan for day trips",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find wine country excursions for day trips",
+    "constraints": {
+      "location": "from Manhattan",
+      "type": "wine country excursions",
+      "duration": "day trips"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_sightseeing_024",
+    "category": "City guides sight see",
+    "sub_category": "Theatre",
+    "query": "Independent theaters in Manhattan with foreign films",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find independent theaters with foreign films",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "independent theaters",
+      "films": "foreign films"
+    },
+    "expected_result_type": "location recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  }
+]

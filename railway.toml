@@ -3,16 +3,16 @@ builder = "NIXPACKS"
 
 [deploy]
 buildCommand = "npm ci --include=dev && npm --prefix pwa ci --include=dev && npm --prefix dashboard ci --include=dev && npm run build"
-startCommand = "npm start"
 
 [variables]
 PORT = "3000"
 NODE_ENV = "production"
-DB_FILE = "qa_testing.db"
+DB_FILE = "/data/qa_testing.db"
+UPLOAD_DIR = "/data/uploads"
 NPM_CONFIG_PRODUCTION = "false"
 
-# Uncomment to enable persistent volume once available
-# [[volumes]]
-# name = "data"
-# mountPath = "/data"
-# sizeGB = 1
+# Persistent volume for database and uploads
+[[volumes]]
+name = "data"
+mountPath = "/data"
+sizeGB = 1

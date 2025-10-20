@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "city_bars_001",
+    "category": "City guides bars",
+    "sub_category": "New York",
+    "query": "Cocktail bars in Manhattan for craft drinks",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in New York",
+    "constraints": {
+      "location": "New York",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_002",
+    "category": "City guides bars",
+    "sub_category": "New York",
+    "query": "Rooftop bars in Brooklyn for city views",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in New York",
+    "constraints": {
+      "location": "New York",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_003",
+    "category": "City guides bars",
+    "sub_category": "New York",
+    "query": "Speakeasy bars in Queens for hidden gems",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in New York",
+    "constraints": {
+      "location": "New York",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_004",
+    "category": "City guides bars",
+    "sub_category": "New York",
+    "query": "Wine bars in Manhattan for sommelier selections",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in New York",
+    "constraints": {
+      "location": "New York",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_005",
+    "category": "City guides bars",
+    "sub_category": "New York",
+    "query": "Beer halls in Brooklyn for craft brews",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in New York",
+    "constraints": {
+      "location": "New York",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_006",
+    "category": "City guides bars",
+    "sub_category": "New York",
+    "query": "Jazz bars in Queens for live music",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in New York",
+    "constraints": {
+      "location": "New York",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_007",
+    "category": "City guides bars",
+    "sub_category": "New York",
+    "query": "Sports bars in Manhattan for game watching",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in New York",
+    "constraints": {
+      "location": "New York",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_008",
+    "category": "City guides bars",
+    "sub_category": "New York",
+    "query": "Dive bars in Brooklyn for casual drinks",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in New York",
+    "constraints": {
+      "location": "New York",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_009",
+    "category": "City guides bars",
+    "sub_category": "New York",
+    "query": "Lounge bars in Queens for upscale atmosphere",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in New York",
+    "constraints": {
+      "location": "New York",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_010",
+    "category": "City guides bars",
+    "sub_category": "New York",
+    "query": "Tiki bars in Manhattan for tropical vibes",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in New York",
+    "constraints": {
+      "location": "New York",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_011",
+    "category": "City guides bars",
+    "sub_category": "London",
+    "query": "Traditional British pubs in Central London for ale",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in London",
+    "constraints": {
+      "location": "London",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_012",
+    "category": "City guides bars",
+    "sub_category": "London",
+    "query": "Cocktail bars in East London for mixology",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in London",
+    "constraints": {
+      "location": "London",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_013",
+    "category": "City guides bars",
+    "sub_category": "London",
+    "query": "Wine bars in West London for European selections",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in London",
+    "constraints": {
+      "location": "London",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_014",
+    "category": "City guides bars",
+    "sub_category": "London",
+    "query": "Gin bars in South London for botanical drinks",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in London",
+    "constraints": {
+      "location": "London",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_015",
+    "category": "City guides bars",
+    "sub_category": "London",
+    "query": "Beer gardens in North London for outdoor drinking",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in London",
+    "constraints": {
+      "location": "London",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_016",
+    "category": "City guides bars",
+    "sub_category": "London",
+    "query": "Whiskey bars in Central London for single malts",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in London",
+    "constraints": {
+      "location": "London",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_017",
+    "category": "City guides bars",
+    "sub_category": "London",
+    "query": "Rooftop bars in East London for city views",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in London",
+    "constraints": {
+      "location": "London",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_018",
+    "category": "City guides bars",
+    "sub_category": "London",
+    "query": "Jazz bars in West London for live music",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in London",
+    "constraints": {
+      "location": "London",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_019",
+    "category": "City guides bars",
+    "sub_category": "London",
+    "query": "Craft beer bars in South London for local brews",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in London",
+    "constraints": {
+      "location": "London",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_020",
+    "category": "City guides bars",
+    "sub_category": "London",
+    "query": "Champagne bars in North London for celebrations",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in London",
+    "constraints": {
+      "location": "London",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_021",
+    "category": "City guides bars",
+    "sub_category": "Paris",
+    "query": "Wine bars in Montmartre for French selections",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Paris",
+    "constraints": {
+      "location": "Paris",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_022",
+    "category": "City guides bars",
+    "sub_category": "Paris",
+    "query": "Cocktail bars in Marais for creative drinks",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Paris",
+    "constraints": {
+      "location": "Paris",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_023",
+    "category": "City guides bars",
+    "sub_category": "Paris",
+    "query": "Beer bars in Champs-Élysées for international brews",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Paris",
+    "constraints": {
+      "location": "Paris",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_024",
+    "category": "City guides bars",
+    "sub_category": "Paris",
+    "query": "Absinthe bars in Latin Quarter for traditional spirits",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Paris",
+    "constraints": {
+      "location": "Paris",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_025",
+    "category": "City guides bars",
+    "sub_category": "Paris",
+    "query": "Champagne bars in Saint-Germain for bubbles",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Paris",
+    "constraints": {
+      "location": "Paris",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_026",
+    "category": "City guides bars",
+    "sub_category": "Paris",
+    "query": "Rooftop bars in Bastille for city views",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Paris",
+    "constraints": {
+      "location": "Paris",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_027",
+    "category": "City guides bars",
+    "sub_category": "Paris",
+    "query": "Jazz bars in République for live music",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Paris",
+    "constraints": {
+      "location": "Paris",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_028",
+    "category": "City guides bars",
+    "sub_category": "Paris",
+    "query": "Craft beer bars in Opera for artisanal brews",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Paris",
+    "constraints": {
+      "location": "Paris",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_029",
+    "category": "City guides bars",
+    "sub_category": "Paris",
+    "query": "Wine cellars in Montmartre for tastings",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Paris",
+    "constraints": {
+      "location": "Paris",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_030",
+    "category": "City guides bars",
+    "sub_category": "Paris",
+    "query": "Cocktail lounges in Marais for sophisticated drinks",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Paris",
+    "constraints": {
+      "location": "Paris",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_031",
+    "category": "City guides bars",
+    "sub_category": "Miami",
+    "query": "Rooftop bars in South Beach for ocean views",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Miami",
+    "constraints": {
+      "location": "Miami",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_032",
+    "category": "City guides bars",
+    "sub_category": "Miami",
+    "query": "Cocktail bars in Brickell for craft drinks",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Miami",
+    "constraints": {
+      "location": "Miami",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_033",
+    "category": "City guides bars",
+    "sub_category": "Miami",
+    "query": "Beach bars in Wynwood for casual atmosphere",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Miami",
+    "constraints": {
+      "location": "Miami",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_034",
+    "category": "City guides bars",
+    "sub_category": "Miami",
+    "query": "Wine bars in Coral Gables for fine selections",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Miami",
+    "constraints": {
+      "location": "Miami",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_035",
+    "category": "City guides bars",
+    "sub_category": "Miami",
+    "query": "Rum bars in Little Havana for Caribbean spirits",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Miami",
+    "constraints": {
+      "location": "Miami",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_036",
+    "category": "City guides bars",
+    "sub_category": "Miami",
+    "query": "Pool bars in Aventura for resort vibes",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Miami",
+    "constraints": {
+      "location": "Miami",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_037",
+    "category": "City guides bars",
+    "sub_category": "Miami",
+    "query": "Jazz bars in Downtown for live music",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Miami",
+    "constraints": {
+      "location": "Miami",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_038",
+    "category": "City guides bars",
+    "sub_category": "Miami",
+    "query": "Sports bars in Doral for game watching",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Miami",
+    "constraints": {
+      "location": "Miami",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_039",
+    "category": "City guides bars",
+    "sub_category": "Miami",
+    "query": "Lounge bars in Coconut Grove for upscale drinks",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Miami",
+    "constraints": {
+      "location": "Miami",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_040",
+    "category": "City guides bars",
+    "sub_category": "Miami",
+    "query": "Tiki bars in South Beach for tropical cocktails",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Miami",
+    "constraints": {
+      "location": "Miami",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_041",
+    "category": "City guides bars",
+    "sub_category": "Tokyo",
+    "query": "Whiskey bars in Shibuya for Japanese single malts",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Tokyo",
+    "constraints": {
+      "location": "Tokyo",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_042",
+    "category": "City guides bars",
+    "sub_category": "Tokyo",
+    "query": "Cocktail bars in Ginza for precision mixology",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Tokyo",
+    "constraints": {
+      "location": "Tokyo",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_043",
+    "category": "City guides bars",
+    "sub_category": "Tokyo",
+    "query": "Beer bars in Roppongi for international brews",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Tokyo",
+    "constraints": {
+      "location": "Tokyo",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_044",
+    "category": "City guides bars",
+    "sub_category": "Tokyo",
+    "query": "Sake bars in Shinjuku for traditional rice wine",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Tokyo",
+    "constraints": {
+      "location": "Tokyo",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_045",
+    "category": "City guides bars",
+    "sub_category": "Tokyo",
+    "query": "Rooftop bars in Harajuku for city views",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Tokyo",
+    "constraints": {
+      "location": "Tokyo",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_046",
+    "category": "City guides bars",
+    "sub_category": "Tokyo",
+    "query": "Jazz bars in Shibuya for live music",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Tokyo",
+    "constraints": {
+      "location": "Tokyo",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_047",
+    "category": "City guides bars",
+    "sub_category": "Tokyo",
+    "query": "Craft beer bars in Ginza for artisanal brews",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Tokyo",
+    "constraints": {
+      "location": "Tokyo",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_048",
+    "category": "City guides bars",
+    "sub_category": "Tokyo",
+    "query": "Wine bars in Roppongi for international selections",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Tokyo",
+    "constraints": {
+      "location": "Tokyo",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_049",
+    "category": "City guides bars",
+    "sub_category": "Tokyo",
+    "query": "Speakeasy bars in Shinjuku for hidden gems",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Tokyo",
+    "constraints": {
+      "location": "Tokyo",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_050",
+    "category": "City guides bars",
+    "sub_category": "Tokyo",
+    "query": "Karaoke bars in Harajuku for entertainment",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Tokyo",
+    "constraints": {
+      "location": "Tokyo",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_051",
+    "category": "City guides bars",
+    "sub_category": "Madrid",
+    "query": "Tapas bars in La Latina for Spanish small plates",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Madrid",
+    "constraints": {
+      "location": "Madrid",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_052",
+    "category": "City guides bars",
+    "sub_category": "Madrid",
+    "query": "Wine bars in Retiro for Spanish selections",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Madrid",
+    "constraints": {
+      "location": "Madrid",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_053",
+    "category": "City guides bars",
+    "sub_category": "Madrid",
+    "query": "Cocktail bars in Salamanca for creative drinks",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Madrid",
+    "constraints": {
+      "location": "Madrid",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_054",
+    "category": "City guides bars",
+    "sub_category": "Madrid",
+    "query": "Beer bars in Malasaña for craft brews",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Madrid",
+    "constraints": {
+      "location": "Madrid",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_055",
+    "category": "City guides bars",
+    "sub_category": "Madrid",
+    "query": "Rooftop bars in Chueca for city views",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Madrid",
+    "constraints": {
+      "location": "Madrid",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_056",
+    "category": "City guides bars",
+    "sub_category": "Madrid",
+    "query": "Flamenco bars in Gran Vía for live shows",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Madrid",
+    "constraints": {
+      "location": "Madrid",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_057",
+    "category": "City guides bars",
+    "sub_category": "Madrid",
+    "query": "Sherry bars in Lavapiés for traditional fortified wine",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Madrid",
+    "constraints": {
+      "location": "Madrid",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_058",
+    "category": "City guides bars",
+    "sub_category": "Madrid",
+    "query": "Gin bars in Chamberí for Spanish gin",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Madrid",
+    "constraints": {
+      "location": "Madrid",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_059",
+    "category": "City guides bars",
+    "sub_category": "Madrid",
+    "query": "Cava bars in Sol for sparkling wine",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Madrid",
+    "constraints": {
+      "location": "Madrid",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_bars_060",
+    "category": "City guides bars",
+    "sub_category": "Madrid",
+    "query": "Craft beer bars in Moncloa for artisanal brews",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bars in Madrid",
+    "constraints": {
+      "location": "Madrid",
+      "type": "bars"
+    },
+    "expected_result_type": "bar recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  }
+]

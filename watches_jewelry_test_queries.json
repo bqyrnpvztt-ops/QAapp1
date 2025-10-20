@@ -1,0 +1,882 @@
+[
+  {
+    "id": "watches_jewelry_001",
+    "category": "Watches & Jewelry",
+    "sub_category": "Fine Jewelry",
+    "query": "Diamond engagement rings in Manhattan for proposals",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find fine jewelry products",
+    "constraints": {
+      "type": "fine jewelry",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_002",
+    "category": "Watches & Jewelry",
+    "sub_category": "Fine Jewelry",
+    "query": "Pearl necklaces in Brooklyn for elegant occasions",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find fine jewelry products",
+    "constraints": {
+      "type": "fine jewelry",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_003",
+    "category": "Watches & Jewelry",
+    "sub_category": "Fine Jewelry",
+    "query": "Gold bracelets in Queens for special gifts",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find fine jewelry products",
+    "constraints": {
+      "type": "fine jewelry",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_004",
+    "category": "Watches & Jewelry",
+    "sub_category": "Fine Jewelry",
+    "query": "Emerald earrings in Miami for luxury fashion",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find fine jewelry products",
+    "constraints": {
+      "type": "fine jewelry",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_005",
+    "category": "Watches & Jewelry",
+    "sub_category": "Fine Jewelry",
+    "query": "Sapphire pendants in Tokyo for sophisticated style",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find fine jewelry products",
+    "constraints": {
+      "type": "fine jewelry",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_006",
+    "category": "Watches & Jewelry",
+    "sub_category": "Fine Jewelry",
+    "query": "Platinum wedding bands in London for ceremonies",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find fine jewelry products",
+    "constraints": {
+      "type": "fine jewelry",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_007",
+    "category": "Watches & Jewelry",
+    "sub_category": "Fine Jewelry",
+    "query": "Ruby rings in Paris for romantic gestures",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find fine jewelry products",
+    "constraints": {
+      "type": "fine jewelry",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_008",
+    "category": "Watches & Jewelry",
+    "sub_category": "Fine Jewelry",
+    "query": "Diamond earrings in San Francisco for formal events",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find fine jewelry products",
+    "constraints": {
+      "type": "fine jewelry",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_009",
+    "category": "Watches & Jewelry",
+    "sub_category": "Fine Jewelry",
+    "query": "Gold chains in Chicago for everyday luxury",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find fine jewelry products",
+    "constraints": {
+      "type": "fine jewelry",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_010",
+    "category": "Watches & Jewelry",
+    "sub_category": "Fine Jewelry",
+    "query": "Pearl earrings in Boston for classic elegance",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find fine jewelry products",
+    "constraints": {
+      "type": "fine jewelry",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_011",
+    "category": "Watches & Jewelry",
+    "sub_category": "Jewelry",
+    "query": "Silver rings in Manhattan for trendy fashion",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find jewelry products",
+    "constraints": {
+      "type": "jewelry",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_012",
+    "category": "Watches & Jewelry",
+    "sub_category": "Jewelry",
+    "query": "Costume jewelry in Brooklyn for budget-friendly style",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find jewelry products",
+    "constraints": {
+      "type": "jewelry",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_013",
+    "category": "Watches & Jewelry",
+    "sub_category": "Jewelry",
+    "query": "Beaded necklaces in Queens for bohemian looks",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find jewelry products",
+    "constraints": {
+      "type": "jewelry",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_014",
+    "category": "Watches & Jewelry",
+    "sub_category": "Jewelry",
+    "query": "Charm bracelets in Miami for personalized accessories",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find jewelry products",
+    "constraints": {
+      "type": "jewelry",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_015",
+    "category": "Watches & Jewelry",
+    "sub_category": "Jewelry",
+    "query": "Statement earrings in Tokyo for bold fashion",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find jewelry products",
+    "constraints": {
+      "type": "jewelry",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_016",
+    "category": "Watches & Jewelry",
+    "sub_category": "Jewelry",
+    "query": "Vintage brooches in London for unique style",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find jewelry products",
+    "constraints": {
+      "type": "jewelry",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_017",
+    "category": "Watches & Jewelry",
+    "sub_category": "Jewelry",
+    "query": "Anklets in Paris for summer fashion",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find jewelry products",
+    "constraints": {
+      "type": "jewelry",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_018",
+    "category": "Watches & Jewelry",
+    "sub_category": "Jewelry",
+    "query": "Chokers in San Francisco for edgy looks",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find jewelry products",
+    "constraints": {
+      "type": "jewelry",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_019",
+    "category": "Watches & Jewelry",
+    "sub_category": "Jewelry",
+    "query": "Hoop earrings in Chicago for classic style",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find jewelry products",
+    "constraints": {
+      "type": "jewelry",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_020",
+    "category": "Watches & Jewelry",
+    "sub_category": "Jewelry",
+    "query": "Layered necklaces in Boston for layered fashion",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find jewelry products",
+    "constraints": {
+      "type": "jewelry",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_021",
+    "category": "Watches & Jewelry",
+    "sub_category": "Watches",
+    "query": "Luxury watches in Manhattan for business professionals",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find watches products",
+    "constraints": {
+      "type": "watches",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_022",
+    "category": "Watches & Jewelry",
+    "sub_category": "Watches",
+    "query": "Smart watches in Brooklyn for tech enthusiasts",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find watches products",
+    "constraints": {
+      "type": "watches",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_023",
+    "category": "Watches & Jewelry",
+    "sub_category": "Watches",
+    "query": "Vintage watches in Queens for collectors",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find watches products",
+    "constraints": {
+      "type": "watches",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_024",
+    "category": "Watches & Jewelry",
+    "sub_category": "Watches",
+    "query": "Diving watches in Miami for water sports",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find watches products",
+    "constraints": {
+      "type": "watches",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_025",
+    "category": "Watches & Jewelry",
+    "sub_category": "Watches",
+    "query": "Digital watches in Tokyo for modern functionality",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find watches products",
+    "constraints": {
+      "type": "watches",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_026",
+    "category": "Watches & Jewelry",
+    "sub_category": "Watches",
+    "query": "Mechanical watches in London for traditional craftsmanship",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find watches products",
+    "constraints": {
+      "type": "watches",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_027",
+    "category": "Watches & Jewelry",
+    "sub_category": "Watches",
+    "query": "Fashion watches in Paris for style statements",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find watches products",
+    "constraints": {
+      "type": "watches",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_028",
+    "category": "Watches & Jewelry",
+    "sub_category": "Watches",
+    "query": "Sports watches in San Francisco for active lifestyles",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find watches products",
+    "constraints": {
+      "type": "watches",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_029",
+    "category": "Watches & Jewelry",
+    "sub_category": "Watches",
+    "query": "Chronograph watches in Chicago for precision timing",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find watches products",
+    "constraints": {
+      "type": "watches",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_030",
+    "category": "Watches & Jewelry",
+    "sub_category": "Watches",
+    "query": "Minimalist watches in Boston for clean aesthetics",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find watches products",
+    "constraints": {
+      "type": "watches",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_031",
+    "category": "Watches & Jewelry",
+    "sub_category": "Affordable Under 800$",
+    "query": "Budget-friendly rings under $800 in Manhattan",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find affordable under 800$ products",
+    "constraints": {
+      "type": "affordable under 800$",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_032",
+    "category": "Watches & Jewelry",
+    "sub_category": "Affordable Under 800$",
+    "query": "Affordable necklaces under $800 in Brooklyn",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find affordable under 800$ products",
+    "constraints": {
+      "type": "affordable under 800$",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_033",
+    "category": "Watches & Jewelry",
+    "sub_category": "Affordable Under 800$",
+    "query": "Cost-effective earrings under $800 in Queens",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find affordable under 800$ products",
+    "constraints": {
+      "type": "affordable under 800$",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_034",
+    "category": "Watches & Jewelry",
+    "sub_category": "Affordable Under 800$",
+    "query": "Value watches under $800 in Miami",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find affordable under 800$ products",
+    "constraints": {
+      "type": "affordable under 800$",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_035",
+    "category": "Watches & Jewelry",
+    "sub_category": "Affordable Under 800$",
+    "query": "Budget bracelets under $800 in Tokyo",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find affordable under 800$ products",
+    "constraints": {
+      "type": "affordable under 800$",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_036",
+    "category": "Watches & Jewelry",
+    "sub_category": "Affordable Under 800$",
+    "query": "Affordable pendants under $800 in London",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find affordable under 800$ products",
+    "constraints": {
+      "type": "affordable under 800$",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_037",
+    "category": "Watches & Jewelry",
+    "sub_category": "Affordable Under 800$",
+    "query": "Cost-effective brooches under $800 in Paris",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find affordable under 800$ products",
+    "constraints": {
+      "type": "affordable under 800$",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_038",
+    "category": "Watches & Jewelry",
+    "sub_category": "Affordable Under 800$",
+    "query": "Budget-friendly chains under $800 in San Francisco",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find affordable under 800$ products",
+    "constraints": {
+      "type": "affordable under 800$",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_039",
+    "category": "Watches & Jewelry",
+    "sub_category": "Affordable Under 800$",
+    "query": "Affordable cufflinks under $800 in Chicago",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find affordable under 800$ products",
+    "constraints": {
+      "type": "affordable under 800$",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "watches_jewelry_040",
+    "category": "Watches & Jewelry",
+    "sub_category": "Affordable Under 800$",
+    "query": "Value rings under $800 in Boston",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find affordable under 800$ products",
+    "constraints": {
+      "type": "affordable under 800$",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  }
+]

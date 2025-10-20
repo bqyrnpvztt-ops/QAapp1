@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "travel_001",
+    "category": "Travel",
+    "sub_category": "Accommodation",
+    "query": "Luxury hotels in Manhattan for business travelers",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find accommodation services",
+    "constraints": {
+      "type": "accommodation",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_002",
+    "category": "Travel",
+    "sub_category": "Accommodation",
+    "query": "Budget-friendly hostels in Brooklyn for backpackers",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find accommodation services",
+    "constraints": {
+      "type": "accommodation",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_003",
+    "category": "Travel",
+    "sub_category": "Accommodation",
+    "query": "Vacation rentals in Queens for family stays",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find accommodation services",
+    "constraints": {
+      "type": "accommodation",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_004",
+    "category": "Travel",
+    "sub_category": "Accommodation",
+    "query": "Boutique hotels in Miami for romantic getaways",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find accommodation services",
+    "constraints": {
+      "type": "accommodation",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_005",
+    "category": "Travel",
+    "sub_category": "Accommodation",
+    "query": "Resort accommodations in Tokyo for relaxation",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find accommodation services",
+    "constraints": {
+      "type": "accommodation",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_006",
+    "category": "Travel",
+    "sub_category": "Accommodation",
+    "query": "Airbnb apartments in London for extended stays",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find accommodation services",
+    "constraints": {
+      "type": "accommodation",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_007",
+    "category": "Travel",
+    "sub_category": "Accommodation",
+    "query": "Beachfront hotels in Miami for summer vacations",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find accommodation services",
+    "constraints": {
+      "type": "accommodation",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_008",
+    "category": "Travel",
+    "sub_category": "Accommodation",
+    "query": "Historic hotels in Paris for cultural experiences",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find accommodation services",
+    "constraints": {
+      "type": "accommodation",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_009",
+    "category": "Travel",
+    "sub_category": "Accommodation",
+    "query": "Ski resort lodges in Colorado for winter sports",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find accommodation services",
+    "constraints": {
+      "type": "accommodation",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_010",
+    "category": "Travel",
+    "sub_category": "Accommodation",
+    "query": "Pet-friendly hotels in San Francisco for travelers with pets",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find accommodation services",
+    "constraints": {
+      "type": "accommodation",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_011",
+    "category": "Travel",
+    "sub_category": "Activities",
+    "query": "Museum tours in Manhattan for art enthusiasts",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find activities services",
+    "constraints": {
+      "type": "activities",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_012",
+    "category": "Travel",
+    "sub_category": "Activities",
+    "query": "Walking tours in Brooklyn for local culture",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find activities services",
+    "constraints": {
+      "type": "activities",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_013",
+    "category": "Travel",
+    "sub_category": "Activities",
+    "query": "Food tours in Queens for culinary experiences",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find activities services",
+    "constraints": {
+      "type": "activities",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_014",
+    "category": "Travel",
+    "sub_category": "Activities",
+    "query": "Boat cruises in Miami for scenic views",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find activities services",
+    "constraints": {
+      "type": "activities",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_015",
+    "category": "Travel",
+    "sub_category": "Activities",
+    "query": "Temple visits in Tokyo for spiritual experiences",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find activities services",
+    "constraints": {
+      "type": "activities",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_016",
+    "category": "Travel",
+    "sub_category": "Activities",
+    "query": "Theater shows in London for entertainment",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find activities services",
+    "constraints": {
+      "type": "activities",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_017",
+    "category": "Travel",
+    "sub_category": "Activities",
+    "query": "Beach activities in Miami for relaxation",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find activities services",
+    "constraints": {
+      "type": "activities",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_018",
+    "category": "Travel",
+    "sub_category": "Activities",
+    "query": "Art gallery visits in Paris for cultural enrichment",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find activities services",
+    "constraints": {
+      "type": "activities",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_019",
+    "category": "Travel",
+    "sub_category": "Activities",
+    "query": "Hiking trails in Colorado for outdoor adventures",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find activities services",
+    "constraints": {
+      "type": "activities",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_020",
+    "category": "Travel",
+    "sub_category": "Activities",
+    "query": "Wine tasting tours in San Francisco for connoisseurs",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find activities services",
+    "constraints": {
+      "type": "activities",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_021",
+    "category": "Travel",
+    "sub_category": "Dining",
+    "query": "Fine dining restaurants in Manhattan for special occasions",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dining services",
+    "constraints": {
+      "type": "dining",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_022",
+    "category": "Travel",
+    "sub_category": "Dining",
+    "query": "Local food markets in Brooklyn for authentic flavors",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dining services",
+    "constraints": {
+      "type": "dining",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_023",
+    "category": "Travel",
+    "sub_category": "Dining",
+    "query": "Food trucks in Queens for casual dining",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dining services",
+    "constraints": {
+      "type": "dining",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_024",
+    "category": "Travel",
+    "sub_category": "Dining",
+    "query": "Seafood restaurants in Miami for fresh catches",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dining services",
+    "constraints": {
+      "type": "dining",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_025",
+    "category": "Travel",
+    "sub_category": "Dining",
+    "query": "Sushi bars in Tokyo for traditional Japanese cuisine",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dining services",
+    "constraints": {
+      "type": "dining",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_026",
+    "category": "Travel",
+    "sub_category": "Dining",
+    "query": "Pub food in London for British classics",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dining services",
+    "constraints": {
+      "type": "dining",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_027",
+    "category": "Travel",
+    "sub_category": "Dining",
+    "query": "Beachside cafes in Miami for ocean views",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dining services",
+    "constraints": {
+      "type": "dining",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_028",
+    "category": "Travel",
+    "sub_category": "Dining",
+    "query": "Bistros in Paris for French cuisine",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dining services",
+    "constraints": {
+      "type": "dining",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_029",
+    "category": "Travel",
+    "sub_category": "Dining",
+    "query": "Mountain restaurants in Colorado for hearty meals",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dining services",
+    "constraints": {
+      "type": "dining",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_030",
+    "category": "Travel",
+    "sub_category": "Dining",
+    "query": "Farm-to-table restaurants in San Francisco for organic dining",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dining services",
+    "constraints": {
+      "type": "dining",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_031",
+    "category": "Travel",
+    "sub_category": "Flights",
+    "query": "Direct flights from NYC to London for business trips",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find flights services",
+    "constraints": {
+      "type": "flights",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_032",
+    "category": "Travel",
+    "sub_category": "Flights",
+    "query": "Budget airlines from NYC to Miami for weekend getaways",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find flights services",
+    "constraints": {
+      "type": "flights",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_033",
+    "category": "Travel",
+    "sub_category": "Flights",
+    "query": "International flights from NYC to Tokyo for cultural exploration",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find flights services",
+    "constraints": {
+      "type": "flights",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_034",
+    "category": "Travel",
+    "sub_category": "Flights",
+    "query": "Domestic flights from NYC to San Francisco for tech conferences",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find flights services",
+    "constraints": {
+      "type": "flights",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_035",
+    "category": "Travel",
+    "sub_category": "Flights",
+    "query": "Charter flights to Colorado for ski vacations",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find flights services",
+    "constraints": {
+      "type": "flights",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_036",
+    "category": "Travel",
+    "sub_category": "Flights",
+    "query": "First-class flights to Paris for luxury travel",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find flights services",
+    "constraints": {
+      "type": "flights",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_037",
+    "category": "Travel",
+    "sub_category": "Flights",
+    "query": "Group flights for family reunions",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find flights services",
+    "constraints": {
+      "type": "flights",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_038",
+    "category": "Travel",
+    "sub_category": "Flights",
+    "query": "Last-minute flights for spontaneous trips",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find flights services",
+    "constraints": {
+      "type": "flights",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_039",
+    "category": "Travel",
+    "sub_category": "Flights",
+    "query": "Multi-city flights for extended vacations",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find flights services",
+    "constraints": {
+      "type": "flights",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_040",
+    "category": "Travel",
+    "sub_category": "Flights",
+    "query": "Private jet charters for VIP travel",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find flights services",
+    "constraints": {
+      "type": "flights",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_041",
+    "category": "Travel",
+    "sub_category": "Transportation",
+    "query": "Airport transfers in Manhattan for convenient arrivals",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find transportation services",
+    "constraints": {
+      "type": "transportation",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_042",
+    "category": "Travel",
+    "sub_category": "Transportation",
+    "query": "Public transportation passes in Brooklyn for budget travel",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find transportation services",
+    "constraints": {
+      "type": "transportation",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_043",
+    "category": "Travel",
+    "sub_category": "Transportation",
+    "query": "Car rentals in Queens for flexible exploration",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find transportation services",
+    "constraints": {
+      "type": "transportation",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_044",
+    "category": "Travel",
+    "sub_category": "Transportation",
+    "query": "Boat charters in Miami for water activities",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find transportation services",
+    "constraints": {
+      "type": "transportation",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_045",
+    "category": "Travel",
+    "sub_category": "Transportation",
+    "query": "Train passes in Tokyo for efficient city travel",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find transportation services",
+    "constraints": {
+      "type": "transportation",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_046",
+    "category": "Travel",
+    "sub_category": "Transportation",
+    "query": "Taxi services in London for comfortable rides",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find transportation services",
+    "constraints": {
+      "type": "transportation",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_047",
+    "category": "Travel",
+    "sub_category": "Transportation",
+    "query": "Bicycle rentals in Miami for eco-friendly touring",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find transportation services",
+    "constraints": {
+      "type": "transportation",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_048",
+    "category": "Travel",
+    "sub_category": "Transportation",
+    "query": "Metro cards in Paris for urban exploration",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find transportation services",
+    "constraints": {
+      "type": "transportation",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_049",
+    "category": "Travel",
+    "sub_category": "Transportation",
+    "query": "Shuttle services in Colorado for ski resort access",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find transportation services",
+    "constraints": {
+      "type": "transportation",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "travel_050",
+    "category": "Travel",
+    "sub_category": "Transportation",
+    "query": "Ride-sharing services in San Francisco for tech-savvy travel",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find transportation services",
+    "constraints": {
+      "type": "transportation",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  }
+]

@@ -65,8 +65,8 @@ export const useTestStore = defineStore('test', {
       try {
         const response = await axios.get('/api/test-cases', {
           params: {
-            ...filters,
-            limit: 100
+            ...filters
+            // Removed limit to show all test cases
           }
         })
         

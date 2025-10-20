@@ -1,0 +1,2642 @@
+[
+  {
+    "id": "1_001",
+    "category": "Digital Tools & Services",
+    "sub_category": "Entertainment & Event Planning",
+    "query": "Event planning apps for corporate meetings in Manhattan",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find entertainment & event planning services",
+    "constraints": {
+      "type": "entertainment & event planning",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "1_002",
+    "category": "Digital Tools & Services",
+    "sub_category": "Entertainment & Event Planning",
+    "query": "Wedding planning software for DIY brides under $100",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find entertainment & event planning services",
+    "constraints": {
+      "type": "entertainment & event planning",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "1_003",
+    "category": "Digital Tools & Services",
+    "sub_category": "Entertainment & Event Planning",
+    "query": "Birthday party planning apps for kids' parties",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find entertainment & event planning services",
+    "constraints": {
+      "type": "entertainment & event planning",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "1_004",
+    "category": "Digital Tools & Services",
+    "sub_category": "Entertainment & Event Planning",
+    "query": "Conference management tools for tech events in San Francisco",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find entertainment & event planning services",
+    "constraints": {
+      "type": "entertainment & event planning",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "1_005",
+    "category": "Digital Tools & Services",
+    "sub_category": "Entertainment & Event Planning",
+    "query": "Virtual event platforms for corporate training sessions",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find entertainment & event planning services",
+    "constraints": {
+      "type": "entertainment & event planning",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "1_006",
+    "category": "Digital Tools & Services",
+    "sub_category": "Entertainment & Event Planning",
+    "query": "Fundraising event management software for nonprofits",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find entertainment & event planning services",
+    "constraints": {
+      "type": "entertainment & event planning",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "1_007",
+    "category": "Digital Tools & Services",
+    "sub_category": "Entertainment & Event Planning",
+    "query": "Music festival planning apps with vendor management",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find entertainment & event planning services",
+    "constraints": {
+      "type": "entertainment & event planning",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "1_008",
+    "category": "Digital Tools & Services",
+    "sub_category": "Entertainment & Event Planning",
+    "query": "Trade show booth management software for exhibitors",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find entertainment & event planning services",
+    "constraints": {
+      "type": "entertainment & event planning",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "1_009",
+    "category": "Digital Tools & Services",
+    "sub_category": "Entertainment & Event Planning",
+    "query": "Gala dinner planning tools with seating chart features",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find entertainment & event planning services",
+    "constraints": {
+      "type": "entertainment & event planning",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "1_010",
+    "category": "Digital Tools & Services",
+    "sub_category": "Entertainment & Event Planning",
+    "query": "Sports tournament bracket management software",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find entertainment & event planning services",
+    "constraints": {
+      "type": "entertainment & event planning",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "11_001",
+    "category": "Digital Tools & Services",
+    "sub_category": "Travel",
+    "query": "Travel booking apps for European vacation planning",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find travel services",
+    "constraints": {
+      "type": "travel",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "11_002",
+    "category": "Digital Tools & Services",
+    "sub_category": "Travel",
+    "query": "Flight tracking apps with price alerts for business travel",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find travel services",
+    "constraints": {
+      "type": "travel",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "11_003",
+    "category": "Digital Tools & Services",
+    "sub_category": "Travel",
+    "query": "Hotel booking platforms with loyalty rewards programs",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find travel services",
+    "constraints": {
+      "type": "travel",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "11_004",
+    "category": "Digital Tools & Services",
+    "sub_category": "Travel",
+    "query": "Car rental comparison apps for road trips",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find travel services",
+    "constraints": {
+      "type": "travel",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "11_005",
+    "category": "Digital Tools & Services",
+    "sub_category": "Travel",
+    "query": "Travel itinerary planning software for family vacations",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find travel services",
+    "constraints": {
+      "type": "travel",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "11_006",
+    "category": "Digital Tools & Services",
+    "sub_category": "Travel",
+    "query": "Airbnb management tools for property owners",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find travel services",
+    "constraints": {
+      "type": "travel",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "11_007",
+    "category": "Digital Tools & Services",
+    "sub_category": "Travel",
+    "query": "Travel expense tracking apps for business trips",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find travel services",
+    "constraints": {
+      "type": "travel",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "11_008",
+    "category": "Digital Tools & Services",
+    "sub_category": "Travel",
+    "query": "Cruise booking platforms with group discounts",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find travel services",
+    "constraints": {
+      "type": "travel",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "11_009",
+    "category": "Digital Tools & Services",
+    "sub_category": "Travel",
+    "query": "Travel insurance comparison tools for international trips",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find travel services",
+    "constraints": {
+      "type": "travel",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "11_010",
+    "category": "Digital Tools & Services",
+    "sub_category": "Travel",
+    "query": "Language learning apps for travel preparation",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find travel services",
+    "constraints": {
+      "type": "travel",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "21_001",
+    "category": "Digital Tools & Services",
+    "sub_category": "Baby Registry",
+    "query": "Baby registry apps for expecting parents",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find baby registry services",
+    "constraints": {
+      "type": "baby registry",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "21_002",
+    "category": "Digital Tools & Services",
+    "sub_category": "Baby Registry",
+    "query": "Gift tracking software for baby showers",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find baby registry services",
+    "constraints": {
+      "type": "baby registry",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "21_003",
+    "category": "Digital Tools & Services",
+    "sub_category": "Baby Registry",
+    "query": "Registry management tools for new parents",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find baby registry services",
+    "constraints": {
+      "type": "baby registry",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "21_004",
+    "category": "Digital Tools & Services",
+    "sub_category": "Baby Registry",
+    "query": "Baby product recommendation apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find baby registry services",
+    "constraints": {
+      "type": "baby registry",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "21_005",
+    "category": "Digital Tools & Services",
+    "sub_category": "Baby Registry",
+    "query": "Registry sharing platforms for families",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find baby registry services",
+    "constraints": {
+      "type": "baby registry",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "21_006",
+    "category": "Digital Tools & Services",
+    "sub_category": "Baby Registry",
+    "query": "Baby registry comparison tools",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find baby registry services",
+    "constraints": {
+      "type": "baby registry",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "21_007",
+    "category": "Digital Tools & Services",
+    "sub_category": "Baby Registry",
+    "query": "Registry reminder apps for friends",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find baby registry services",
+    "constraints": {
+      "type": "baby registry",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "21_008",
+    "category": "Digital Tools & Services",
+    "sub_category": "Baby Registry",
+    "query": "Baby registry analytics for retailers",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find baby registry services",
+    "constraints": {
+      "type": "baby registry",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "21_009",
+    "category": "Digital Tools & Services",
+    "sub_category": "Baby Registry",
+    "query": "Registry integration tools for stores",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find baby registry services",
+    "constraints": {
+      "type": "baby registry",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "21_010",
+    "category": "Digital Tools & Services",
+    "sub_category": "Baby Registry",
+    "query": "Baby registry mobile apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find baby registry services",
+    "constraints": {
+      "type": "baby registry",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "31_001",
+    "category": "Digital Tools & Services",
+    "sub_category": "Furniture",
+    "query": "Furniture shopping apps with AR visualization",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find furniture services",
+    "constraints": {
+      "type": "furniture",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "31_002",
+    "category": "Digital Tools & Services",
+    "sub_category": "Furniture",
+    "query": "Interior design software for home decorating",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find furniture services",
+    "constraints": {
+      "type": "furniture",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "31_003",
+    "category": "Digital Tools & Services",
+    "sub_category": "Furniture",
+    "query": "Furniture comparison tools for living rooms",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find furniture services",
+    "constraints": {
+      "type": "furniture",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "31_004",
+    "category": "Digital Tools & Services",
+    "sub_category": "Furniture",
+    "query": "Custom furniture design platforms",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find furniture services",
+    "constraints": {
+      "type": "furniture",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "31_005",
+    "category": "Digital Tools & Services",
+    "sub_category": "Furniture",
+    "query": "Furniture delivery tracking apps",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find furniture services",
+    "constraints": {
+      "type": "furniture",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "31_006",
+    "category": "Digital Tools & Services",
+    "sub_category": "Furniture",
+    "query": "Furniture assembly instruction apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find furniture services",
+    "constraints": {
+      "type": "furniture",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "31_007",
+    "category": "Digital Tools & Services",
+    "sub_category": "Furniture",
+    "query": "Furniture marketplace platforms",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find furniture services",
+    "constraints": {
+      "type": "furniture",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "31_008",
+    "category": "Digital Tools & Services",
+    "sub_category": "Furniture",
+    "query": "Furniture rental apps for temporary needs",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find furniture services",
+    "constraints": {
+      "type": "furniture",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "31_009",
+    "category": "Digital Tools & Services",
+    "sub_category": "Furniture",
+    "query": "Furniture maintenance reminder apps",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find furniture services",
+    "constraints": {
+      "type": "furniture",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "31_010",
+    "category": "Digital Tools & Services",
+    "sub_category": "Furniture",
+    "query": "Furniture resale platforms",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find furniture services",
+    "constraints": {
+      "type": "furniture",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "41_001",
+    "category": "Digital Tools & Services",
+    "sub_category": "Parenting",
+    "query": "Parenting advice apps for new mothers",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find parenting services",
+    "constraints": {
+      "type": "parenting",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "41_002",
+    "category": "Digital Tools & Services",
+    "sub_category": "Parenting",
+    "query": "Child development tracking software",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find parenting services",
+    "constraints": {
+      "type": "parenting",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "41_003",
+    "category": "Digital Tools & Services",
+    "sub_category": "Parenting",
+    "query": "Parenting community platforms",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find parenting services",
+    "constraints": {
+      "type": "parenting",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "41_004",
+    "category": "Digital Tools & Services",
+    "sub_category": "Parenting",
+    "query": "Child safety monitoring apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find parenting services",
+    "constraints": {
+      "type": "parenting",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "41_005",
+    "category": "Digital Tools & Services",
+    "sub_category": "Parenting",
+    "query": "Parenting schedule management tools",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find parenting services",
+    "constraints": {
+      "type": "parenting",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "41_006",
+    "category": "Digital Tools & Services",
+    "sub_category": "Parenting",
+    "query": "Child milestone tracking apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find parenting services",
+    "constraints": {
+      "type": "parenting",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "41_007",
+    "category": "Digital Tools & Services",
+    "sub_category": "Parenting",
+    "query": "Parenting resource libraries",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find parenting services",
+    "constraints": {
+      "type": "parenting",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "41_008",
+    "category": "Digital Tools & Services",
+    "sub_category": "Parenting",
+    "query": "Child behavior management apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find parenting services",
+    "constraints": {
+      "type": "parenting",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "41_009",
+    "category": "Digital Tools & Services",
+    "sub_category": "Parenting",
+    "query": "Parenting support group platforms",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find parenting services",
+    "constraints": {
+      "type": "parenting",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "41_010",
+    "category": "Digital Tools & Services",
+    "sub_category": "Parenting",
+    "query": "Child activity planning apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find parenting services",
+    "constraints": {
+      "type": "parenting",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "51_001",
+    "category": "Digital Tools & Services",
+    "sub_category": "Shopping",
+    "query": "Price comparison apps for online shopping",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find shopping services",
+    "constraints": {
+      "type": "shopping",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "51_002",
+    "category": "Digital Tools & Services",
+    "sub_category": "Shopping",
+    "query": "Shopping list management apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find shopping services",
+    "constraints": {
+      "type": "shopping",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "51_003",
+    "category": "Digital Tools & Services",
+    "sub_category": "Shopping",
+    "query": "Coupon and discount finding tools",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find shopping services",
+    "constraints": {
+      "type": "shopping",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "51_004",
+    "category": "Digital Tools & Services",
+    "sub_category": "Shopping",
+    "query": "Shopping cart optimization apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find shopping services",
+    "constraints": {
+      "type": "shopping",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "51_005",
+    "category": "Digital Tools & Services",
+    "sub_category": "Shopping",
+    "query": "Product review aggregation platforms",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find shopping services",
+    "constraints": {
+      "type": "shopping",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "51_006",
+    "category": "Digital Tools & Services",
+    "sub_category": "Shopping",
+    "query": "Shopping budget tracking apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find shopping services",
+    "constraints": {
+      "type": "shopping",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "51_007",
+    "category": "Digital Tools & Services",
+    "sub_category": "Shopping",
+    "query": "Shopping recommendation engines",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find shopping services",
+    "constraints": {
+      "type": "shopping",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "51_008",
+    "category": "Digital Tools & Services",
+    "sub_category": "Shopping",
+    "query": "Shopping social sharing platforms",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find shopping services",
+    "constraints": {
+      "type": "shopping",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "51_009",
+    "category": "Digital Tools & Services",
+    "sub_category": "Shopping",
+    "query": "Shopping analytics tools",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find shopping services",
+    "constraints": {
+      "type": "shopping",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "51_010",
+    "category": "Digital Tools & Services",
+    "sub_category": "Shopping",
+    "query": "Shopping wishlist management apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find shopping services",
+    "constraints": {
+      "type": "shopping",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "61_001",
+    "category": "Digital Tools & Services",
+    "sub_category": "Insurance",
+    "query": "Insurance comparison tools for auto coverage",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find insurance services",
+    "constraints": {
+      "type": "insurance",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "61_002",
+    "category": "Digital Tools & Services",
+    "sub_category": "Insurance",
+    "query": "Health insurance marketplace apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find insurance services",
+    "constraints": {
+      "type": "insurance",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "61_003",
+    "category": "Digital Tools & Services",
+    "sub_category": "Insurance",
+    "query": "Insurance claim filing software",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find insurance services",
+    "constraints": {
+      "type": "insurance",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "61_004",
+    "category": "Digital Tools & Services",
+    "sub_category": "Insurance",
+    "query": "Insurance policy management apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find insurance services",
+    "constraints": {
+      "type": "insurance",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "61_005",
+    "category": "Digital Tools & Services",
+    "sub_category": "Insurance",
+    "query": "Insurance premium calculator tools",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find insurance services",
+    "constraints": {
+      "type": "insurance",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "61_006",
+    "category": "Digital Tools & Services",
+    "sub_category": "Insurance",
+    "query": "Insurance document storage apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find insurance services",
+    "constraints": {
+      "type": "insurance",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "61_007",
+    "category": "Digital Tools & Services",
+    "sub_category": "Insurance",
+    "query": "Insurance renewal reminder apps",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find insurance services",
+    "constraints": {
+      "type": "insurance",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "61_008",
+    "category": "Digital Tools & Services",
+    "sub_category": "Insurance",
+    "query": "Insurance agent finder platforms",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find insurance services",
+    "constraints": {
+      "type": "insurance",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "61_009",
+    "category": "Digital Tools & Services",
+    "sub_category": "Insurance",
+    "query": "Insurance coverage analysis tools",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find insurance services",
+    "constraints": {
+      "type": "insurance",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "61_010",
+    "category": "Digital Tools & Services",
+    "sub_category": "Insurance",
+    "query": "Insurance mobile payment apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find insurance services",
+    "constraints": {
+      "type": "insurance",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "71_001",
+    "category": "Digital Tools & Services",
+    "sub_category": "App",
+    "query": "Mobile app development platforms",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find app services",
+    "constraints": {
+      "type": "app",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "71_002",
+    "category": "Digital Tools & Services",
+    "sub_category": "App",
+    "query": "App store optimization tools",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find app services",
+    "constraints": {
+      "type": "app",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "71_003",
+    "category": "Digital Tools & Services",
+    "sub_category": "App",
+    "query": "App analytics and tracking software",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find app services",
+    "constraints": {
+      "type": "app",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "71_004",
+    "category": "Digital Tools & Services",
+    "sub_category": "App",
+    "query": "App testing and QA platforms",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find app services",
+    "constraints": {
+      "type": "app",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "71_005",
+    "category": "Digital Tools & Services",
+    "sub_category": "App",
+    "query": "App monetization management tools",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find app services",
+    "constraints": {
+      "type": "app",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "71_006",
+    "category": "Digital Tools & Services",
+    "sub_category": "App",
+    "query": "App user feedback collection apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find app services",
+    "constraints": {
+      "type": "app",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "71_007",
+    "category": "Digital Tools & Services",
+    "sub_category": "App",
+    "query": "App performance monitoring tools",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find app services",
+    "constraints": {
+      "type": "app",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "71_008",
+    "category": "Digital Tools & Services",
+    "sub_category": "App",
+    "query": "App security testing platforms",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find app services",
+    "constraints": {
+      "type": "app",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "71_009",
+    "category": "Digital Tools & Services",
+    "sub_category": "App",
+    "query": "App deployment automation tools",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find app services",
+    "constraints": {
+      "type": "app",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "71_010",
+    "category": "Digital Tools & Services",
+    "sub_category": "App",
+    "query": "App store listing management apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find app services",
+    "constraints": {
+      "type": "app",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "81_001",
+    "category": "Digital Tools & Services",
+    "sub_category": "Food",
+    "query": "Recipe management and meal planning apps",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find food services",
+    "constraints": {
+      "type": "food",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "81_002",
+    "category": "Digital Tools & Services",
+    "sub_category": "Food",
+    "query": "Food delivery platform comparison tools",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find food services",
+    "constraints": {
+      "type": "food",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "81_003",
+    "category": "Digital Tools & Services",
+    "sub_category": "Food",
+    "query": "Restaurant reservation management apps",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find food services",
+    "constraints": {
+      "type": "food",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "81_004",
+    "category": "Digital Tools & Services",
+    "sub_category": "Food",
+    "query": "Food allergy tracking and management apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find food services",
+    "constraints": {
+      "type": "food",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "81_005",
+    "category": "Digital Tools & Services",
+    "sub_category": "Food",
+    "query": "Nutrition tracking and calorie counting apps",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find food services",
+    "constraints": {
+      "type": "food",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "81_006",
+    "category": "Digital Tools & Services",
+    "sub_category": "Food",
+    "query": "Food waste reduction and management apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find food services",
+    "constraints": {
+      "type": "food",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "81_007",
+    "category": "Digital Tools & Services",
+    "sub_category": "Food",
+    "query": "Local food sourcing and farm-to-table apps",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find food services",
+    "constraints": {
+      "type": "food",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "81_008",
+    "category": "Digital Tools & Services",
+    "sub_category": "Food",
+    "query": "Food safety and expiration tracking apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find food services",
+    "constraints": {
+      "type": "food",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "81_009",
+    "category": "Digital Tools & Services",
+    "sub_category": "Food",
+    "query": "Cooking instruction and tutorial apps",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find food services",
+    "constraints": {
+      "type": "food",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "81_010",
+    "category": "Digital Tools & Services",
+    "sub_category": "Food",
+    "query": "Food social sharing and review platforms",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find food services",
+    "constraints": {
+      "type": "food",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "91_001",
+    "category": "Digital Tools & Services",
+    "sub_category": "Creative Agency",
+    "query": "Creative project management software",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find creative agency services",
+    "constraints": {
+      "type": "creative agency",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "91_002",
+    "category": "Digital Tools & Services",
+    "sub_category": "Creative Agency",
+    "query": "Design collaboration and feedback tools",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find creative agency services",
+    "constraints": {
+      "type": "creative agency",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "91_003",
+    "category": "Digital Tools & Services",
+    "sub_category": "Creative Agency",
+    "query": "Creative asset management platforms",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find creative agency services",
+    "constraints": {
+      "type": "creative agency",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "91_004",
+    "category": "Digital Tools & Services",
+    "sub_category": "Creative Agency",
+    "query": "Client communication and approval systems",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find creative agency services",
+    "constraints": {
+      "type": "creative agency",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "91_005",
+    "category": "Digital Tools & Services",
+    "sub_category": "Creative Agency",
+    "query": "Creative workflow automation tools",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find creative agency services",
+    "constraints": {
+      "type": "creative agency",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "91_006",
+    "category": "Digital Tools & Services",
+    "sub_category": "Creative Agency",
+    "query": "Design version control and history apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find creative agency services",
+    "constraints": {
+      "type": "creative agency",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "91_007",
+    "category": "Digital Tools & Services",
+    "sub_category": "Creative Agency",
+    "query": "Creative team collaboration platforms",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find creative agency services",
+    "constraints": {
+      "type": "creative agency",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "91_008",
+    "category": "Digital Tools & Services",
+    "sub_category": "Creative Agency",
+    "query": "Creative project timeline management tools",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find creative agency services",
+    "constraints": {
+      "type": "creative agency",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "91_009",
+    "category": "Digital Tools & Services",
+    "sub_category": "Creative Agency",
+    "query": "Creative resource and inspiration libraries",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find creative agency services",
+    "constraints": {
+      "type": "creative agency",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "91_010",
+    "category": "Digital Tools & Services",
+    "sub_category": "Creative Agency",
+    "query": "Creative billing and invoicing software",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find creative agency services",
+    "constraints": {
+      "type": "creative agency",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "101_001",
+    "category": "Digital Tools & Services",
+    "sub_category": "Styling",
+    "query": "Personal styling consultation apps",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find styling services",
+    "constraints": {
+      "type": "styling",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "101_002",
+    "category": "Digital Tools & Services",
+    "sub_category": "Styling",
+    "query": "Wardrobe organization and management tools",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find styling services",
+    "constraints": {
+      "type": "styling",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "101_003",
+    "category": "Digital Tools & Services",
+    "sub_category": "Styling",
+    "query": "Style inspiration and mood board apps",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find styling services",
+    "constraints": {
+      "type": "styling",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "101_004",
+    "category": "Digital Tools & Services",
+    "sub_category": "Styling",
+    "query": "Clothing coordination and outfit planning apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find styling services",
+    "constraints": {
+      "type": "styling",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "101_005",
+    "category": "Digital Tools & Services",
+    "sub_category": "Styling",
+    "query": "Style advice and recommendation platforms",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find styling services",
+    "constraints": {
+      "type": "styling",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "101_006",
+    "category": "Digital Tools & Services",
+    "sub_category": "Styling",
+    "query": "Fashion trend tracking and analysis apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find styling services",
+    "constraints": {
+      "type": "styling",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "101_007",
+    "category": "Digital Tools & Services",
+    "sub_category": "Styling",
+    "query": "Personal shopper and styling services",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find styling services",
+    "constraints": {
+      "type": "styling",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "101_008",
+    "category": "Digital Tools & Services",
+    "sub_category": "Styling",
+    "query": "Style social sharing and community platforms",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find styling services",
+    "constraints": {
+      "type": "styling",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "101_009",
+    "category": "Digital Tools & Services",
+    "sub_category": "Styling",
+    "query": "Clothing care and maintenance reminder apps",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find styling services",
+    "constraints": {
+      "type": "styling",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "101_010",
+    "category": "Digital Tools & Services",
+    "sub_category": "Styling",
+    "query": "Style budget and shopping planning tools",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find styling services",
+    "constraints": {
+      "type": "styling",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "111_001",
+    "category": "Digital Tools & Services",
+    "sub_category": "Photographer",
+    "query": "Photography portfolio management platforms",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find photographer services",
+    "constraints": {
+      "type": "photographer",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "111_002",
+    "category": "Digital Tools & Services",
+    "sub_category": "Photographer",
+    "query": "Client booking and scheduling software",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find photographer services",
+    "constraints": {
+      "type": "photographer",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "111_003",
+    "category": "Digital Tools & Services",
+    "sub_category": "Photographer",
+    "query": "Photo editing and post-processing tools",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find photographer services",
+    "constraints": {
+      "type": "photographer",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "111_004",
+    "category": "Digital Tools & Services",
+    "sub_category": "Photographer",
+    "query": "Photography business management apps",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find photographer services",
+    "constraints": {
+      "type": "photographer",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "111_005",
+    "category": "Digital Tools & Services",
+    "sub_category": "Photographer",
+    "query": "Client gallery and proofing platforms",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find photographer services",
+    "constraints": {
+      "type": "photographer",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "111_006",
+    "category": "Digital Tools & Services",
+    "sub_category": "Photographer",
+    "query": "Photography equipment tracking and management",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find photographer services",
+    "constraints": {
+      "type": "photographer",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "111_007",
+    "category": "Digital Tools & Services",
+    "sub_category": "Photographer",
+    "query": "Photography pricing and quote generation tools",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find photographer services",
+    "constraints": {
+      "type": "photographer",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "111_008",
+    "category": "Digital Tools & Services",
+    "sub_category": "Photographer",
+    "query": "Photography contract and agreement management",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find photographer services",
+    "constraints": {
+      "type": "photographer",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "111_009",
+    "category": "Digital Tools & Services",
+    "sub_category": "Photographer",
+    "query": "Photography marketing and social media tools",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find photographer services",
+    "constraints": {
+      "type": "photographer",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "111_010",
+    "category": "Digital Tools & Services",
+    "sub_category": "Photographer",
+    "query": "Photography client communication platforms",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find photographer services",
+    "constraints": {
+      "type": "photographer",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  }
+]

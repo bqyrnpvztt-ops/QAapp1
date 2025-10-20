@@ -1,0 +1,601 @@
+[
+  {
+    "id": "city_shops_001",
+    "category": "City guides shops",
+    "sub_category": "Furniture & Home",
+    "query": "Modern furniture stores in Manhattan for apartment decorating",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find modern furniture stores for apartment",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "furniture stores",
+      "style": "modern",
+      "purpose": "apartment decorating"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_002",
+    "category": "City guides shops",
+    "sub_category": "Decor",
+    "query": "Home decor stores in Brooklyn with vintage items",
+    "demographic_profile": {
+      "age_range": "25-35",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find home decor stores with vintage items",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "home decor stores",
+      "style": "vintage items"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_003",
+    "category": "City guides shops",
+    "sub_category": "Vintage Clothing",
+    "query": "Vintage clothing stores in East Village for 90s fashion",
+    "demographic_profile": {
+      "age_range": "20-30",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find vintage clothing stores for 90s fashion",
+    "constraints": {
+      "location": "East Village",
+      "type": "vintage clothing stores",
+      "era": "90s fashion"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_004",
+    "category": "City guides shops",
+    "sub_category": "Market",
+    "query": "Farmers markets in Brooklyn with organic produce",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find farmers markets with organic produce",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "farmers markets",
+      "produce": "organic"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_005",
+    "category": "City guides shops",
+    "sub_category": "Art",
+    "query": "Art galleries in SoHo featuring contemporary artists",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find art galleries with contemporary art",
+    "constraints": {
+      "location": "SoHo",
+      "type": "art galleries",
+      "style": "contemporary artists"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_006",
+    "category": "City guides shops",
+    "sub_category": "Grocery & Specialty Food",
+    "query": "Specialty food stores in Manhattan with imported cheeses",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find specialty food stores with imported cheeses",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "specialty food stores",
+      "product": "imported cheeses"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_007",
+    "category": "City guides shops",
+    "sub_category": "Bridal",
+    "query": "Bridal shops in Manhattan for wedding dress shopping",
+    "demographic_profile": {
+      "age_range": "25-35",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bridal shops for wedding dress shopping",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "bridal shops",
+      "purpose": "wedding dress shopping"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_008",
+    "category": "City guides shops",
+    "sub_category": "Beauty",
+    "query": "Beauty supply stores in Queens with Korean skincare products",
+    "demographic_profile": {
+      "age_range": "20-35",
+      "gender": "female",
+      "cultural_context": "Korean-American"
+    },
+    "query_intent": "Find beauty supply stores with Korean skincare",
+    "constraints": {
+      "location": "Queens",
+      "type": "beauty supply stores",
+      "product": "Korean skincare products"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_009",
+    "category": "City guides shops",
+    "sub_category": "Gardening",
+    "query": "Garden centers in Brooklyn with indoor plants",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find garden centers with indoor plants",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "garden centers",
+      "plants": "indoor plants"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_010",
+    "category": "City guides shops",
+    "sub_category": "Bookstore",
+    "query": "Independent bookstores in Manhattan with rare books",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find independent bookstores with rare books",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "independent bookstores",
+      "specialty": "rare books"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_011",
+    "category": "City guides shops",
+    "sub_category": "Grocery store",
+    "query": "Organic grocery stores in Brooklyn with bulk items",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find organic grocery stores with bulk items",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "organic grocery stores",
+      "feature": "bulk items"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_012",
+    "category": "City guides shops",
+    "sub_category": "Wellness",
+    "query": "Wellness stores in Manhattan with CBD products",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find wellness stores with CBD products",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "wellness stores",
+      "product": "CBD products"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_013",
+    "category": "City guides shops",
+    "sub_category": "Mall",
+    "query": "Shopping malls in Queens with department stores",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find shopping malls with department stores",
+    "constraints": {
+      "location": "Queens",
+      "type": "shopping malls",
+      "stores": "department stores"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_014",
+    "category": "City guides shops",
+    "sub_category": "Jewelry store",
+    "query": "Jewelry stores in Manhattan with custom design services",
+    "demographic_profile": {
+      "age_range": "28-45",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find jewelry stores with custom design",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "jewelry stores",
+      "service": "custom design"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_015",
+    "category": "City guides shops",
+    "sub_category": "Tea shop",
+    "query": "Tea shops in Brooklyn with loose leaf teas",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find tea shops with loose leaf teas",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "tea shops",
+      "product": "loose leaf teas"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_016",
+    "category": "City guides shops",
+    "sub_category": "Stationary",
+    "query": "Stationery stores in Manhattan with luxury pens",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find stationery stores with luxury pens",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "stationery stores",
+      "product": "luxury pens"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_017",
+    "category": "City guides shops",
+    "sub_category": "Accessories",
+    "query": "Accessory stores in SoHo with designer handbags",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find accessory stores with designer handbags",
+    "constraints": {
+      "location": "SoHo",
+      "type": "accessory stores",
+      "product": "designer handbags"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_018",
+    "category": "City guides shops",
+    "sub_category": "Gift Shop",
+    "query": "Gift shops in Brooklyn with local artisan products",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find gift shops with local artisan products",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "gift shops",
+      "product": "local artisan products"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_019",
+    "category": "City guides shops",
+    "sub_category": "Children's",
+    "query": "Children's toy stores in Manhattan with educational toys",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find children's toy stores with educational toys",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "children's toy stores",
+      "product": "educational toys"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_020",
+    "category": "City guides shops",
+    "sub_category": "Food court",
+    "query": "Food courts in Queens with diverse international cuisine",
+    "demographic_profile": {
+      "age_range": "20-35",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find food courts with international cuisine",
+    "constraints": {
+      "location": "Queens",
+      "type": "food courts",
+      "cuisine": "diverse international"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_021",
+    "category": "City guides shops",
+    "sub_category": "Shoes",
+    "query": "Shoe stores in Brooklyn with wide width options",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find shoe stores with wide width options",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "shoe stores",
+      "feature": "wide width options"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_022",
+    "category": "City guides shops",
+    "sub_category": "Butcher",
+    "query": "Butcher shops in Manhattan with grass-fed beef",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find butcher shops with grass-fed beef",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "butcher shops",
+      "meat": "grass-fed beef"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_023",
+    "category": "City guides shops",
+    "sub_category": "Shoe Store",
+    "query": "Running shoe stores in Queens with gait analysis",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find running shoe stores with gait analysis",
+    "constraints": {
+      "location": "Queens",
+      "type": "running shoe stores",
+      "service": "gait analysis"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_024",
+    "category": "City guides shops",
+    "sub_category": "Jewelry",
+    "query": "Antique jewelry stores in Manhattan with vintage pieces",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find antique jewelry stores with vintage pieces",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "antique jewelry stores",
+      "product": "vintage pieces"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_025",
+    "category": "City guides shops",
+    "sub_category": "Wine & Spirits",
+    "query": "Wine shops in Brooklyn with rare vintage bottles",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find wine shops with rare vintage bottles",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "wine shops",
+      "product": "rare vintage bottles"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_shops_026",
+    "category": "City guides shops",
+    "sub_category": "Secondhand",
+    "query": "Secondhand stores in Brooklyn with designer clothing",
+    "demographic_profile": {
+      "age_range": "20-35",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find secondhand stores with designer clothing",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "secondhand stores",
+      "product": "designer clothing"
+    },
+    "expected_result_type": "store recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  }
+]

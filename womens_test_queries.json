@@ -1,0 +1,693 @@
+[
+  {
+    "id": "womens_001",
+    "category": "women's",
+    "sub_category": "Clothing",
+    "query": "Business suits for women in Manhattan under $500",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find business suits for women",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "business suits",
+      "gender": "women",
+      "budget": "under $500"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_002",
+    "category": "women's",
+    "sub_category": "Clothing",
+    "query": "Dresses in Brooklyn for cocktail parties",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dresses for cocktail parties",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "dresses",
+      "occasion": "cocktail parties"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_003",
+    "category": "women's",
+    "sub_category": "Clothing",
+    "query": "Jeans in Queens for casual weekend wear",
+    "demographic_profile": {
+      "age_range": "20-35",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find jeans for casual weekend wear",
+    "constraints": {
+      "location": "Queens",
+      "type": "jeans",
+      "occasion": "casual weekend wear"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_004",
+    "category": "women's",
+    "sub_category": "Clothing",
+    "query": "Blouses in Manhattan for office work",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find blouses for office work",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "blouses",
+      "use": "office work"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_005",
+    "category": "women's",
+    "sub_category": "Clothing",
+    "query": "Skirts in Brooklyn for business meetings",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find skirts for business meetings",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "skirts",
+      "occasion": "business meetings"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_006",
+    "category": "women's",
+    "sub_category": "Clothing",
+    "query": "Tops in Queens for summer casual wear",
+    "demographic_profile": {
+      "age_range": "20-35",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find tops for summer casual wear",
+    "constraints": {
+      "location": "Queens",
+      "type": "tops",
+      "season": "summer casual wear"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_007",
+    "category": "women's",
+    "sub_category": "Clothing",
+    "query": "Coats in Manhattan for winter weather",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find coats for winter weather",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "coats",
+      "season": "winter weather"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_008",
+    "category": "women's",
+    "sub_category": "Clothing",
+    "query": "Pants in Brooklyn for business casual",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find pants for business casual",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "pants",
+      "style": "business casual"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_009",
+    "category": "women's",
+    "sub_category": "Clothing",
+    "query": "Sweaters in Queens for winter layering",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find sweaters for winter layering",
+    "constraints": {
+      "location": "Queens",
+      "type": "sweaters",
+      "use": "winter layering"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_010",
+    "category": "women's",
+    "sub_category": "Clothing",
+    "query": "Shorts in Manhattan for summer activities",
+    "demographic_profile": {
+      "age_range": "20-35",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find shorts for summer activities",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "shorts",
+      "season": "summer activities"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_011",
+    "category": "women's",
+    "sub_category": "Footwear",
+    "query": "Comfortable heels in Brooklyn for all-day wear",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find comfortable heels for all-day wear",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "comfortable heels",
+      "use": "all-day wear"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_012",
+    "category": "women's",
+    "sub_category": "Footwear",
+    "query": "Flats in Queens for office work",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find flats for office work",
+    "constraints": {
+      "location": "Queens",
+      "type": "flats",
+      "use": "office work"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_013",
+    "category": "women's",
+    "sub_category": "Footwear",
+    "query": "Boots in Manhattan for winter weather",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find boots for winter weather",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "boots",
+      "season": "winter weather"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_014",
+    "category": "women's",
+    "sub_category": "Footwear",
+    "query": "Sneakers in Brooklyn for gym workouts",
+    "demographic_profile": {
+      "age_range": "20-35",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find sneakers for gym workouts",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "sneakers",
+      "use": "gym workouts"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_015",
+    "category": "women's",
+    "sub_category": "Footwear",
+    "query": "Sandals in Queens for summer vacation",
+    "demographic_profile": {
+      "age_range": "20-35",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find sandals for summer vacation",
+    "constraints": {
+      "location": "Queens",
+      "type": "sandals",
+      "season": "summer vacation"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_016",
+    "category": "women's",
+    "sub_category": "Footwear",
+    "query": "Wedges in Manhattan for evening events",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find wedges for evening events",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "wedges",
+      "occasion": "evening events"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_017",
+    "category": "women's",
+    "sub_category": "Footwear",
+    "query": "Loafers in Brooklyn for business casual",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find loafers for business casual",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "loafers",
+      "style": "business casual"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_018",
+    "category": "women's",
+    "sub_category": "Footwear",
+    "query": "Ankle boots in Queens for fall fashion",
+    "demographic_profile": {
+      "age_range": "20-35",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find ankle boots for fall fashion",
+    "constraints": {
+      "location": "Queens",
+      "type": "ankle boots",
+      "season": "fall fashion"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_019",
+    "category": "women's",
+    "sub_category": "Footwear",
+    "query": "Pumps in Manhattan for formal occasions",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find pumps for formal occasions",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "pumps",
+      "occasion": "formal occasions"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_020",
+    "category": "women's",
+    "sub_category": "Footwear",
+    "query": "Running shoes in Brooklyn for marathon training",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find running shoes for marathon training",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "running shoes",
+      "purpose": "marathon training"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_021",
+    "category": "women's",
+    "sub_category": "Accessories",
+    "query": "Designer handbags in Queens with crossbody options",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find designer handbags with crossbody options",
+    "constraints": {
+      "location": "Queens",
+      "type": "designer handbags",
+      "style": "crossbody options"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_022",
+    "category": "women's",
+    "sub_category": "Accessories",
+    "query": "Jewelry in Manhattan for special occasions",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find jewelry for special occasions",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "jewelry",
+      "occasion": "special occasions"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_023",
+    "category": "women's",
+    "sub_category": "Accessories",
+    "query": "Scarves in Brooklyn for winter fashion",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find scarves for winter fashion",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "scarves",
+      "season": "winter fashion"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_024",
+    "category": "women's",
+    "sub_category": "Accessories",
+    "query": "Belts in Queens for waist definition",
+    "demographic_profile": {
+      "age_range": "20-35",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find belts for waist definition",
+    "constraints": {
+      "location": "Queens",
+      "type": "belts",
+      "purpose": "waist definition"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_025",
+    "category": "women's",
+    "sub_category": "Accessories",
+    "query": "Sunglasses in Manhattan for summer protection",
+    "demographic_profile": {
+      "age_range": "20-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find sunglasses for summer protection",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "sunglasses",
+      "season": "summer protection"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_026",
+    "category": "women's",
+    "sub_category": "Accessories",
+    "query": "Watches in Brooklyn for everyday wear",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find watches for everyday wear",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "watches",
+      "use": "everyday wear"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_027",
+    "category": "women's",
+    "sub_category": "Accessories",
+    "query": "Hair accessories in Queens for special events",
+    "demographic_profile": {
+      "age_range": "20-35",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find hair accessories for special events",
+    "constraints": {
+      "location": "Queens",
+      "type": "hair accessories",
+      "occasion": "special events"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_028",
+    "category": "women's",
+    "sub_category": "Accessories",
+    "query": "Gloves in Manhattan for winter weather",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find gloves for winter weather",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "gloves",
+      "season": "winter weather"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_029",
+    "category": "women's",
+    "sub_category": "Accessories",
+    "query": "Purses in Brooklyn for evening events",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find purses for evening events",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "purses",
+      "occasion": "evening events"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "womens_030",
+    "category": "women's",
+    "sub_category": "Accessories",
+    "query": "Earrings in Queens for office wear",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find earrings for office wear",
+    "constraints": {
+      "location": "Queens",
+      "type": "earrings",
+      "use": "office wear"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  }
+]

@@ -4,8 +4,8 @@
     <div class="card">
       <div class="flex justify-between items-center">
         <div>
-          <h1>Test History</h1>
-          <p class="mt-2">Review your completed tests</p>
+          <h1>Available Test Cases</h1>
+          <p class="mt-2">Browse all {{ testHistory.length }} test cases by category</p>
         </div>
         <div class="flex gap-4">
           <router-link to="/test" class="btn btn-primary">
@@ -21,16 +21,16 @@
     <!-- Stats -->
     <div class="grid grid-3">
       <div class="card text-center">
-        <h3>{{ stats.total }}</h3>
-        <p>Total Tests</p>
+        <h3>{{ testHistory.length }}</h3>
+        <p>Total Available</p>
+      </div>
+      <div class="card text-center">
+        <h3>{{ categories.length }}</h3>
+        <p>Categories</p>
       </div>
       <div class="card text-center">
         <h3>{{ stats.correct }}</h3>
-        <p>Correct</p>
-      </div>
-      <div class="card text-center">
-        <h3>{{ stats.incorrect }}</h3>
-        <p>Issues Found</p>
+        <p>Completed</p>
       </div>
     </div>
 
@@ -62,12 +62,12 @@
     </div>
 
     <div v-else-if="testHistory.length === 0" class="card text-center">
-      <h2>No test history found</h2>
-      <p class="mt-4">Start testing to see your history here.</p>
+      <h2>No test cases found</h2>
+      <p class="mt-4">No test cases match your current filters.</p>
       <div class="mt-6">
-        <router-link to="/test" class="btn btn-primary">
-          Start Testing
-        </router-link>
+        <button @click="loadHistory" class="btn btn-primary">
+          Load All Test Cases
+        </button>
       </div>
     </div>
 
@@ -76,10 +76,14 @@
         <div class="flex justify-between items-start mb-4">
           <div>
             <h3>{{ test.category }} - {{ test.sub_category }}</h3>
-            <p class="text-sm text-gray-600">{{ formatDate(test.created_at) }}</p>
+            <p class="text-sm text-gray-600">Test Case ID: {{ test.id }}</p>
           </div>
-          <div class="badge" :class="test.is_correct ? 'badge-success' : 'badge-error'">
-            {{ test.is_correct ? 'Correct' : 'Issue Found' }}
+          <div class="flex gap-2">
+            <div class="badge badge-info">{{ test.expected_answer_type }}</div>
+            <div v-if="test.is_correct !== null" class="badge" :class="test.is_correct ? 'badge-success' : 'badge-error'">
+              {{ test.is_correct ? 'Completed ✓' : 'Issue Found ✗' }}
+            </div>
+            <div v-else class="badge badge-secondary">Available</div>
           </div>
         </div>
 

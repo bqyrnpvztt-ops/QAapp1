@@ -1,0 +1,694 @@
+[
+  {
+    "id": "mens_001",
+    "category": "mens",
+    "sub_category": "footwear",
+    "query": "Dress shoes in Manhattan for business meetings under $300",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dress shoes for business meetings",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "dress shoes",
+      "occasion": "business meetings",
+      "budget": "under $300"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_002",
+    "category": "mens",
+    "sub_category": "footwear",
+    "query": "Running shoes in Brooklyn for marathon training",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find running shoes for marathon training",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "running shoes",
+      "purpose": "marathon training"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_003",
+    "category": "mens",
+    "sub_category": "footwear",
+    "query": "Casual sneakers in Queens for everyday wear",
+    "demographic_profile": {
+      "age_range": "20-35",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find casual sneakers for everyday wear",
+    "constraints": {
+      "location": "Queens",
+      "type": "casual sneakers",
+      "use": "everyday wear"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_004",
+    "category": "mens",
+    "sub_category": "footwear",
+    "query": "Boots in Manhattan for winter weather",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find boots for winter weather",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "boots",
+      "season": "winter weather"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_005",
+    "category": "mens",
+    "sub_category": "footwear",
+    "query": "Loafers in Brooklyn for weekend casual wear",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find loafers for weekend casual wear",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "loafers",
+      "occasion": "weekend casual wear"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_006",
+    "category": "mens",
+    "sub_category": "footwear",
+    "query": "Sandals in Queens for summer vacation",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find sandals for summer vacation",
+    "constraints": {
+      "location": "Queens",
+      "type": "sandals",
+      "season": "summer vacation"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_007",
+    "category": "mens",
+    "sub_category": "footwear",
+    "query": "Oxford shoes in Manhattan for formal events",
+    "demographic_profile": {
+      "age_range": "28-45",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find Oxford shoes for formal events",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "Oxford shoes",
+      "occasion": "formal events"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_008",
+    "category": "mens",
+    "sub_category": "footwear",
+    "query": "Athletic shoes in Brooklyn for gym workouts",
+    "demographic_profile": {
+      "age_range": "20-35",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find athletic shoes for gym workouts",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "athletic shoes",
+      "use": "gym workouts"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_009",
+    "category": "mens",
+    "sub_category": "footwear",
+    "query": "Hiking boots in Queens for outdoor adventures",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find hiking boots for outdoor adventures",
+    "constraints": {
+      "location": "Queens",
+      "type": "hiking boots",
+      "use": "outdoor adventures"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_010",
+    "category": "mens",
+    "sub_category": "footwear",
+    "query": "Dress boots in Manhattan for business casual",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dress boots for business casual",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "dress boots",
+      "style": "business casual"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_011",
+    "category": "mens",
+    "sub_category": "clothing",
+    "query": "Tailored suits in Brooklyn for wedding under $800",
+    "demographic_profile": {
+      "age_range": "28-45",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find tailored suits for wedding",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "tailored suits",
+      "occasion": "wedding",
+      "budget": "under $800"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_012",
+    "category": "mens",
+    "sub_category": "clothing",
+    "query": "Business shirts in Manhattan for office work",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find business shirts for office work",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "business shirts",
+      "use": "office work"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_013",
+    "category": "mens",
+    "sub_category": "clothing",
+    "query": "Casual jeans in Queens for weekend wear",
+    "demographic_profile": {
+      "age_range": "20-35",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find casual jeans for weekend wear",
+    "constraints": {
+      "location": "Queens",
+      "type": "casual jeans",
+      "occasion": "weekend wear"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_014",
+    "category": "mens",
+    "sub_category": "clothing",
+    "query": "Winter coats in Brooklyn for cold weather",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find winter coats for cold weather",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "winter coats",
+      "season": "cold weather"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_015",
+    "category": "mens",
+    "sub_category": "clothing",
+    "query": "Polo shirts in Manhattan for summer casual",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find polo shirts for summer casual",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "polo shirts",
+      "season": "summer casual"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_016",
+    "category": "mens",
+    "sub_category": "clothing",
+    "query": "Dress pants in Queens for business meetings",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dress pants for business meetings",
+    "constraints": {
+      "location": "Queens",
+      "type": "dress pants",
+      "occasion": "business meetings"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_017",
+    "category": "mens",
+    "sub_category": "clothing",
+    "query": "T-shirts in Brooklyn for everyday casual wear",
+    "demographic_profile": {
+      "age_range": "20-35",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find T-shirts for everyday casual wear",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "T-shirts",
+      "use": "everyday casual wear"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_018",
+    "category": "mens",
+    "sub_category": "clothing",
+    "query": "Blazers in Manhattan for smart casual events",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find blazers for smart casual events",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "blazers",
+      "style": "smart casual events"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_019",
+    "category": "mens",
+    "sub_category": "clothing",
+    "query": "Sweaters in Queens for winter layering",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find sweaters for winter layering",
+    "constraints": {
+      "location": "Queens",
+      "type": "sweaters",
+      "use": "winter layering"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_020",
+    "category": "mens",
+    "sub_category": "clothing",
+    "query": "Shorts in Brooklyn for summer activities",
+    "demographic_profile": {
+      "age_range": "20-35",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find shorts for summer activities",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "shorts",
+      "season": "summer activities"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_021",
+    "category": "mens",
+    "sub_category": "accessories",
+    "query": "Leather wallets in Queens with RFID protection",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find leather wallets with RFID protection",
+    "constraints": {
+      "location": "Queens",
+      "type": "leather wallets",
+      "feature": "RFID protection"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_022",
+    "category": "mens",
+    "sub_category": "accessories",
+    "query": "Leather belts in Manhattan for business attire",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find leather belts for business attire",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "leather belts",
+      "use": "business attire"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_023",
+    "category": "mens",
+    "sub_category": "accessories",
+    "query": "Watches in Brooklyn for everyday wear",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find watches for everyday wear",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "watches",
+      "use": "everyday wear"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_024",
+    "category": "mens",
+    "sub_category": "accessories",
+    "query": "Ties in Queens for formal occasions",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find ties for formal occasions",
+    "constraints": {
+      "location": "Queens",
+      "type": "ties",
+      "occasion": "formal occasions"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_025",
+    "category": "mens",
+    "sub_category": "accessories",
+    "query": "Cufflinks in Manhattan for dress shirts",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find cufflinks for dress shirts",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "cufflinks",
+      "use": "dress shirts"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_026",
+    "category": "mens",
+    "sub_category": "accessories",
+    "query": "Sunglasses in Brooklyn for outdoor activities",
+    "demographic_profile": {
+      "age_range": "20-40",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find sunglasses for outdoor activities",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "sunglasses",
+      "use": "outdoor activities"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_027",
+    "category": "mens",
+    "sub_category": "accessories",
+    "query": "Backpacks in Queens for work commute",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find backpacks for work commute",
+    "constraints": {
+      "location": "Queens",
+      "type": "backpacks",
+      "use": "work commute"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_028",
+    "category": "mens",
+    "sub_category": "accessories",
+    "query": "Briefcases in Manhattan for business travel",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find briefcases for business travel",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "briefcases",
+      "use": "business travel"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_029",
+    "category": "mens",
+    "sub_category": "accessories",
+    "query": "Gloves in Brooklyn for winter weather",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find gloves for winter weather",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "gloves",
+      "season": "winter weather"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "mens_030",
+    "category": "mens",
+    "sub_category": "accessories",
+    "query": "Scarves in Queens for cold weather protection",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find scarves for cold weather protection",
+    "constraints": {
+      "location": "Queens",
+      "type": "scarves",
+      "use": "cold weather protection"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  }
+]

@@ -41,7 +41,7 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 // File upload configuration
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    const uploadDir = 'uploads/screenshots';
+    const uploadDir = process.env.UPLOAD_DIR || 'uploads/screenshots';
     if (!fs.existsSync(uploadDir)) {
       fs.mkdirSync(uploadDir, { recursive: true });
     }
@@ -457,7 +457,7 @@ app.get('/api/admin/results', authenticateToken, requireAdmin, (req, res) => {
 });
 
 // Serve static files
-app.use('/uploads', express.static('uploads'));
+app.use('/uploads', express.static(process.env.UPLOAD_DIR || 'uploads'));
 
 // Serve PWA static assets
 app.use('/assets', express.static('pwa/dist/assets'));

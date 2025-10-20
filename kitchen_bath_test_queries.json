@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "kitchen_bath_001",
+    "category": "Kitchen & Bath",
+    "sub_category": "Appliances",
+    "query": "Energy-efficient refrigerators under $2000 for small kitchens",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find appliances products",
+    "constraints": {
+      "type": "appliances",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_002",
+    "category": "Kitchen & Bath",
+    "sub_category": "Appliances",
+    "query": "Smart dishwashers with WiFi connectivity for modern homes",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find appliances products",
+    "constraints": {
+      "type": "appliances",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_003",
+    "category": "Kitchen & Bath",
+    "sub_category": "Appliances",
+    "query": "Gas ranges with convection ovens for serious cooking",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find appliances products",
+    "constraints": {
+      "type": "appliances",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_004",
+    "category": "Kitchen & Bath",
+    "sub_category": "Appliances",
+    "query": "Microwave ovens with air fryer functions for healthy cooking",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find appliances products",
+    "constraints": {
+      "type": "appliances",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_005",
+    "category": "Kitchen & Bath",
+    "sub_category": "Appliances",
+    "query": "Coffee makers with built-in grinders for coffee enthusiasts",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find appliances products",
+    "constraints": {
+      "type": "appliances",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_006",
+    "category": "Kitchen & Bath",
+    "sub_category": "Appliances",
+    "query": "Stand mixers for baking and dough preparation",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find appliances products",
+    "constraints": {
+      "type": "appliances",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_007",
+    "category": "Kitchen & Bath",
+    "sub_category": "Appliances",
+    "query": "Food processors with multiple attachments for meal prep",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find appliances products",
+    "constraints": {
+      "type": "appliances",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_008",
+    "category": "Kitchen & Bath",
+    "sub_category": "Appliances",
+    "query": "Blenders for smoothies and protein shakes",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find appliances products",
+    "constraints": {
+      "type": "appliances",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_009",
+    "category": "Kitchen & Bath",
+    "sub_category": "Appliances",
+    "query": "Toaster ovens with air fryer capabilities for small spaces",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find appliances products",
+    "constraints": {
+      "type": "appliances",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_010",
+    "category": "Kitchen & Bath",
+    "sub_category": "Appliances",
+    "query": "Wine refrigerators for temperature-controlled storage",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find appliances products",
+    "constraints": {
+      "type": "appliances",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_011",
+    "category": "Kitchen & Bath",
+    "sub_category": "Bathroom Accessories",
+    "query": "Shower heads with water-saving features for eco-friendly homes",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bathroom accessories products",
+    "constraints": {
+      "type": "bathroom accessories",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_012",
+    "category": "Kitchen & Bath",
+    "sub_category": "Bathroom Accessories",
+    "query": "Towel warmers for luxury bathroom experiences",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bathroom accessories products",
+    "constraints": {
+      "type": "bathroom accessories",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_013",
+    "category": "Kitchen & Bath",
+    "sub_category": "Bathroom Accessories",
+    "query": "Medicine cabinets with LED lighting and mirrors",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bathroom accessories products",
+    "constraints": {
+      "type": "bathroom accessories",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_014",
+    "category": "Kitchen & Bath",
+    "sub_category": "Bathroom Accessories",
+    "query": "Bathroom vanities with double sinks for master bathrooms",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bathroom accessories products",
+    "constraints": {
+      "type": "bathroom accessories",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_015",
+    "category": "Kitchen & Bath",
+    "sub_category": "Bathroom Accessories",
+    "query": "Toilet paper holders with built-in storage compartments",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bathroom accessories products",
+    "constraints": {
+      "type": "bathroom accessories",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_016",
+    "category": "Kitchen & Bath",
+    "sub_category": "Bathroom Accessories",
+    "query": "Shower caddies with rust-resistant materials",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bathroom accessories products",
+    "constraints": {
+      "type": "bathroom accessories",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_017",
+    "category": "Kitchen & Bath",
+    "sub_category": "Bathroom Accessories",
+    "query": "Bathroom mirrors with fog-free technology",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bathroom accessories products",
+    "constraints": {
+      "type": "bathroom accessories",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_018",
+    "category": "Kitchen & Bath",
+    "sub_category": "Bathroom Accessories",
+    "query": "Soap dispensers with automatic sensors for touchless operation",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bathroom accessories products",
+    "constraints": {
+      "type": "bathroom accessories",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_019",
+    "category": "Kitchen & Bath",
+    "sub_category": "Bathroom Accessories",
+    "query": "Bathroom scales with body composition analysis",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bathroom accessories products",
+    "constraints": {
+      "type": "bathroom accessories",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_020",
+    "category": "Kitchen & Bath",
+    "sub_category": "Bathroom Accessories",
+    "query": "Bathroom exhaust fans with humidity sensors",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find bathroom accessories products",
+    "constraints": {
+      "type": "bathroom accessories",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_021",
+    "category": "Kitchen & Bath",
+    "sub_category": "Beverages",
+    "query": "Cold brew coffee makers for smooth coffee extraction",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find beverages products",
+    "constraints": {
+      "type": "beverages",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_022",
+    "category": "Kitchen & Bath",
+    "sub_category": "Beverages",
+    "query": "Espresso machines with built-in grinders for home baristas",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find beverages products",
+    "constraints": {
+      "type": "beverages",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_023",
+    "category": "Kitchen & Bath",
+    "sub_category": "Beverages",
+    "query": "Tea kettles with temperature control for perfect brewing",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find beverages products",
+    "constraints": {
+      "type": "beverages",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_024",
+    "category": "Kitchen & Bath",
+    "sub_category": "Beverages",
+    "query": "Soda makers for carbonated water and homemade sodas",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find beverages products",
+    "constraints": {
+      "type": "beverages",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_025",
+    "category": "Kitchen & Bath",
+    "sub_category": "Beverages",
+    "query": "Juicers for fresh fruit and vegetable juices",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find beverages products",
+    "constraints": {
+      "type": "beverages",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_026",
+    "category": "Kitchen & Bath",
+    "sub_category": "Beverages",
+    "query": "Cocktail shakers and bar tools for home mixology",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find beverages products",
+    "constraints": {
+      "type": "beverages",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_027",
+    "category": "Kitchen & Bath",
+    "sub_category": "Beverages",
+    "query": "Wine openers with foil cutters for easy bottle opening",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find beverages products",
+    "constraints": {
+      "type": "beverages",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_028",
+    "category": "Kitchen & Bath",
+    "sub_category": "Beverages",
+    "query": "Water filters for clean drinking water at home",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find beverages products",
+    "constraints": {
+      "type": "beverages",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_029",
+    "category": "Kitchen & Bath",
+    "sub_category": "Beverages",
+    "query": "Hot chocolate makers for winter comfort drinks",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find beverages products",
+    "constraints": {
+      "type": "beverages",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_030",
+    "category": "Kitchen & Bath",
+    "sub_category": "Beverages",
+    "query": "Smoothie makers for healthy breakfast options",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find beverages products",
+    "constraints": {
+      "type": "beverages",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_031",
+    "category": "Kitchen & Bath",
+    "sub_category": "Grocery & Gourmet Food",
+    "query": "Organic spices and seasonings for gourmet cooking",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find grocery & gourmet food products",
+    "constraints": {
+      "type": "grocery & gourmet food",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_032",
+    "category": "Kitchen & Bath",
+    "sub_category": "Grocery & Gourmet Food",
+    "query": "Artisanal cheeses for charcuterie boards",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find grocery & gourmet food products",
+    "constraints": {
+      "type": "grocery & gourmet food",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_033",
+    "category": "Kitchen & Bath",
+    "sub_category": "Grocery & Gourmet Food",
+    "query": "Premium olive oils for Mediterranean cuisine",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find grocery & gourmet food products",
+    "constraints": {
+      "type": "grocery & gourmet food",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_034",
+    "category": "Kitchen & Bath",
+    "sub_category": "Grocery & Gourmet Food",
+    "query": "Specialty flours for baking enthusiasts",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find grocery & gourmet food products",
+    "constraints": {
+      "type": "grocery & gourmet food",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_035",
+    "category": "Kitchen & Bath",
+    "sub_category": "Grocery & Gourmet Food",
+    "query": "Gourmet chocolates for dessert making",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find grocery & gourmet food products",
+    "constraints": {
+      "type": "grocery & gourmet food",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_036",
+    "category": "Kitchen & Bath",
+    "sub_category": "Grocery & Gourmet Food",
+    "query": "Exotic fruits and vegetables for adventurous cooking",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find grocery & gourmet food products",
+    "constraints": {
+      "type": "grocery & gourmet food",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_037",
+    "category": "Kitchen & Bath",
+    "sub_category": "Grocery & Gourmet Food",
+    "query": "Craft beers and wines for entertaining",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find grocery & gourmet food products",
+    "constraints": {
+      "type": "grocery & gourmet food",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_038",
+    "category": "Kitchen & Bath",
+    "sub_category": "Grocery & Gourmet Food",
+    "query": "Organic grains and legumes for healthy meals",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find grocery & gourmet food products",
+    "constraints": {
+      "type": "grocery & gourmet food",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_039",
+    "category": "Kitchen & Bath",
+    "sub_category": "Grocery & Gourmet Food",
+    "query": "Specialty sauces and condiments for flavor enhancement",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find grocery & gourmet food products",
+    "constraints": {
+      "type": "grocery & gourmet food",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_040",
+    "category": "Kitchen & Bath",
+    "sub_category": "Grocery & Gourmet Food",
+    "query": "Premium coffee beans for home brewing",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find grocery & gourmet food products",
+    "constraints": {
+      "type": "grocery & gourmet food",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_041",
+    "category": "Kitchen & Bath",
+    "sub_category": "Storage & Organization",
+    "query": "Pantry organizers for kitchen efficiency",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find storage & organization products",
+    "constraints": {
+      "type": "storage & organization",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_042",
+    "category": "Kitchen & Bath",
+    "sub_category": "Storage & Organization",
+    "query": "Spice racks with labels for easy identification",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find storage & organization products",
+    "constraints": {
+      "type": "storage & organization",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_043",
+    "category": "Kitchen & Bath",
+    "sub_category": "Storage & Organization",
+    "query": "Food storage containers with airtight seals",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find storage & organization products",
+    "constraints": {
+      "type": "storage & organization",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_044",
+    "category": "Kitchen & Bath",
+    "sub_category": "Storage & Organization",
+    "query": "Drawer organizers for utensils and tools",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find storage & organization products",
+    "constraints": {
+      "type": "storage & organization",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_045",
+    "category": "Kitchen & Bath",
+    "sub_category": "Storage & Organization",
+    "query": "Cabinet organizers for pots and pans",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find storage & organization products",
+    "constraints": {
+      "type": "storage & organization",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_046",
+    "category": "Kitchen & Bath",
+    "sub_category": "Storage & Organization",
+    "query": "Refrigerator organizers for better food storage",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find storage & organization products",
+    "constraints": {
+      "type": "storage & organization",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_047",
+    "category": "Kitchen & Bath",
+    "sub_category": "Storage & Organization",
+    "query": "Freezer organizers for meal prep containers",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find storage & organization products",
+    "constraints": {
+      "type": "storage & organization",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_048",
+    "category": "Kitchen & Bath",
+    "sub_category": "Storage & Organization",
+    "query": "Countertop organizers for frequently used items",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find storage & organization products",
+    "constraints": {
+      "type": "storage & organization",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_049",
+    "category": "Kitchen & Bath",
+    "sub_category": "Storage & Organization",
+    "query": "Wall-mounted organizers for space-saving storage",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find storage & organization products",
+    "constraints": {
+      "type": "storage & organization",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_050",
+    "category": "Kitchen & Bath",
+    "sub_category": "Storage & Organization",
+    "query": "Under-sink organizers for cleaning supplies",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find storage & organization products",
+    "constraints": {
+      "type": "storage & organization",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_051",
+    "category": "Kitchen & Bath",
+    "sub_category": "Utensils & Gadgets",
+    "query": "Professional chef knives for precision cutting",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find utensils & gadgets products",
+    "constraints": {
+      "type": "utensils & gadgets",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_052",
+    "category": "Kitchen & Bath",
+    "sub_category": "Utensils & Gadgets",
+    "query": "Cutting boards with juice grooves for messy prep",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find utensils & gadgets products",
+    "constraints": {
+      "type": "utensils & gadgets",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_053",
+    "category": "Kitchen & Bath",
+    "sub_category": "Utensils & Gadgets",
+    "query": "Measuring cups and spoons for accurate baking",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find utensils & gadgets products",
+    "constraints": {
+      "type": "utensils & gadgets",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_054",
+    "category": "Kitchen & Bath",
+    "sub_category": "Utensils & Gadgets",
+    "query": "Kitchen timers for perfect cooking timing",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find utensils & gadgets products",
+    "constraints": {
+      "type": "utensils & gadgets",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_055",
+    "category": "Kitchen & Bath",
+    "sub_category": "Utensils & Gadgets",
+    "query": "Garlic presses for easy garlic preparation",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find utensils & gadgets products",
+    "constraints": {
+      "type": "utensils & gadgets",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_056",
+    "category": "Kitchen & Bath",
+    "sub_category": "Utensils & Gadgets",
+    "query": "Can openers for convenient food access",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find utensils & gadgets products",
+    "constraints": {
+      "type": "utensils & gadgets",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_057",
+    "category": "Kitchen & Bath",
+    "sub_category": "Utensils & Gadgets",
+    "query": "Peelers for fruits and vegetables",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find utensils & gadgets products",
+    "constraints": {
+      "type": "utensils & gadgets",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_058",
+    "category": "Kitchen & Bath",
+    "sub_category": "Utensils & Gadgets",
+    "query": "Whisks for mixing and beating ingredients",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find utensils & gadgets products",
+    "constraints": {
+      "type": "utensils & gadgets",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_059",
+    "category": "Kitchen & Bath",
+    "sub_category": "Utensils & Gadgets",
+    "query": "Spatulas for flipping and scraping",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find utensils & gadgets products",
+    "constraints": {
+      "type": "utensils & gadgets",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_060",
+    "category": "Kitchen & Bath",
+    "sub_category": "Utensils & Gadgets",
+    "query": "Tongs for safe food handling",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find utensils & gadgets products",
+    "constraints": {
+      "type": "utensils & gadgets",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_061",
+    "category": "Kitchen & Bath",
+    "sub_category": "Lawn & Garden",
+    "query": "Garden hoses with adjustable spray patterns",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find lawn & garden products",
+    "constraints": {
+      "type": "lawn & garden",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_062",
+    "category": "Kitchen & Bath",
+    "sub_category": "Lawn & Garden",
+    "query": "Planters with drainage holes for healthy plants",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find lawn & garden products",
+    "constraints": {
+      "type": "lawn & garden",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_063",
+    "category": "Kitchen & Bath",
+    "sub_category": "Lawn & Garden",
+    "query": "Garden tools for soil preparation and planting",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find lawn & garden products",
+    "constraints": {
+      "type": "lawn & garden",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_064",
+    "category": "Kitchen & Bath",
+    "sub_category": "Lawn & Garden",
+    "query": "Outdoor lighting for garden ambiance",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find lawn & garden products",
+    "constraints": {
+      "type": "lawn & garden",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_065",
+    "category": "Kitchen & Bath",
+    "sub_category": "Lawn & Garden",
+    "query": "Compost bins for organic waste recycling",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find lawn & garden products",
+    "constraints": {
+      "type": "lawn & garden",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_066",
+    "category": "Kitchen & Bath",
+    "sub_category": "Lawn & Garden",
+    "query": "Garden gloves for protection during work",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find lawn & garden products",
+    "constraints": {
+      "type": "lawn & garden",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_067",
+    "category": "Kitchen & Bath",
+    "sub_category": "Lawn & Garden",
+    "query": "Watering cans for gentle plant hydration",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find lawn & garden products",
+    "constraints": {
+      "type": "lawn & garden",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_068",
+    "category": "Kitchen & Bath",
+    "sub_category": "Lawn & Garden",
+    "query": "Garden stakes for plant support",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find lawn & garden products",
+    "constraints": {
+      "type": "lawn & garden",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_069",
+    "category": "Kitchen & Bath",
+    "sub_category": "Lawn & Garden",
+    "query": "Mulch for soil moisture retention",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find lawn & garden products",
+    "constraints": {
+      "type": "lawn & garden",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_070",
+    "category": "Kitchen & Bath",
+    "sub_category": "Lawn & Garden",
+    "query": "Garden seeds for growing fresh vegetables",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find lawn & garden products",
+    "constraints": {
+      "type": "lawn & garden",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_071",
+    "category": "Kitchen & Bath",
+    "sub_category": "Cookware & Bakeware",
+    "query": "Non-stick frying pans for easy cooking and cleaning",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find cookware & bakeware products",
+    "constraints": {
+      "type": "cookware & bakeware",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_072",
+    "category": "Kitchen & Bath",
+    "sub_category": "Cookware & Bakeware",
+    "query": "Stainless steel pots for versatile cooking",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find cookware & bakeware products",
+    "constraints": {
+      "type": "cookware & bakeware",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_073",
+    "category": "Kitchen & Bath",
+    "sub_category": "Cookware & Bakeware",
+    "query": "Cast iron skillets for even heat distribution",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find cookware & bakeware products",
+    "constraints": {
+      "type": "cookware & bakeware",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_074",
+    "category": "Kitchen & Bath",
+    "sub_category": "Cookware & Bakeware",
+    "query": "Baking sheets for cookies and roasted vegetables",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find cookware & bakeware products",
+    "constraints": {
+      "type": "cookware & bakeware",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_075",
+    "category": "Kitchen & Bath",
+    "sub_category": "Cookware & Bakeware",
+    "query": "Cake pans for birthday celebrations",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find cookware & bakeware products",
+    "constraints": {
+      "type": "cookware & bakeware",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_076",
+    "category": "Kitchen & Bath",
+    "sub_category": "Cookware & Bakeware",
+    "query": "Muffin tins for breakfast treats",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find cookware & bakeware products",
+    "constraints": {
+      "type": "cookware & bakeware",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_077",
+    "category": "Kitchen & Bath",
+    "sub_category": "Cookware & Bakeware",
+    "query": "Casserole dishes for family meals",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find cookware & bakeware products",
+    "constraints": {
+      "type": "cookware & bakeware",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_078",
+    "category": "Kitchen & Bath",
+    "sub_category": "Cookware & Bakeware",
+    "query": "Dutch ovens for slow cooking and braising",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find cookware & bakeware products",
+    "constraints": {
+      "type": "cookware & bakeware",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_079",
+    "category": "Kitchen & Bath",
+    "sub_category": "Cookware & Bakeware",
+    "query": "Woks for Asian stir-fry cooking",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find cookware & bakeware products",
+    "constraints": {
+      "type": "cookware & bakeware",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_080",
+    "category": "Kitchen & Bath",
+    "sub_category": "Cookware & Bakeware",
+    "query": "Pizza stones for crispy homemade pizza",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find cookware & bakeware products",
+    "constraints": {
+      "type": "cookware & bakeware",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_081",
+    "category": "Kitchen & Bath",
+    "sub_category": "Dining & Glassware",
+    "query": "Dinner plates for elegant table settings",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dining & glassware products",
+    "constraints": {
+      "type": "dining & glassware",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_082",
+    "category": "Kitchen & Bath",
+    "sub_category": "Dining & Glassware",
+    "query": "Wine glasses for proper wine tasting",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dining & glassware products",
+    "constraints": {
+      "type": "dining & glassware",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_083",
+    "category": "Kitchen & Bath",
+    "sub_category": "Dining & Glassware",
+    "query": "Coffee mugs for morning caffeine rituals",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dining & glassware products",
+    "constraints": {
+      "type": "dining & glassware",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_084",
+    "category": "Kitchen & Bath",
+    "sub_category": "Dining & Glassware",
+    "query": "Water glasses for daily hydration",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dining & glassware products",
+    "constraints": {
+      "type": "dining & glassware",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_085",
+    "category": "Kitchen & Bath",
+    "sub_category": "Dining & Glassware",
+    "query": "Champagne flutes for special celebrations",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dining & glassware products",
+    "constraints": {
+      "type": "dining & glassware",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_086",
+    "category": "Kitchen & Bath",
+    "sub_category": "Dining & Glassware",
+    "query": "Serving bowls for family gatherings",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dining & glassware products",
+    "constraints": {
+      "type": "dining & glassware",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_087",
+    "category": "Kitchen & Bath",
+    "sub_category": "Dining & Glassware",
+    "query": "Salad plates for healthy meal portions",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dining & glassware products",
+    "constraints": {
+      "type": "dining & glassware",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_088",
+    "category": "Kitchen & Bath",
+    "sub_category": "Dining & Glassware",
+    "query": "Shot glasses for cocktail parties",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dining & glassware products",
+    "constraints": {
+      "type": "dining & glassware",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_089",
+    "category": "Kitchen & Bath",
+    "sub_category": "Dining & Glassware",
+    "query": "Beer mugs for casual entertaining",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dining & glassware products",
+    "constraints": {
+      "type": "dining & glassware",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_090",
+    "category": "Kitchen & Bath",
+    "sub_category": "Dining & Glassware",
+    "query": "Tea cups for afternoon relaxation",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dining & glassware products",
+    "constraints": {
+      "type": "dining & glassware",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_091",
+    "category": "Kitchen & Bath",
+    "sub_category": "Towels & Linens",
+    "query": "Kitchen towels for daily cleaning tasks",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find towels & linens products",
+    "constraints": {
+      "type": "towels & linens",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_092",
+    "category": "Kitchen & Bath",
+    "sub_category": "Towels & Linens",
+    "query": "Bath towels for comfortable drying",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find towels & linens products",
+    "constraints": {
+      "type": "towels & linens",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_093",
+    "category": "Kitchen & Bath",
+    "sub_category": "Towels & Linens",
+    "query": "Hand towels for guest bathrooms",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find towels & linens products",
+    "constraints": {
+      "type": "towels & linens",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_094",
+    "category": "Kitchen & Bath",
+    "sub_category": "Towels & Linens",
+    "query": "Washcloths for gentle face cleaning",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find towels & linens products",
+    "constraints": {
+      "type": "towels & linens",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_095",
+    "category": "Kitchen & Bath",
+    "sub_category": "Towels & Linens",
+    "query": "Tablecloths for formal dining occasions",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find towels & linens products",
+    "constraints": {
+      "type": "towels & linens",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_096",
+    "category": "Kitchen & Bath",
+    "sub_category": "Towels & Linens",
+    "query": "Napkins for elegant table settings",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find towels & linens products",
+    "constraints": {
+      "type": "towels & linens",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_097",
+    "category": "Kitchen & Bath",
+    "sub_category": "Towels & Linens",
+    "query": "Placemats for protecting dining surfaces",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find towels & linens products",
+    "constraints": {
+      "type": "towels & linens",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_098",
+    "category": "Kitchen & Bath",
+    "sub_category": "Towels & Linens",
+    "query": "Oven mitts for safe hot food handling",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find towels & linens products",
+    "constraints": {
+      "type": "towels & linens",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_099",
+    "category": "Kitchen & Bath",
+    "sub_category": "Towels & Linens",
+    "query": "Aprons for cooking protection",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find towels & linens products",
+    "constraints": {
+      "type": "towels & linens",
+      "location": "Queens"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "kitchen_bath_100",
+    "category": "Kitchen & Bath",
+    "sub_category": "Towels & Linens",
+    "query": "Bath mats for bathroom safety",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find towels & linens products",
+    "constraints": {
+      "type": "towels & linens",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "product recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  }
+]

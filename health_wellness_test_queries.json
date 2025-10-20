@@ -1,0 +1,2422 @@
+[
+  {
+    "id": "health_wellness_001",
+    "category": "Health & Wellness",
+    "sub_category": "App",
+    "query": "Fitness tracking apps for weight loss goals",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find app services",
+    "constraints": {
+      "type": "app",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_002",
+    "category": "Health & Wellness",
+    "sub_category": "App",
+    "query": "Meditation and mindfulness apps for stress relief",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find app services",
+    "constraints": {
+      "type": "app",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_003",
+    "category": "Health & Wellness",
+    "sub_category": "App",
+    "query": "Sleep tracking apps for better sleep quality",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find app services",
+    "constraints": {
+      "type": "app",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_004",
+    "category": "Health & Wellness",
+    "sub_category": "App",
+    "query": "Nutrition tracking apps for meal planning",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find app services",
+    "constraints": {
+      "type": "app",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_005",
+    "category": "Health & Wellness",
+    "sub_category": "App",
+    "query": "Mental health support apps for anxiety management",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find app services",
+    "constraints": {
+      "type": "app",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_006",
+    "category": "Health & Wellness",
+    "sub_category": "App",
+    "query": "Workout planning apps for home fitness routines",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find app services",
+    "constraints": {
+      "type": "app",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_007",
+    "category": "Health & Wellness",
+    "sub_category": "App",
+    "query": "Hydration reminder apps for daily water intake",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find app services",
+    "constraints": {
+      "type": "app",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_008",
+    "category": "Health & Wellness",
+    "sub_category": "App",
+    "query": "Period tracking apps for menstrual cycle monitoring",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find app services",
+    "constraints": {
+      "type": "app",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_009",
+    "category": "Health & Wellness",
+    "sub_category": "App",
+    "query": "Breathing exercise apps for relaxation techniques",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find app services",
+    "constraints": {
+      "type": "app",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_010",
+    "category": "Health & Wellness",
+    "sub_category": "App",
+    "query": "Health monitoring apps for chronic condition management",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find app services",
+    "constraints": {
+      "type": "app",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_011",
+    "category": "Health & Wellness",
+    "sub_category": "Fitness studio",
+    "query": "HIIT fitness studios in Manhattan for intense workouts",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find fitness studio services",
+    "constraints": {
+      "type": "fitness studio",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_012",
+    "category": "Health & Wellness",
+    "sub_category": "Fitness studio",
+    "query": "CrossFit gyms in Brooklyn with beginner classes",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find fitness studio services",
+    "constraints": {
+      "type": "fitness studio",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_013",
+    "category": "Health & Wellness",
+    "sub_category": "Fitness studio",
+    "query": "Pilates studios in Queens with equipment classes",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find fitness studio services",
+    "constraints": {
+      "type": "fitness studio",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_014",
+    "category": "Health & Wellness",
+    "sub_category": "Fitness studio",
+    "query": "Bootcamp fitness classes in Manhattan for weight loss",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find fitness studio services",
+    "constraints": {
+      "type": "fitness studio",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_015",
+    "category": "Health & Wellness",
+    "sub_category": "Fitness studio",
+    "query": "Strength training gyms in Brooklyn with personal trainers",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find fitness studio services",
+    "constraints": {
+      "type": "fitness studio",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_016",
+    "category": "Health & Wellness",
+    "sub_category": "Fitness studio",
+    "query": "Cardio dance studios in Queens for fun workouts",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find fitness studio services",
+    "constraints": {
+      "type": "fitness studio",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_017",
+    "category": "Health & Wellness",
+    "sub_category": "Fitness studio",
+    "query": "Functional fitness gyms in Manhattan for athletic performance",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find fitness studio services",
+    "constraints": {
+      "type": "fitness studio",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_018",
+    "category": "Health & Wellness",
+    "sub_category": "Fitness studio",
+    "query": "Barre fitness studios in Brooklyn with flexible schedules",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find fitness studio services",
+    "constraints": {
+      "type": "fitness studio",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_019",
+    "category": "Health & Wellness",
+    "sub_category": "Fitness studio",
+    "query": "Spin cycling studios in Queens with music-focused classes",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find fitness studio services",
+    "constraints": {
+      "type": "fitness studio",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_020",
+    "category": "Health & Wellness",
+    "sub_category": "Fitness studio",
+    "query": "MMA training gyms in Manhattan for self-defense",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find fitness studio services",
+    "constraints": {
+      "type": "fitness studio",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_021",
+    "category": "Health & Wellness",
+    "sub_category": "Barre studio",
+    "query": "Barre classes in Manhattan for core strengthening",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find barre studio services",
+    "constraints": {
+      "type": "barre studio",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_022",
+    "category": "Health & Wellness",
+    "sub_category": "Barre studio",
+    "query": "Beginner barre studios in Brooklyn for newcomers",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find barre studio services",
+    "constraints": {
+      "type": "barre studio",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_023",
+    "category": "Health & Wellness",
+    "sub_category": "Barre studio",
+    "query": "Advanced barre classes in Queens for experienced students",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find barre studio services",
+    "constraints": {
+      "type": "barre studio",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_024",
+    "category": "Health & Wellness",
+    "sub_category": "Barre studio",
+    "query": "Prenatal barre classes in Miami for expecting mothers",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find barre studio services",
+    "constraints": {
+      "type": "barre studio",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_025",
+    "category": "Health & Wellness",
+    "sub_category": "Barre studio",
+    "query": "Barre fusion classes in Tokyo combining multiple disciplines",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find barre studio services",
+    "constraints": {
+      "type": "barre studio",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_026",
+    "category": "Health & Wellness",
+    "sub_category": "Barre studio",
+    "query": "Barre classes with live music in London for motivation",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find barre studio services",
+    "constraints": {
+      "type": "barre studio",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_027",
+    "category": "Health & Wellness",
+    "sub_category": "Barre studio",
+    "query": "Barre classes for seniors in Paris for gentle fitness",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find barre studio services",
+    "constraints": {
+      "type": "barre studio",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_028",
+    "category": "Health & Wellness",
+    "sub_category": "Barre studio",
+    "query": "Barre classes with props in San Francisco for variety",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find barre studio services",
+    "constraints": {
+      "type": "barre studio",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_029",
+    "category": "Health & Wellness",
+    "sub_category": "Barre studio",
+    "query": "Barre classes for dancers in Chicago for technique",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find barre studio services",
+    "constraints": {
+      "type": "barre studio",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_030",
+    "category": "Health & Wellness",
+    "sub_category": "Barre studio",
+    "query": "Barre classes for athletes in Boston for cross-training",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find barre studio services",
+    "constraints": {
+      "type": "barre studio",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_031",
+    "category": "Health & Wellness",
+    "sub_category": "Pilates Studio",
+    "query": "Reformer Pilates classes in Manhattan for full-body workouts",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find pilates studio services",
+    "constraints": {
+      "type": "pilates studio",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_032",
+    "category": "Health & Wellness",
+    "sub_category": "Pilates Studio",
+    "query": "Mat Pilates classes in Brooklyn for core strength",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find pilates studio services",
+    "constraints": {
+      "type": "pilates studio",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_033",
+    "category": "Health & Wellness",
+    "sub_category": "Pilates Studio",
+    "query": "Prenatal Pilates classes in Queens for expecting mothers",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find pilates studio services",
+    "constraints": {
+      "type": "pilates studio",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_034",
+    "category": "Health & Wellness",
+    "sub_category": "Pilates Studio",
+    "query": "Pilates classes for seniors in Miami for gentle movement",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find pilates studio services",
+    "constraints": {
+      "type": "pilates studio",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_035",
+    "category": "Health & Wellness",
+    "sub_category": "Pilates Studio",
+    "query": "Pilates classes for athletes in Tokyo for injury prevention",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find pilates studio services",
+    "constraints": {
+      "type": "pilates studio",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_036",
+    "category": "Health & Wellness",
+    "sub_category": "Pilates Studio",
+    "query": "Pilates classes for dancers in London for flexibility",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find pilates studio services",
+    "constraints": {
+      "type": "pilates studio",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_037",
+    "category": "Health & Wellness",
+    "sub_category": "Pilates Studio",
+    "query": "Pilates classes for beginners in Paris for proper form",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find pilates studio services",
+    "constraints": {
+      "type": "pilates studio",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_038",
+    "category": "Health & Wellness",
+    "sub_category": "Pilates Studio",
+    "query": "Pilates classes for rehabilitation in San Francisco for recovery",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find pilates studio services",
+    "constraints": {
+      "type": "pilates studio",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_039",
+    "category": "Health & Wellness",
+    "sub_category": "Pilates Studio",
+    "query": "Pilates classes for weight loss in Chicago for fitness goals",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find pilates studio services",
+    "constraints": {
+      "type": "pilates studio",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_040",
+    "category": "Health & Wellness",
+    "sub_category": "Pilates Studio",
+    "query": "Pilates classes for stress relief in Boston for mental wellness",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find pilates studio services",
+    "constraints": {
+      "type": "pilates studio",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_041",
+    "category": "Health & Wellness",
+    "sub_category": "Yoga studio",
+    "query": "Hot yoga classes in Manhattan for detoxification",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find yoga studio services",
+    "constraints": {
+      "type": "yoga studio",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_042",
+    "category": "Health & Wellness",
+    "sub_category": "Yoga studio",
+    "query": "Vinyasa flow yoga in Brooklyn for dynamic movement",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find yoga studio services",
+    "constraints": {
+      "type": "yoga studio",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_043",
+    "category": "Health & Wellness",
+    "sub_category": "Yoga studio",
+    "query": "Yin yoga classes in Queens for deep stretching",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find yoga studio services",
+    "constraints": {
+      "type": "yoga studio",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_044",
+    "category": "Health & Wellness",
+    "sub_category": "Yoga studio",
+    "query": "Prenatal yoga classes in Miami for expecting mothers",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find yoga studio services",
+    "constraints": {
+      "type": "yoga studio",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_045",
+    "category": "Health & Wellness",
+    "sub_category": "Yoga studio",
+    "query": "Meditation yoga classes in Tokyo for mindfulness",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find yoga studio services",
+    "constraints": {
+      "type": "yoga studio",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_046",
+    "category": "Health & Wellness",
+    "sub_category": "Yoga studio",
+    "query": "Power yoga classes in London for strength building",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find yoga studio services",
+    "constraints": {
+      "type": "yoga studio",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_047",
+    "category": "Health & Wellness",
+    "sub_category": "Yoga studio",
+    "query": "Restorative yoga classes in Paris for relaxation",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find yoga studio services",
+    "constraints": {
+      "type": "yoga studio",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_048",
+    "category": "Health & Wellness",
+    "sub_category": "Yoga studio",
+    "query": "Yoga classes for beginners in San Francisco for proper alignment",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find yoga studio services",
+    "constraints": {
+      "type": "yoga studio",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_049",
+    "category": "Health & Wellness",
+    "sub_category": "Yoga studio",
+    "query": "Yoga classes for athletes in Chicago for flexibility",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find yoga studio services",
+    "constraints": {
+      "type": "yoga studio",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_050",
+    "category": "Health & Wellness",
+    "sub_category": "Yoga studio",
+    "query": "Yoga classes for stress relief in Boston for mental health",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find yoga studio services",
+    "constraints": {
+      "type": "yoga studio",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_051",
+    "category": "Health & Wellness",
+    "sub_category": "Dance Studio",
+    "query": "Hip hop dance classes in Manhattan for urban style",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dance studio services",
+    "constraints": {
+      "type": "dance studio",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_052",
+    "category": "Health & Wellness",
+    "sub_category": "Dance Studio",
+    "query": "Ballet classes in Brooklyn for classical technique",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dance studio services",
+    "constraints": {
+      "type": "dance studio",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_053",
+    "category": "Health & Wellness",
+    "sub_category": "Dance Studio",
+    "query": "Salsa dance classes in Queens for Latin rhythm",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dance studio services",
+    "constraints": {
+      "type": "dance studio",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_054",
+    "category": "Health & Wellness",
+    "sub_category": "Dance Studio",
+    "query": "Contemporary dance classes in Miami for artistic expression",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dance studio services",
+    "constraints": {
+      "type": "dance studio",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_055",
+    "category": "Health & Wellness",
+    "sub_category": "Dance Studio",
+    "query": "Jazz dance classes in Tokyo for energetic movement",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dance studio services",
+    "constraints": {
+      "type": "dance studio",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_056",
+    "category": "Health & Wellness",
+    "sub_category": "Dance Studio",
+    "query": "Ballroom dance classes in London for social dancing",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dance studio services",
+    "constraints": {
+      "type": "dance studio",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_057",
+    "category": "Health & Wellness",
+    "sub_category": "Dance Studio",
+    "query": "Tap dance classes in Paris for rhythmic footwork",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dance studio services",
+    "constraints": {
+      "type": "dance studio",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_058",
+    "category": "Health & Wellness",
+    "sub_category": "Dance Studio",
+    "query": "Belly dance classes in San Francisco for cultural dance",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dance studio services",
+    "constraints": {
+      "type": "dance studio",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_059",
+    "category": "Health & Wellness",
+    "sub_category": "Dance Studio",
+    "query": "Modern dance classes in Chicago for creative movement",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dance studio services",
+    "constraints": {
+      "type": "dance studio",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_060",
+    "category": "Health & Wellness",
+    "sub_category": "Dance Studio",
+    "query": "Zumba classes in Boston for fitness dancing",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find dance studio services",
+    "constraints": {
+      "type": "dance studio",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_061",
+    "category": "Health & Wellness",
+    "sub_category": "Gym",
+    "query": "24-hour gyms in Manhattan for flexible workout schedules",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find gym services",
+    "constraints": {
+      "type": "gym",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_062",
+    "category": "Health & Wellness",
+    "sub_category": "Gym",
+    "query": "Women-only gyms in Brooklyn for comfortable environment",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find gym services",
+    "constraints": {
+      "type": "gym",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_063",
+    "category": "Health & Wellness",
+    "sub_category": "Gym",
+    "query": "Family-friendly gyms in Queens for all ages",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find gym services",
+    "constraints": {
+      "type": "gym",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_064",
+    "category": "Health & Wellness",
+    "sub_category": "Gym",
+    "query": "Luxury gyms in Miami with spa amenities",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find gym services",
+    "constraints": {
+      "type": "gym",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_065",
+    "category": "Health & Wellness",
+    "sub_category": "Gym",
+    "query": "Traditional gyms in Tokyo with comprehensive equipment",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find gym services",
+    "constraints": {
+      "type": "gym",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_066",
+    "category": "Health & Wellness",
+    "sub_category": "Gym",
+    "query": "Boutique gyms in London with specialized classes",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find gym services",
+    "constraints": {
+      "type": "gym",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_067",
+    "category": "Health & Wellness",
+    "sub_category": "Gym",
+    "query": "Community gyms in Paris with affordable memberships",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find gym services",
+    "constraints": {
+      "type": "gym",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_068",
+    "category": "Health & Wellness",
+    "sub_category": "Gym",
+    "query": "Tech-focused gyms in San Francisco with smart equipment",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find gym services",
+    "constraints": {
+      "type": "gym",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_069",
+    "category": "Health & Wellness",
+    "sub_category": "Gym",
+    "query": "Powerlifting gyms in Chicago for strength training",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find gym services",
+    "constraints": {
+      "type": "gym",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_070",
+    "category": "Health & Wellness",
+    "sub_category": "Gym",
+    "query": "Cardio-focused gyms in Boston for heart health",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find gym services",
+    "constraints": {
+      "type": "gym",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_071",
+    "category": "Health & Wellness",
+    "sub_category": "Health club",
+    "query": "Full-service health clubs in Manhattan with pools and spas",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find health club services",
+    "constraints": {
+      "type": "health club",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_072",
+    "category": "Health & Wellness",
+    "sub_category": "Health club",
+    "query": "Executive health clubs in Brooklyn with business amenities",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find health club services",
+    "constraints": {
+      "type": "health club",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_073",
+    "category": "Health & Wellness",
+    "sub_category": "Health club",
+    "query": "Family health clubs in Queens with childcare services",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find health club services",
+    "constraints": {
+      "type": "health club",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_074",
+    "category": "Health & Wellness",
+    "sub_category": "Health club",
+    "query": "Resort-style health clubs in Miami with luxury facilities",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find health club services",
+    "constraints": {
+      "type": "health club",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_075",
+    "category": "Health & Wellness",
+    "sub_category": "Health club",
+    "query": "Traditional health clubs in Tokyo with comprehensive services",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find health club services",
+    "constraints": {
+      "type": "health club",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_076",
+    "category": "Health & Wellness",
+    "sub_category": "Health club",
+    "query": "Historic health clubs in London with classic architecture",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find health club services",
+    "constraints": {
+      "type": "health club",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_077",
+    "category": "Health & Wellness",
+    "sub_category": "Health club",
+    "query": "Wellness-focused health clubs in Paris with holistic approach",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find health club services",
+    "constraints": {
+      "type": "health club",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_078",
+    "category": "Health & Wellness",
+    "sub_category": "Health club",
+    "query": "Innovation health clubs in San Francisco with cutting-edge tech",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find health club services",
+    "constraints": {
+      "type": "health club",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_079",
+    "category": "Health & Wellness",
+    "sub_category": "Health club",
+    "query": "Sports-focused health clubs in Chicago with athletic facilities",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find health club services",
+    "constraints": {
+      "type": "health club",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_080",
+    "category": "Health & Wellness",
+    "sub_category": "Health club",
+    "query": "Academic health clubs in Boston with educational programs",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find health club services",
+    "constraints": {
+      "type": "health club",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_081",
+    "category": "Health & Wellness",
+    "sub_category": "EMS training",
+    "query": "EMS training studios in Manhattan for efficient workouts",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find ems training services",
+    "constraints": {
+      "type": "ems training",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_082",
+    "category": "Health & Wellness",
+    "sub_category": "EMS training",
+    "query": "Personal EMS training in Brooklyn for individualized sessions",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find ems training services",
+    "constraints": {
+      "type": "ems training",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_083",
+    "category": "Health & Wellness",
+    "sub_category": "EMS training",
+    "query": "Group EMS training in Queens for social fitness",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find ems training services",
+    "constraints": {
+      "type": "ems training",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_084",
+    "category": "Health & Wellness",
+    "sub_category": "EMS training",
+    "query": "EMS training for athletes in Miami for performance enhancement",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find ems training services",
+    "constraints": {
+      "type": "ems training",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_085",
+    "category": "Health & Wellness",
+    "sub_category": "EMS training",
+    "query": "EMS training for rehabilitation in Tokyo for injury recovery",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find ems training services",
+    "constraints": {
+      "type": "ems training",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_086",
+    "category": "Health & Wellness",
+    "sub_category": "EMS training",
+    "query": "EMS training for weight loss in London for fitness goals",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find ems training services",
+    "constraints": {
+      "type": "ems training",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_087",
+    "category": "Health & Wellness",
+    "sub_category": "EMS training",
+    "query": "EMS training for seniors in Paris for gentle strengthening",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find ems training services",
+    "constraints": {
+      "type": "ems training",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_088",
+    "category": "Health & Wellness",
+    "sub_category": "EMS training",
+    "query": "EMS training for busy professionals in San Francisco for time efficiency",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find ems training services",
+    "constraints": {
+      "type": "ems training",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_089",
+    "category": "Health & Wellness",
+    "sub_category": "EMS training",
+    "query": "EMS training for muscle building in Chicago for strength goals",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find ems training services",
+    "constraints": {
+      "type": "ems training",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_090",
+    "category": "Health & Wellness",
+    "sub_category": "EMS training",
+    "query": "EMS training for toning in Boston for body sculpting",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find ems training services",
+    "constraints": {
+      "type": "ems training",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_091",
+    "category": "Health & Wellness",
+    "sub_category": "Padel",
+    "query": "Padel courts in Manhattan for racquet sport enthusiasts",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find padel services",
+    "constraints": {
+      "type": "padel",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_092",
+    "category": "Health & Wellness",
+    "sub_category": "Padel",
+    "query": "Padel lessons in Brooklyn for beginners learning the game",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find padel services",
+    "constraints": {
+      "type": "padel",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_093",
+    "category": "Health & Wellness",
+    "sub_category": "Padel",
+    "query": "Padel tournaments in Queens for competitive players",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find padel services",
+    "constraints": {
+      "type": "padel",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_094",
+    "category": "Health & Wellness",
+    "sub_category": "Padel",
+    "query": "Padel courts with coaching in Miami for skill development",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find padel services",
+    "constraints": {
+      "type": "padel",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_095",
+    "category": "Health & Wellness",
+    "sub_category": "Padel",
+    "query": "Padel facilities in Tokyo for international sport",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find padel services",
+    "constraints": {
+      "type": "padel",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_096",
+    "category": "Health & Wellness",
+    "sub_category": "Padel",
+    "query": "Padel clubs in London for social play",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find padel services",
+    "constraints": {
+      "type": "padel",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_097",
+    "category": "Health & Wellness",
+    "sub_category": "Padel",
+    "query": "Padel courts with equipment rental in Paris for convenience",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find padel services",
+    "constraints": {
+      "type": "padel",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_098",
+    "category": "Health & Wellness",
+    "sub_category": "Padel",
+    "query": "Padel training programs in San Francisco for serious players",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find padel services",
+    "constraints": {
+      "type": "padel",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_099",
+    "category": "Health & Wellness",
+    "sub_category": "Padel",
+    "query": "Padel leagues in Chicago for organized competition",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find padel services",
+    "constraints": {
+      "type": "padel",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_100",
+    "category": "Health & Wellness",
+    "sub_category": "Padel",
+    "query": "Padel courts for families in Boston for recreational play",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find padel services",
+    "constraints": {
+      "type": "padel",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_101",
+    "category": "Health & Wellness",
+    "sub_category": "Boxing gym",
+    "query": "Boxing gyms in Manhattan for fitness and self-defense",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find boxing gym services",
+    "constraints": {
+      "type": "boxing gym",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_102",
+    "category": "Health & Wellness",
+    "sub_category": "Boxing gym",
+    "query": "Boxing classes for beginners in Brooklyn for proper technique",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find boxing gym services",
+    "constraints": {
+      "type": "boxing gym",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_103",
+    "category": "Health & Wellness",
+    "sub_category": "Boxing gym",
+    "query": "Boxing training for women in Queens for empowerment",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find boxing gym services",
+    "constraints": {
+      "type": "boxing gym",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_104",
+    "category": "Health & Wellness",
+    "sub_category": "Boxing gym",
+    "query": "Boxing gyms with professional trainers in Miami for serious training",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find boxing gym services",
+    "constraints": {
+      "type": "boxing gym",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_105",
+    "category": "Health & Wellness",
+    "sub_category": "Boxing gym",
+    "query": "Boxing classes for stress relief in Tokyo for mental wellness",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find boxing gym services",
+    "constraints": {
+      "type": "boxing gym",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_106",
+    "category": "Health & Wellness",
+    "sub_category": "Boxing gym",
+    "query": "Boxing gyms with sparring in London for competitive training",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find boxing gym services",
+    "constraints": {
+      "type": "boxing gym",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_107",
+    "category": "Health & Wellness",
+    "sub_category": "Boxing gym",
+    "query": "Boxing classes for weight loss in Paris for fitness goals",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find boxing gym services",
+    "constraints": {
+      "type": "boxing gym",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_108",
+    "category": "Health & Wellness",
+    "sub_category": "Boxing gym",
+    "query": "Boxing gyms with equipment in San Francisco for comprehensive training",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find boxing gym services",
+    "constraints": {
+      "type": "boxing gym",
+      "location": "Brooklyn"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_109",
+    "category": "Health & Wellness",
+    "sub_category": "Boxing gym",
+    "query": "Boxing classes for seniors in Chicago for gentle fitness",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find boxing gym services",
+    "constraints": {
+      "type": "boxing gym",
+      "location": "Queens"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "health_wellness_110",
+    "category": "Health & Wellness",
+    "sub_category": "Boxing gym",
+    "query": "Boxing training for kids in Boston for youth development",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find boxing gym services",
+    "constraints": {
+      "type": "boxing gym",
+      "location": "Manhattan"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  }
+]

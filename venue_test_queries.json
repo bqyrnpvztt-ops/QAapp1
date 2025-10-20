@@ -1,0 +1,463 @@
+[
+  {
+    "id": "venue_001",
+    "category": "venue",
+    "sub_category": "event space",
+    "query": "Wedding venues in Manhattan for 150 guests under $15,000",
+    "demographic_profile": {
+      "age_range": "25-35",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find wedding venues for 150 guests",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "wedding venues",
+      "capacity": "150 guests",
+      "budget": "under $15,000"
+    },
+    "expected_result_type": "venue recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "venue_002",
+    "category": "venue",
+    "sub_category": "event space",
+    "query": "Corporate event spaces in Brooklyn for 200 people",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find corporate event spaces for 200 people",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "corporate event spaces",
+      "capacity": "200 people"
+    },
+    "expected_result_type": "venue recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "venue_003",
+    "category": "venue",
+    "sub_category": "event space",
+    "query": "Birthday party venues in Queens for kids under 10",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find birthday party venues for kids",
+    "constraints": {
+      "location": "Queens",
+      "type": "birthday party venues",
+      "age": "kids under 10"
+    },
+    "expected_result_type": "venue recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "venue_004",
+    "category": "venue",
+    "sub_category": "event space",
+    "query": "Anniversary celebration venues in Manhattan with outdoor space",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find anniversary celebration venues with outdoor space",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "anniversary celebration venues",
+      "feature": "outdoor space"
+    },
+    "expected_result_type": "venue recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "venue_005",
+    "category": "venue",
+    "sub_category": "event space",
+    "query": "Graduation party venues in Brooklyn for 50 guests",
+    "demographic_profile": {
+      "age_range": "20-30",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find graduation party venues for 50 guests",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "graduation party venues",
+      "capacity": "50 guests"
+    },
+    "expected_result_type": "venue recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "venue_006",
+    "category": "venue",
+    "sub_category": "event space",
+    "query": "Holiday party venues in Queens with catering included",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find holiday party venues with catering included",
+    "constraints": {
+      "location": "Queens",
+      "type": "holiday party venues",
+      "service": "catering included"
+    },
+    "expected_result_type": "venue recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "venue_007",
+    "category": "venue",
+    "sub_category": "event space",
+    "query": "Baby shower venues in Manhattan for 30 people",
+    "demographic_profile": {
+      "age_range": "25-35",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find baby shower venues for 30 people",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "baby shower venues",
+      "capacity": "30 people"
+    },
+    "expected_result_type": "venue recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "venue_008",
+    "category": "venue",
+    "sub_category": "event space",
+    "query": "Retirement party venues in Brooklyn with dance floor",
+    "demographic_profile": {
+      "age_range": "50-65",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find retirement party venues with dance floor",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "retirement party venues",
+      "feature": "dance floor"
+    },
+    "expected_result_type": "venue recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "venue_009",
+    "category": "venue",
+    "sub_category": "event space",
+    "query": "Engagement party venues in Queens with photo opportunities",
+    "demographic_profile": {
+      "age_range": "25-35",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find engagement party venues with photo opportunities",
+    "constraints": {
+      "location": "Queens",
+      "type": "engagement party venues",
+      "feature": "photo opportunities"
+    },
+    "expected_result_type": "venue recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "venue_010",
+    "category": "venue",
+    "sub_category": "event space",
+    "query": "Fundraising gala venues in Manhattan for 300 guests",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find fundraising gala venues for 300 guests",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "fundraising gala venues",
+      "capacity": "300 guests"
+    },
+    "expected_result_type": "venue recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "venue_011",
+    "category": "venue",
+    "sub_category": "meetings",
+    "query": "Conference rooms in Brooklyn for corporate training sessions",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find conference rooms for corporate training",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "conference rooms",
+      "purpose": "corporate training sessions"
+    },
+    "expected_result_type": "venue recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "venue_012",
+    "category": "venue",
+    "sub_category": "meetings",
+    "query": "Boardroom rentals in Manhattan for executive meetings",
+    "demographic_profile": {
+      "age_range": "40-60",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find boardroom rentals for executive meetings",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "boardroom rentals",
+      "purpose": "executive meetings"
+    },
+    "expected_result_type": "venue recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "venue_013",
+    "category": "venue",
+    "sub_category": "meetings",
+    "query": "Meeting spaces in Queens with AV equipment included",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find meeting spaces with AV equipment included",
+    "constraints": {
+      "location": "Queens",
+      "type": "meeting spaces",
+      "equipment": "AV equipment included"
+    },
+    "expected_result_type": "venue recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "venue_014",
+    "category": "venue",
+    "sub_category": "meetings",
+    "query": "Workshop venues in Brooklyn for team building activities",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find workshop venues for team building activities",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "workshop venues",
+      "purpose": "team building activities"
+    },
+    "expected_result_type": "venue recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "venue_015",
+    "category": "venue",
+    "sub_category": "meetings",
+    "query": "Seminar rooms in Manhattan for educational presentations",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find seminar rooms for educational presentations",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "seminar rooms",
+      "purpose": "educational presentations"
+    },
+    "expected_result_type": "venue recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "venue_016",
+    "category": "venue",
+    "sub_category": "meetings",
+    "query": "Interview rooms in Queens for job interviews",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find interview rooms for job interviews",
+    "constraints": {
+      "location": "Queens",
+      "type": "interview rooms",
+      "purpose": "job interviews"
+    },
+    "expected_result_type": "venue recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "venue_017",
+    "category": "venue",
+    "sub_category": "meetings",
+    "query": "Focus group facilities in Brooklyn with recording equipment",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find focus group facilities with recording equipment",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "focus group facilities",
+      "equipment": "recording equipment"
+    },
+    "expected_result_type": "venue recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "venue_018",
+    "category": "venue",
+    "sub_category": "meetings",
+    "query": "Client presentation spaces in Manhattan with projection screens",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find client presentation spaces with projection screens",
+    "constraints": {
+      "location": "Manhattan",
+      "type": "client presentation spaces",
+      "equipment": "projection screens"
+    },
+    "expected_result_type": "venue recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "venue_019",
+    "category": "venue",
+    "sub_category": "meetings",
+    "query": "Networking event venues in Queens with catering options",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find networking event venues with catering options",
+    "constraints": {
+      "location": "Queens",
+      "type": "networking event venues",
+      "service": "catering options"
+    },
+    "expected_result_type": "venue recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "venue_020",
+    "category": "venue",
+    "sub_category": "meetings",
+    "query": "Video conference rooms in Brooklyn with high-speed internet",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find video conference rooms with high-speed internet",
+    "constraints": {
+      "location": "Brooklyn",
+      "type": "video conference rooms",
+      "feature": "high-speed internet"
+    },
+    "expected_result_type": "venue recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  }
+]

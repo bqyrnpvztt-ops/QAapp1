@@ -1,0 +1,463 @@
+[
+  {
+    "id": "city_services_001",
+    "category": "City guides services",
+    "sub_category": "Professional organizer",
+    "query": "Professional organizer services in Manhattan for home decluttering",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find professional organizer for home organization",
+    "constraints": {
+      "location": "Manhattan",
+      "service": "professional organizer",
+      "focus": "home decluttering"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_services_002",
+    "category": "City guides services",
+    "sub_category": "Clothing rental",
+    "query": "Designer dress rental services in SoHo for special events",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find clothing rental for special occasions",
+    "constraints": {
+      "location": "SoHo",
+      "service": "clothing rental",
+      "type": "designer dresses",
+      "occasion": "special events"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_services_003",
+    "category": "City guides services",
+    "sub_category": "Clothing alterations",
+    "query": "Tailor services in Brooklyn for suit alterations",
+    "demographic_profile": {
+      "age_range": "28-45",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find tailor for suit alterations",
+    "constraints": {
+      "location": "Brooklyn",
+      "service": "tailor",
+      "type": "suit alterations"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_services_004",
+    "category": "City guides services",
+    "sub_category": "Food delivery",
+    "query": "Healthy meal delivery services in Manhattan",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find healthy meal delivery service",
+    "constraints": {
+      "location": "Manhattan",
+      "service": "food delivery",
+      "type": "healthy meals"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "high"
+    }
+  },
+  {
+    "id": "city_services_005",
+    "category": "City guides services",
+    "sub_category": "Florist",
+    "query": "Wedding florist services in Brooklyn for outdoor ceremony",
+    "demographic_profile": {
+      "age_range": "25-35",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find wedding florist for outdoor ceremony",
+    "constraints": {
+      "location": "Brooklyn",
+      "service": "florist",
+      "occasion": "wedding",
+      "venue": "outdoor ceremony"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_services_006",
+    "category": "City guides services",
+    "sub_category": "Entertainment & Event Planning",
+    "query": "Event planning services in Manhattan for corporate events",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find event planner for corporate events",
+    "constraints": {
+      "location": "Manhattan",
+      "service": "event planning",
+      "type": "corporate events"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_services_007",
+    "category": "City guides services",
+    "sub_category": "Shoe repairs",
+    "query": "Shoe repair services in Queens for leather shoes",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find shoe repair for leather shoes",
+    "constraints": {
+      "location": "Queens",
+      "service": "shoe repair",
+      "type": "leather shoes"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_services_008",
+    "category": "City guides services",
+    "sub_category": "Clothing marketplace",
+    "query": "Vintage clothing marketplace in East Village",
+    "demographic_profile": {
+      "age_range": "20-35",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find vintage clothing marketplace",
+    "constraints": {
+      "location": "East Village",
+      "service": "clothing marketplace",
+      "type": "vintage clothing"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_services_009",
+    "category": "City guides services",
+    "sub_category": "Travel agent",
+    "query": "Travel agent services in Manhattan for European vacation planning",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find travel agent for European vacation",
+    "constraints": {
+      "location": "Manhattan",
+      "service": "travel agent",
+      "destination": "Europe"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_services_010",
+    "category": "City guides services",
+    "sub_category": "Moving Services",
+    "query": "Moving services in Brooklyn for apartment relocation",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find moving service for apartment relocation",
+    "constraints": {
+      "location": "Brooklyn",
+      "service": "moving",
+      "type": "apartment relocation"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_services_011",
+    "category": "City guides services",
+    "sub_category": "Boat service",
+    "query": "Boat charter services in Miami for private yacht rental",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find boat charter for yacht rental",
+    "constraints": {
+      "location": "Miami",
+      "service": "boat charter",
+      "type": "private yacht rental"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_services_012",
+    "category": "City guides services",
+    "sub_category": "Medical",
+    "query": "Primary care physician services in Manhattan accepting new patients",
+    "demographic_profile": {
+      "age_range": "25-45",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find primary care doctor accepting new patients",
+    "constraints": {
+      "location": "Manhattan",
+      "service": "primary care physician",
+      "status": "accepting new patients"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_services_013",
+    "category": "City guides services",
+    "sub_category": "Childcare",
+    "query": "Babysitting services in Brooklyn for evening childcare",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find babysitting service for evenings",
+    "constraints": {
+      "location": "Brooklyn",
+      "service": "babysitting",
+      "time": "evening"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_services_014",
+    "category": "City guides services",
+    "sub_category": "Caterer",
+    "query": "Catering services in Queens for corporate lunch events",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find caterer for corporate lunch events",
+    "constraints": {
+      "location": "Queens",
+      "service": "catering",
+      "type": "corporate lunch events"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_services_015",
+    "category": "City guides services",
+    "sub_category": "Dentist",
+    "query": "Cosmetic dentist services in Manhattan for teeth whitening",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find cosmetic dentist for teeth whitening",
+    "constraints": {
+      "location": "Manhattan",
+      "service": "cosmetic dentist",
+      "treatment": "teeth whitening"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_services_016",
+    "category": "City guides services",
+    "sub_category": "Parenting",
+    "query": "Parenting classes in Brooklyn for new mothers",
+    "demographic_profile": {
+      "age_range": "25-35",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find parenting classes for new mothers",
+    "constraints": {
+      "location": "Brooklyn",
+      "service": "parenting classes",
+      "audience": "new mothers"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_services_017",
+    "category": "City guides services",
+    "sub_category": "Jeweler",
+    "query": "Custom jewelry services in Manhattan for engagement rings",
+    "demographic_profile": {
+      "age_range": "28-40",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find custom jeweler for engagement rings",
+    "constraints": {
+      "location": "Manhattan",
+      "service": "custom jeweler",
+      "type": "engagement rings"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_services_018",
+    "category": "City guides services",
+    "sub_category": "Vintage",
+    "query": "Vintage furniture restoration services in Brooklyn",
+    "demographic_profile": {
+      "age_range": "30-50",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find vintage furniture restoration service",
+    "constraints": {
+      "location": "Brooklyn",
+      "service": "vintage furniture restoration"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_services_019",
+    "category": "City guides services",
+    "sub_category": "Bakery",
+    "query": "Custom cake bakery services in Queens for wedding cakes",
+    "demographic_profile": {
+      "age_range": "25-40",
+      "gender": "female",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find custom cake bakery for wedding cakes",
+    "constraints": {
+      "location": "Queens",
+      "service": "custom cake bakery",
+      "type": "wedding cakes"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  },
+  {
+    "id": "city_services_020",
+    "category": "City guides services",
+    "sub_category": "Education",
+    "query": "Private tutoring services in Manhattan for SAT prep",
+    "demographic_profile": {
+      "age_range": "16-18",
+      "gender": "male",
+      "cultural_context": "American"
+    },
+    "query_intent": "Find private tutor for SAT preparation",
+    "constraints": {
+      "location": "Manhattan",
+      "service": "private tutoring",
+      "subject": "SAT prep"
+    },
+    "expected_result_type": "service recommendations",
+    "evaluation_criteria": {
+      "relevance": "high",
+      "accuracy": "high",
+      "completeness": "medium"
+    }
+  }
+]
