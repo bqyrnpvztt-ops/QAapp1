@@ -290,8 +290,6 @@ app.post('/api/auth/register', async (req, res) => {
 
 app.post('/api/auth/login', (req, res) => {
   const { email, password } = req.body;
-  
-  console.log('Login attempt for:', email);
 
   if (!email || !password) {
     return res.status(400).json({ error: 'Email and password are required' });
@@ -306,16 +304,11 @@ app.post('/api/auth/login', (req, res) => {
       }
 
       if (!user) {
-        console.log('User not found:', email);
         return res.status(401).json({ error: 'Invalid credentials' });
       }
 
-      console.log('User found:', user.email, 'Role:', user.role);
       const isValidPassword = await bcrypt.compare(password, user.password);
-      console.log('Password valid:', isValidPassword);
-      
       if (!isValidPassword) {
-        console.log('Invalid password for:', email);
         return res.status(401).json({ error: 'Invalid credentials' });
       }
 
