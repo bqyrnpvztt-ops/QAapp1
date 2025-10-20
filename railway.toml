@@ -9,6 +9,7 @@ startCommand = "npm start"
 PORT = "3000"
 NODE_ENV = "production"
 DB_FILE = "qa_testing.db"
+NPM_CONFIG_PRODUCTION = "false"
 
 # Uncomment to enable persistent volume once available
 # [[volumes]]
