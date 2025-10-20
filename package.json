@@ -4,7 +4,7 @@
   "description": "PWA + Dashboard for AI Recommendations QA Testing",
   "main": "server.js",
   "scripts": {
-    "start": "node server-mongodb.js",
+    "start": "node server.js",
     "dev": "nodemon server.js",
     "prebuild": "npm --prefix pwa ci --include=dev && npm --prefix dashboard ci --include=dev",
     "build": "npm run build:pwa && npm run build:dashboard",
