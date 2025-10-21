@@ -18,7 +18,7 @@ export const useDashboardStore = defineStore('dashboard', {
   actions: {
     async loadStats() {
       try {
-        const response = await axios.get('/api/admin/stats')
+        const response = await axios.get('/api/test-cases/stats')
         this.stats = response.data
         return response.data
       } catch (error) {
