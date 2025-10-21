@@ -42,12 +42,15 @@ app.set('trust proxy', 1);
 const supabaseUrl = process.env.SUPABASE_URL;
 const supabaseKey = process.env.SUPABASE_ANON_KEY;
 
+let supabase = null;
+
 if (!supabaseUrl || !supabaseKey) {
   console.error('Missing Supabase environment variables');
-  process.exit(1);
+  console.error('Please set SUPABASE_URL and SUPABASE_ANON_KEY in your Vercel environment variables');
+} else {
+  console.log('Supabase environment variables found');
+  supabase = createClient(supabaseUrl, supabaseKey);
 }
-
-const supabase = createClient(supabaseUrl, supabaseKey);
 
 // File upload configuration (simplified for Vercel)
 const upload = multer({ 

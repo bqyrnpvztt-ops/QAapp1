@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/ultra-minimal.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/ultra-minimal.js"
+    }
+  ],
+  "functions": {
+    "api/ultra-minimal.js": {
+      "maxDuration": 30
+    }
+  }
+}
