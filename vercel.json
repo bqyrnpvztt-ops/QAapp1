@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/working.js",
+      "src": "api/test-db.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/api/working.js"
+      "dest": "/api/test-db.js"
     }
   ]
 }
