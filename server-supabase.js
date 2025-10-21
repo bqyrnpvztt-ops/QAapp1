@@ -466,11 +466,23 @@ app.use('/uploads', express.static(uploadDir));
 async function startServer() {
   await initializeDatabase();
   
-  app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-    console.log(`PWA: http://localhost:${PORT}`);
-    console.log(`Dashboard: http://localhost:${PORT}/admin`);
-  });
+  if (process.env.NODE_ENV === 'production') {
+    // For Vercel, just initialize the database
+    console.log('Serverless mode - database initialized');
+  } else {
+    // For local development
+    app.listen(PORT, () => {
+      console.log(`Server running on port ${PORT}`);
+      console.log(`PWA: http://localhost:${PORT}`);
+      console.log(`Dashboard: http://localhost:${PORT}/admin`);
+    });
+  }
 }
 
-startServer().catch(console.error);
+// Export for Vercel
+module.exports = app;
+
+// Start server for local development
+if (process.env.NODE_ENV !== 'production') {
+  startServer().catch(console.error);
+}
