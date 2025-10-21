@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/working-with-images.js",
+      "src": "server-supabase.js",
       "use": "@vercel/node"
     },
     {
@@ -12,12 +12,28 @@
     {
       "src": "assets/**",
       "use": "@vercel/static"
+    },
+    {
+      "src": "pwa/dist/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "dashboard/dist/**",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/api/working-with-images.js"
+      "dest": "/server-supabase.js"
+    },
+    {
+      "src": "/pwa/(.*)",
+      "dest": "/pwa/dist/$1"
+    },
+    {
+      "src": "/dashboard/(.*)",
+      "dest": "/dashboard/dist/$1"
     },
     {
       "src": "/(.*)",
