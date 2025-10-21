@@ -329,10 +329,11 @@ app.get('/api/test-cases', authenticateToken, async (req, res) => {
     }
     
     if (status === 'unreviewed') {
-      // Get ALL test cases first (without pagination)
+      // Get test cases first (with a reasonable limit for filtering)
       const { data: allTestCases } = await supabase
         .from('test_cases')
-        .select('*');
+        .select('*')
+        .limit(1000);
       
       if (allTestCases && allTestCases.length > 0) {
         const testCaseIds = allTestCases.map(tc => tc.id);
