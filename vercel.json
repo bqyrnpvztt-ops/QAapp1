@@ -15,22 +15,5 @@
       "src": "/(.*)",
       "dest": "/server-debug.js"
     }
-  ],
-  "functions": {
-    "server-debug.js": {
-      "maxDuration": 30
-    }
-  },
-  "ignore": [
-    "pwa/dist/**",
-    "dashboard/dist/**",
-    "public/**",
-    "*.html",
-    "*.css",
-    "*.js",
-    "*.json",
-    "*.png",
-    "*.svg",
-    "*.webmanifest"
   ]
 }
