@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/working.js",
+      "src": "api/working-with-images.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/api/working.js"
+      "dest": "/api/working-with-images.js"
     }
   ]
 }
