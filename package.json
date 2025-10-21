@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node server-supabase.js",
     "dev": "nodemon server.js",
+    "debug": "node debug-server.js",
+    "test-debug": "node test-debug.js",
     "prebuild": "npm --prefix pwa ci --include=dev && npm --prefix dashboard ci --include=dev",
     "build": "npm run build:pwa && npm run build:dashboard",
     "build:pwa": "cd pwa && npm run build",
@@ -14,6 +16,7 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.76.0",
+    "axios": "^1.12.2",
     "bcryptjs": "^2.4.3",
     "compression": "^1.7.4",
     "cors": "^2.8.5",
