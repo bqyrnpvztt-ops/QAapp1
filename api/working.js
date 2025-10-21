@@ -142,6 +142,49 @@ async function ensureDefaultUsers() {
 
 // API Routes
 
+// Database setup check endpoint
+app.get('/api/setup', async (req, res) => {
+  try {
+    if (!supabase) {
+      return res.status(503).json({ 
+        error: 'Supabase not configured',
+        message: 'Please set SUPABASE_URL and SUPABASE_ANON_KEY environment variables'
+      });
+    }
+    
+    // Test database connection
+    const { data, error } = await supabase
+      .from('users')
+      .select('count')
+      .limit(1);
+    
+    if (error) {
+      return res.status(500).json({
+        error: 'Database not set up',
+        message: 'Please run the supabase-setup.sql script in your Supabase SQL editor',
+        details: error.message,
+        setupInstructions: [
+          '1. Go to your Supabase project dashboard',
+          '2. Navigate to SQL Editor',
+          '3. Run the supabase-setup.sql script',
+          '4. Ensure RLS policies allow INSERT for users table'
+        ]
+      });
+    }
+    
+    res.json({
+      status: 'ok',
+      message: 'Database is properly set up',
+      supabase: 'connected'
+    });
+  } catch (error) {
+    res.status(500).json({ 
+      error: 'Setup check failed', 
+      details: error.message 
+    });
+  }
+});
+
 // Register user
 app.post('/api/auth/register', async (req, res) => {
   try {
@@ -156,11 +199,19 @@ app.post('/api/auth/register', async (req, res) => {
     }
     
     // Check if user already exists
-    const { data: existingUser } = await supabase
+    const { data: existingUser, error: checkError } = await supabase
       .from('users')
       .select('id')
       .eq('email', email)
       .single();
+    
+    if (checkError && checkError.code !== 'PGRST116') {
+      console.error('Database error checking user:', checkError);
+      return res.status(500).json({ 
+        error: 'Database error', 
+        details: 'Please ensure the Supabase database is set up with the required tables and policies. Run the supabase-setup.sql script in your Supabase SQL editor.'
+      });
+    }
     
     if (existingUser) {
       return res.status(400).json({ error: 'User already exists' });
@@ -182,7 +233,11 @@ app.post('/api/auth/register', async (req, res) => {
       .single();
     
     if (error) {
-      return res.status(500).json({ error: 'Failed to create user' });
+      console.error('Database error creating user:', error);
+      return res.status(500).json({ 
+        error: 'Failed to create user', 
+        details: 'Please ensure the Supabase database is set up with the required tables and policies. Run the supabase-setup.sql script in your Supabase SQL editor.'
+      });
     }
     
     const token = jwt.sign(
@@ -197,7 +252,8 @@ app.post('/api/auth/register', async (req, res) => {
       user: { id: userId, email, name, role }
     });
   } catch (error) {
-    res.status(500).json({ error: 'Server error' });
+    console.error('Server error:', error);
+    res.status(500).json({ error: 'Server error', details: error.message });
   }
 });
 
