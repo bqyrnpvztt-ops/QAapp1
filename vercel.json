@@ -20,6 +20,14 @@
       "dest": "/api/working-with-images.js"
     },
     {
+      "src": "/admin",
+      "dest": "/admin.html"
+    },
+    {
+      "src": "/admin/assets/(.*)",
+      "dest": "/admin-assets/$1"
+    },
+    {
       "src": "/(.*)",
       "dest": "/$1"
     }
