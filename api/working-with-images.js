@@ -329,23 +329,36 @@ app.get('/api/test-cases', authenticateToken, async (req, res) => {
     }
     
     if (status === 'unreviewed') {
-      // Get test cases that don't have results for this user
-      // First get a larger set of test cases to filter from
-      const { data: testCases } = await supabase
-        .from('test_cases')
-        .select('*')
-        .limit(1000); // Get more test cases to filter from
-      
-      if (testCases && testCases.length > 0) {
+      try {
+        // Get test cases that don't have results for this user
+        const { data: testCases, error: testCasesError } = await supabase
+          .from('test_cases')
+          .select('*')
+          .limit(1000);
+        
+        if (testCasesError) {
+          console.error('Error fetching test cases:', testCasesError);
+          return res.status(500).json({ error: 'Failed to fetch test cases' });
+        }
+        
+        if (!testCases || testCases.length === 0) {
+          return res.json([]);
+        }
+        
         const testCaseIds = testCases.map(tc => tc.id);
         
-        const { data: results } = await supabase
+        const { data: results, error: resultsError } = await supabase
           .from('test_results')
           .select('test_case_id')
           .in('test_case_id', testCaseIds)
           .eq('tester_id', req.user.id);
         
-        const reviewedIds = new Set(results.map(r => r.test_case_id));
+        if (resultsError) {
+          console.error('Error fetching test results:', resultsError);
+          return res.status(500).json({ error: 'Failed to fetch test results' });
+        }
+        
+        const reviewedIds = new Set((results || []).map(r => r.test_case_id));
         const unreviewedCases = testCases.filter(tc => !reviewedIds.has(tc.id));
         
         // Apply pagination to the filtered results
@@ -354,6 +367,9 @@ app.get('/api/test-cases', authenticateToken, async (req, res) => {
         const paginatedCases = unreviewedCases.slice(startIndex, endIndex);
         
         return res.json(paginatedCases);
+      } catch (error) {
+        console.error('Error in unreviewed logic:', error);
+        return res.status(500).json({ error: 'Server error in unreviewed logic' });
       }
     } else if (status === 'completed') {
       // Get test cases that have results for this user
