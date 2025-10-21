@@ -12,26 +12,6 @@
       "dest": "/server-debug.js"
     },
     {
-      "src": "/debug/(.*)",
-      "dest": "/server-debug.js"
-    },
-    {
-      "src": "/manifest.json",
-      "dest": "/server-debug.js"
-    },
-    {
-      "src": "/manifest.webmanifest",
-      "dest": "/server-debug.js"
-    },
-    {
-      "src": "/login",
-      "dest": "/server-debug.js"
-    },
-    {
-      "src": "/admin(.*)",
-      "dest": "/server-debug.js"
-    },
-    {
       "src": "/(.*)",
       "dest": "/server-debug.js"
     }
