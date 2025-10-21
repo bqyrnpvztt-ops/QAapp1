@@ -4,14 +4,9 @@ import axios from 'axios'
 export const useDashboardStore = defineStore('dashboard', {
   state: () => ({
     stats: {
-      totalTestCases: 0,
-      totalResults: 0,
-      correctResults: 0,
-      incorrectResults: 0,
-      unreviewedResults: 0,
-      completedResults: 0,
-      flaggedResults: 0,
-      accuracyRate: 0
+      total: 0,
+      correct: 0,
+      incorrect: 0
     }
   }),
 
@@ -28,7 +23,7 @@ export const useDashboardStore = defineStore('dashboard', {
 
     async loadResults(filters = {}) {
       try {
-        const response = await axios.get('/api/admin/results', {
+        const response = await axios.get('/api/test-results', {
           params: {
             ...filters,
             limit: 100
