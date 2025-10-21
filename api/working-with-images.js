@@ -344,7 +344,12 @@ app.get('/api/test-cases', authenticateToken, async (req, res) => {
         const reviewedIds = new Set(results.map(r => r.test_case_id));
         const unreviewedCases = testCases.filter(tc => !reviewedIds.has(tc.id));
         
-        return res.json(unreviewedCases);
+        // Apply pagination to the filtered results
+        const startIndex = parseInt(offset);
+        const endIndex = startIndex + parseInt(limit);
+        const paginatedCases = unreviewedCases.slice(startIndex, endIndex);
+        
+        return res.json(paginatedCases);
       }
     } else if (status === 'completed') {
       // Get test cases that have results for this user
