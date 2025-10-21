@@ -308,7 +308,7 @@ app.get('/api/test-cases', authenticateToken, async (req, res) => {
       return res.status(503).json({ error: 'Database not available' });
     }
     
-    const { category, status, limit = 100 } = req.query;
+    const { category, status, limit = 1000 } = req.query;
     
     let query = supabase
       .from('test_cases')
