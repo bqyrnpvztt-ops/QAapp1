@@ -350,7 +350,6 @@ app.get('/api/test-cases', authenticateToken, async (req, res) => {
         const { data: results, error: resultsError } = await supabase
           .from('test_results')
           .select('test_case_id')
-          .in('test_case_id', testCaseIds)
           .eq('tester_id', req.user.id);
         
         if (resultsError) {
