@@ -29,12 +29,17 @@ app.use(limiter);
 
 // CORS configuration
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production' ? ['https://yourdomain.com'] : true,
+  origin: true, // Allow all origins for now
   credentials: true
 }));
 
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
+
+// Serve static files
+app.use(express.static('public'));
+app.use(express.static('pwa/dist'));
+app.use(express.static('dashboard/dist'));
 
 // Trust proxy for Railway
 app.set('trust proxy', 1);
@@ -427,9 +432,31 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'pwa/dist/index.html'));
 });
 
+app.get('/login', (req, res) => {
+  res.sendFile(path.join(__dirname, 'pwa/dist/index.html'));
+});
+
 // Serve Dashboard
 app.get('/admin*', (req, res) => {
   res.sendFile(path.join(__dirname, 'dashboard/dist/index.html'));
+});
+
+// Serve manifest files
+app.get('/manifest.json', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public/manifest.json'));
+});
+
+app.get('/manifest.webmanifest', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public/manifest.webmanifest'));
+});
+
+// Health check endpoint
+app.get('/api/health', (req, res) => {
+  res.json({ 
+    status: 'ok', 
+    timestamp: new Date().toISOString(),
+    supabase: supabase ? 'connected' : 'not connected'
+  });
 });
 
 // Serve uploads

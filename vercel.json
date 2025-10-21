@@ -4,22 +4,6 @@
     {
       "src": "server-supabase.js",
       "use": "@vercel/node"
-    },
-    {
-      "src": "*.{js,css,html,svg,png,webmanifest,json}",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "assets/**",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "pwa/dist/**",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "dashboard/dist/**",
-      "use": "@vercel/static"
     }
   ],
   "routes": [
@@ -28,16 +12,8 @@
       "dest": "/server-supabase.js"
     },
     {
-      "src": "/pwa/(.*)",
-      "dest": "/pwa/dist/$1"
-    },
-    {
-      "src": "/dashboard/(.*)",
-      "dest": "/dashboard/dist/$1"
-    },
-    {
       "src": "/(.*)",
-      "dest": "/$1"
+      "dest": "/server-supabase.js"
     }
   ]
 }
