@@ -2,18 +2,38 @@
   "version": 2,
   "builds": [
     {
-      "src": "test-server.js",
+      "src": "server-debug.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/test-server.js"
+      "dest": "/server-debug.js"
+    },
+    {
+      "src": "/debug/(.*)",
+      "dest": "/server-debug.js"
+    },
+    {
+      "src": "/manifest.json",
+      "dest": "/server-debug.js"
+    },
+    {
+      "src": "/manifest.webmanifest",
+      "dest": "/server-debug.js"
+    },
+    {
+      "src": "/login",
+      "dest": "/server-debug.js"
+    },
+    {
+      "src": "/admin(.*)",
+      "dest": "/server-debug.js"
     },
     {
       "src": "/(.*)",
-      "dest": "/test-server.js"
+      "dest": "/server-debug.js"
     }
   ]
 }
