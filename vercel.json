@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "server-supabase.js",
+      "src": "api/test-simple.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/server-supabase.js"
+      "dest": "/api/test-simple.js"
     }
   ]
 }
