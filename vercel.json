@@ -15,5 +15,10 @@
       "src": "/(.*)",
       "dest": "/server-debug.js"
     }
-  ]
+  ],
+  "functions": {
+    "server-debug.js": {
+      "maxDuration": 30
+    }
+  }
 }
