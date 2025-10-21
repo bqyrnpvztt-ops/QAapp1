@@ -403,24 +403,24 @@ app.get('/api/users/me', authenticateToken, async (req, res) => {
 });
 
 // Serve static files for PWA
-app.use('/assets', express.static('pwa/dist/assets'));
-app.use('/manifest.json', express.static('pwa/dist/manifest.json'));
-app.use('/registerSW.js', express.static('pwa/dist/registerSW.js'));
-app.use('/sw.js', express.static('pwa/dist/sw.js'));
-app.use('/workbox-*.js', express.static('pwa/dist'));
-app.use('/pwa-192x192.png', express.static('pwa-192x192.png'));
+app.use('/assets', express.static(path.join(__dirname, '../pwa/dist/assets')));
+app.use('/manifest.json', express.static(path.join(__dirname, '../pwa/dist/manifest.webmanifest')));
+app.use('/registerSW.js', express.static(path.join(__dirname, '../pwa/dist/registerSW.js')));
+app.use('/sw.js', express.static(path.join(__dirname, '../pwa/dist/sw.js')));
+app.use('/workbox-*.js', express.static(path.join(__dirname, '../pwa/dist')));
+app.use('/pwa-192x192.png', express.static(path.join(__dirname, '../pwa-192x192.png')));
 
 // Serve static files for Dashboard
-app.use('/admin/assets', express.static('dashboard/dist/assets'));
+app.use('/admin/assets', express.static(path.join(__dirname, '../dashboard/dist/assets')));
 
 // Serve PWA
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'pwa/dist/index.html'));
+  res.sendFile(path.join(__dirname, '../pwa/dist/index.html'));
 });
 
 // Serve Dashboard
 app.get('/admin*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'dashboard/dist/index.html'));
+  res.sendFile(path.join(__dirname, '../dashboard/dist/index.html'));
 });
 
 // Initialize database on startup
