@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .stats { background: #f0f0f0; padding: 20px; border-radius: 5px; margin: 10px 0; }
+        .error { background: #ffebee; color: #c62828; padding: 10px; border-radius: 5px; }
+        .success { background: #e8f5e8; color: #2e7d32; padding: 10px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Dashboard API Test</h1>
+    
+    <div class="stats">
+        <h3>Stats API Test</h3>
+        <div id="stats-result">Loading...</div>
+    </div>
+    
+    <div class="stats">
+        <h3>Test Results API Test</h3>
+        <div id="results-result">Loading...</div>
+    </div>
+
+    <script>
+        const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InVzZXItMTc2MTA0NzExMTcyMCIsImVtYWlsIjoicmFtb24uc2ljcmVAZ21haWwuY29tIiwicm9sZSI6InRlc3RlciIsImlhdCI6MTc2MTA1MDc3NCwiZXhwIjoxNzYxMTM3MTc0fQ.tobGE1lVtlic9tr2zloSZb1FfBgk4WQ-vjB3dPRUr70';
+        
+        // Test Stats API
+        fetch('https://qa-testing-ddseizosq-lfgstudios-projects.vercel.app/api/test-cases/stats', {
+            headers: {
+                'Authorization': `Bearer ${token}`
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('stats-result').innerHTML = `
+                <div class="success">
+                    ✅ Stats API Working!<br>
+                    Total: ${data.total}<br>
+                    Correct: ${data.correct}<br>
+                    Incorrect: ${data.incorrect}
+                </div>
+            `;
+        })
+        .catch(error => {
+            document.getElementById('stats-result').innerHTML = `
+                <div class="error">
+                    ❌ Stats API Error: ${error.message}
+                </div>
+            `;
+        });
+        
+        // Test Results API
+        fetch('https://qa-testing-ddseizosq-lfgstudios-projects.vercel.app/api/test-results', {
+            headers: {
+                'Authorization': `Bearer ${token}`
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('results-result').innerHTML = `
+                <div class="success">
+                    ✅ Results API Working!<br>
+                    Found ${data.count} test results<br>
+                    Latest: ${data.results[0]?.test_case_id} (${data.results[0]?.is_correct ? 'Correct' : 'Incorrect'})
+                </div>
+            `;
+        })
+        .catch(error => {
+            document.getElementById('results-result').innerHTML = `
+                <div class="error">
+                    ❌ Results API Error: ${error.message}
+                </div>
+            `;
+        });
+    </script>
+</body>
+</html>
