@@ -329,14 +329,15 @@ app.get('/api/test-cases', authenticateToken, async (req, res) => {
     }
     
     if (status === 'unreviewed') {
-      // Get test cases first (with a reasonable limit for filtering)
-      const { data: allTestCases } = await supabase
+      // Get test cases that don't have results for this user
+      // First get a larger set of test cases to filter from
+      const { data: testCases } = await supabase
         .from('test_cases')
         .select('*')
-        .limit(1000);
+        .limit(1000); // Get more test cases to filter from
       
-      if (allTestCases && allTestCases.length > 0) {
-        const testCaseIds = allTestCases.map(tc => tc.id);
+      if (testCases && testCases.length > 0) {
+        const testCaseIds = testCases.map(tc => tc.id);
         
         const { data: results } = await supabase
           .from('test_results')
@@ -345,7 +346,7 @@ app.get('/api/test-cases', authenticateToken, async (req, res) => {
           .eq('tester_id', req.user.id);
         
         const reviewedIds = new Set(results.map(r => r.test_case_id));
-        const unreviewedCases = allTestCases.filter(tc => !reviewedIds.has(tc.id));
+        const unreviewedCases = testCases.filter(tc => !reviewedIds.has(tc.id));
         
         // Apply pagination to the filtered results
         const startIndex = parseInt(offset);
