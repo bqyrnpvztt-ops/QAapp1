@@ -386,6 +386,34 @@ async function uploadImagesToSupabase(files, userId, testCaseId) {
     const fileName = `${userId}/${testCaseId}/${Date.now()}-${i}-${file.originalname}`;
     
     try {
+      // Check if storage bucket exists first
+      const { data: buckets, error: bucketError } = await supabase.storage.listBuckets();
+      
+      if (bucketError) {
+        console.error('Error checking buckets:', bucketError);
+        // Fallback: just save filename
+        uploadedUrls.push({
+          fileName: file.originalname,
+          url: null,
+          path: fileName,
+          error: 'Storage not configured'
+        });
+        continue;
+      }
+      
+      const screenshotsBucket = buckets.find(bucket => bucket.name === 'screenshots');
+      
+      if (!screenshotsBucket) {
+        console.log('Screenshots bucket not found, saving filename only');
+        uploadedUrls.push({
+          fileName: file.originalname,
+          url: null,
+          path: fileName,
+          error: 'Storage bucket not configured'
+        });
+        continue;
+      }
+      
       const { data, error } = await supabase.storage
         .from('screenshots')
         .upload(fileName, file.buffer, {
@@ -395,6 +423,12 @@ async function uploadImagesToSupabase(files, userId, testCaseId) {
       
       if (error) {
         console.error('Error uploading file:', error);
+        uploadedUrls.push({
+          fileName: file.originalname,
+          url: null,
+          path: fileName,
+          error: error.message
+        });
         continue;
       }
       
@@ -410,6 +444,12 @@ async function uploadImagesToSupabase(files, userId, testCaseId) {
       });
     } catch (err) {
       console.error('Error processing file upload:', err);
+      uploadedUrls.push({
+        fileName: file.originalname,
+        url: null,
+        path: fileName,
+        error: err.message
+      });
     }
   }
   
@@ -449,7 +489,11 @@ app.post('/api/test-results', authenticateToken, upload.array('screenshots', 5),
     
     if (error) {
       console.error('Database error saving test result:', error);
-      return res.status(500).json({ error: 'Failed to save test result' });
+      return res.status(500).json({ 
+        error: 'Failed to save test result',
+        details: error.message,
+        code: error.code
+      });
     }
     
     res.json({ 
