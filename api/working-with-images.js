@@ -467,21 +467,7 @@ app.get('/api/test-results', authenticateToken, async (req, res) => {
     
     let query = supabase
       .from('test_results')
-      .select(`
-        *,
-        users:user_id (
-          id,
-          name,
-          email,
-          role
-        ),
-        test_cases:test_case_id (
-          id,
-          query,
-          category,
-          expected_result
-        )
-      `)
+      .select('*')
       .order('created_at', { ascending: false })
       .range(offset, offset + limit - 1);
 
