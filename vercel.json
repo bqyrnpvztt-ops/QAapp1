@@ -4,14 +4,6 @@
     {
       "src": "api/index.js",
       "use": "@vercel/node"
-    },
-    {
-      "src": "pwa/dist/**",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "dashboard/dist/**",
-      "use": "@vercel/static"
     }
   ],
   "routes": [
@@ -20,40 +12,12 @@
       "dest": "/api/index.js"
     },
     {
-      "src": "/admin/assets/(.*)",
-      "dest": "/dashboard/dist/assets/$1"
-    },
-    {
-      "src": "/assets/(.*)",
-      "dest": "/pwa/dist/assets/$1"
-    },
-    {
-      "src": "/manifest.json",
-      "dest": "/pwa/dist/manifest.webmanifest"
-    },
-    {
-      "src": "/registerSW.js",
-      "dest": "/pwa/dist/registerSW.js"
-    },
-    {
-      "src": "/sw.js",
-      "dest": "/pwa/dist/sw.js"
-    },
-    {
-      "src": "/workbox-(.*)",
-      "dest": "/pwa/dist/workbox-$1"
-    },
-    {
-      "src": "/pwa-192x192.png",
-      "dest": "/pwa-192x192.png"
-    },
-    {
       "src": "/admin/(.*)",
       "dest": "/dashboard/dist/index.html"
     },
     {
       "src": "/(.*)",
-      "dest": "/pwa/dist/index.html"
+      "dest": "/index.html"
     }
   ],
   "functions": {
