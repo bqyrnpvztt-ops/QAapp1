@@ -456,6 +456,62 @@ async function uploadImagesToSupabase(files, userId, testCaseId) {
   return uploadedUrls;
 }
 
+// Get test results (for admin panel)
+app.get('/api/test-results', authenticateToken, async (req, res) => {
+  try {
+    if (!supabase) {
+      return res.status(503).json({ error: 'Database not available' });
+    }
+
+    const { limit = 100, offset = 0, user_id } = req.query;
+    
+    let query = supabase
+      .from('test_results')
+      .select(`
+        *,
+        users:user_id (
+          id,
+          name,
+          email,
+          role
+        ),
+        test_cases:test_case_id (
+          id,
+          query,
+          category,
+          expected_result
+        )
+      `)
+      .order('created_at', { ascending: false })
+      .range(offset, offset + limit - 1);
+
+    // If user_id is specified, filter by user
+    if (user_id) {
+      query = query.eq('user_id', user_id);
+    }
+
+    const { data, error } = await query;
+
+    if (error) {
+      console.error('Database error fetching test results:', error);
+      return res.status(500).json({ 
+        error: 'Failed to fetch test results',
+        details: error.message
+      });
+    }
+
+    res.json({ 
+      results: data,
+      count: data.length,
+      limit: parseInt(limit),
+      offset: parseInt(offset)
+    });
+  } catch (error) {
+    console.error('Error fetching test results:', error);
+    res.status(500).json({ error: 'Server error' });
+  }
+});
+
 // Submit test result with image uploads
 app.post('/api/test-results', authenticateToken, upload.array('screenshots', 5), async (req, res) => {
   try {
