@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "functions": {
-    "test-server.js": {
-      "runtime": "nodejs18.x"
+  "builds": [
+    {
+      "src": "test-server.js",
+      "use": "@vercel/node"
     }
-  },
+  ],
   "routes": [
     {
       "src": "/api/(.*)",
